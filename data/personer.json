@@ -1,0 +1,994 @@
+{
+ "personer": {
+  "erling": {
+   "n": "Erling Karelius Wiborg",
+   "d": "24.6.1922 – 6.1.1994",
+   "r": "Kongsvinger · død Lørenskog",
+   "s": "ok",
+   "role": "Farfar",
+   "f": "torbjorn1",
+   "m": "martha",
+   "sibs": [
+    "liv",
+    "ingrid"
+   ],
+   "note": "Født på Kongsvinger. Dødsregisteret: Erling Wiborg, født 24.6.1922, bosatt i Oppegård, død i Lørenskog 6.1.1994. Foreldrene er Torbjørn og Martha Kristine Wiborg: søsteren Ingrid Alvilde er dokumentert som deres datter i dåpsboka og folketellingen 1920, og du har bekreftet at Ingrid og Erling var søsken, siden du kjente begge. Dåpen hans fra 1922 er ikke åpen ennå. Mellomnavnet Karelius er etter morfaren Karelius Andersen.",
+   "src": "dodS"
+  },
+  "margit": {
+   "n": "Margit Wiborg",
+   "d": "25.10.1922 – 21.6.2011",
+   "r": "død Lørenskog",
+   "s": "ok",
+   "role": "Farmor",
+   "f": "margitP",
+   "note": "Bosatt i Oppegård, død i Lørenskog 21.6.2011, 88 år. Bekreftet av deg. Pikenavn og fødested er ennå ukjent. Hun er født etter folketellingen 1920, og dåpen hennes er trolig ikke åpen ennå. Pikenavnet kan finnes i vielsen med Erling, i avisannonser om forlovelse eller bryllup på nb.no, eller på gravsteinen.",
+   "src": "dodM"
+  },
+  "margitP": {
+   "n": "Margits foreldre",
+   "d": "ukjent",
+   "r": "",
+   "s": "unk",
+   "role": "Oldeforeldre",
+   "note": "Med farmors pikenavn og fødselsår kan hun søkes opp som barn i folketellingen 1920 eller i dåpsboka.",
+   "src": "none"
+  },
+  "ingrid": {
+   "n": "Ingrid Alvilde Wiborg",
+   "d": "f. 22.12.1919",
+   "r": "Kongsvinger",
+   "s": "ok",
+   "role": "Farfars søster",
+   "note": "Døpt 15.2.1920 i Kongsvinger sokn, datter av Torbjørn Pedersen Wiborg og Marta Kristine f. Andersen. Ministerialboka og folketellingen 1920 skriver Ingrid Alvilde, klokkerboka Inger Alvilde. Du har bekreftet at hun var Erlings søster. Hun er dermed beviset som knytter farfar til Torbjørn og Martha.",
+   "src": "daap"
+  },
+  "torbjorn1": {
+   "n": "Torbjørn Pedersen Wiborg",
+   "d": "f. 8.8.1897",
+   "r": "Kristiania",
+   "s": "ok",
+   "role": "Oldefar",
+   "f": "petter",
+   "m": "agnes",
+   "sibs": [
+    "einar",
+    "sverre",
+    "bjorn",
+    "asta",
+    "sigurd",
+    "ragnhild"
+   ],
+   "note": "Sønn av Petter Viborg fra Skåne og Agnes Borgersen fra Kristiania. Født 8.8.1897 og døpt 12.12.1897 i Paulus menighet, da foreldrene bodde i Thorvald Meyers gate 20. Moren døde 30.5.1899, da Torbjørn var knapt to år. Bolette Aronsdatter, som Petter giftet seg med i desember 1899, var stemoren hans. Bodde som 2-åring med faren og stemoren i Botne i 1900. Stenarbeider ved datterens dåp i februar 1920, med broren Sverre som fadder. I folketellingen desember 1920 står han to steder med samme fødselsdato: som losjerende lagerarbeider i Darres gate 1 i Kristiania, og som svigersønn hos Karelius Andersen i Oskars gate på Kongsvinger, med merknaden «er hjemme en tur hver uke». Han arbeidet altså i Kristiania og pendlet hjem til kona og datteren. I juli 1922, rett etter at sønnen Erling ble født, ble han valgt til formann i Kongsvinger & Omegns sten-, jord- og cementarbeiderforening.",
+   "src": "daapT",
+   "srcs": [
+    "ft1920t"
+   ],
+   "ext": [
+    {
+     "k": "Avis",
+     "st": "treff",
+     "h": "<a href='https://www.nb.no/items/01d5115e905ac32c538381befc1a1699?searchText=Wiborg'>Glommendalens Social-Demokrat 4.7.1922</a>",
+     "c": "Torbjørn Wiborg valgt til formann i sten-, jord- og cementarbeiderforeningen for Kongsvinger og omegn. Passer med at han var stenarbeider i 1920."
+    }
+   ]
+  },
+  "martha": {
+   "n": "Martha Kristine Wiborg",
+   "d": "f. januar 1900",
+   "r": "Kongsvinger",
+   "s": "ok",
+   "role": "Oldemor",
+   "f": "karelius",
+   "m": "ingeborg",
+   "sibx": [
+    "Sofus Karl Andersen, f. 13.6.1893",
+    "Helga Otilie Andersen, f. 7.12.1896",
+    "Ingva (Yngva) Marie Andersen, f. 26.10.1902, væverske",
+    "Torvald Arelius Andersen, f. 15.10.1905"
+   ],
+   "note": "Født Andersen, datter av Karelius og Ingeborg Andersen. Hjemmeværende gift datter i 1920. De tre folketellingene gir tre ulike fødselsdatoer: 20.1.1900 (tellingen 1900), 26.1.1900 (1910) og 24.1.1900 (1920). 0 og 6 forveksles lett i håndskrift, så 20 og 26 kan være samme dato lest ulikt. Dåpen i 1900 avgjør.",
+   "src": "ft1910k"
+  },
+  "einar": {
+   "n": "Einar Viborg",
+   "d": "f. 1892",
+   "r": "Kristiania",
+   "s": "ok",
+   "role": "Torbjørns bror",
+   "note": "Døpt 3.7.1892 i Sagene, sønn av hjulmaker Per Olsen Viberg og hustru Agnes Borgersen i Vogts gate 32. Faddere: hjulmaker Martinius Østgaard og pike Ragna Fossum. Helbror av Torbjørn. Bodde i Botne i 1900.",
+   "src": "daapE",
+   "srcs": [
+    "ft1900b"
+   ]
+  },
+  "sverre": {
+   "n": "Sverre Pettersen Viborg",
+   "d": "f. 28.3.1893",
+   "r": "Kristiania",
+   "s": "ok",
+   "role": "Torbjørns bror",
+   "srcs": [
+    "ft1910s"
+   ],
+   "note": "Født 28.3.1893 i Kristiania ifølge folketellingene 1910 og 1920. Broren Bjørn ble født 13.3.1893 ifølge begravelsen, så de var trolig tvillinger, og en av datoene er feil. Det er en gjetning. Dåpen til Sverre er ikke funnet i indeksen. Gårdsarbeider på Mørdre i Nes i 1910 og gårdskar på Sundby i Sør-Odal i 1920, og far til et barn med Olga Øverstrøm i 1922. Fadder for niesen Ingrid Alvilde på Kongsvinger i 1920, da arbeider i Kristiania.",
+   "src": "ft1900b"
+  },
+  "bjorn": {
+   "n": "Bjørn Viberg",
+   "d": "13.3.1893 – aug. 1893",
+   "r": "Kristiania",
+   "s": "ok",
+   "role": "Torbjørns bror",
+   "note": "Født 13.3.1893 og døpt 13.8.1893 i Uranienborg, sønn av Peder Viberg og Agnes «Borgan». Døde som spedbarn og ble begravet 17.8.1893, fire dager etter dåpen, da familien bodde i Solheimsgaden. Trolig tvillingbror av Sverre.",
+   "src": "daapB",
+   "srcs": [
+    "gravB"
+   ]
+  },
+  "asta": {
+   "n": "Asta Viberg",
+   "d": "6.10.1894 – nov. 1894",
+   "r": "Kristiania",
+   "s": "ok",
+   "role": "Torbjørns søster",
+   "note": "Født 6.10.1894 og døpt 18.10.1894 i Uranienborg, datter av Peter Viberg og Agnes «Bergersen» i Solheimsgata 7. Hun døde en måned gammel og ble begravet 5.11.1894.",
+   "src": "daapA",
+   "srcs": [
+    "gravA"
+   ]
+  },
+  "sigurd": {
+   "n": "Sigurd Viborg",
+   "d": "døpt 26.12.1895",
+   "r": "Kristiania",
+   "s": "ok",
+   "role": "Torbjørns bror",
+   "note": "Døpt 26.12.1895 i Uranienborg, sønn av Petter «Vibey» og Agnes Borgersen. Han var ikke med familien i Botne i 1900, så han døde trolig som liten. Det er en gjetning: begravelsen er ikke funnet ennå.",
+   "src": "daapS"
+  },
+  "ragnhild": {
+   "n": "Ragnhild Danielsen",
+   "d": "f. 1894",
+   "r": "Kristiania",
+   "s": "ok",
+   "role": "Torbjørns stesøster",
+   "note": "Datter av Bolette og hennes første mann, en Danielsen, som døde 13.10.1896. Står som «Viborgs stedatter» i 1900. Hun er ikke i slekt med Torbjørn.",
+   "src": "ft1900b"
+  },
+  "petter": {
+   "n": "Petter Viborg",
+   "d": "f. 18.10.1867",
+   "r": "Bromma, Skåne",
+   "s": "ok",
+   "role": "Tippoldefar",
+   "f": "oleNV",
+   "m": "petterMor",
+   "sp": "bolette",
+   "sibx": [
+    "Nils Olsson, f. 6.11.1864",
+    "Inga Olsdotter, f. 12.1.1866"
+   ],
+   "srcs": [
+    "hfPB",
+    "vielAg",
+    "vielPT"
+   ],
+   "note": "Født 18.10.1867 og døpt 27.10.1867 i Bromma församling ved Ystad som Per, sønn av inhysesman Ola Nilsson og hustru Kerstin Jönsdotter. Faddere: husman Nils Håkansson og hustru Hanna Jönsdotter i Hedeskoga, og dreng Nils Jönsson. Den norske indeksen hadde 17.10. Husförhörslängden 1861–1868 viser familien med Per og de eldre søsknene Nils (1864) og Inga (1866). Viborg-navnet står ikke i de svenske bøkene, så det ble tatt i bruk senere, kanskje i Norge. Konfirmert i Bromma i Malmöhus län, rett ved Ystad, så han vokste trolig opp der. Faren var bakermester Ole Nilsen Viborg, så Petter het egentlig Peder (Per) Olsen, eller Olsson på svensk, og Wiborg-navnet hadde han etter faren. Var gift to ganger. Første gang 29.8.1891 i Barbu ved Arendal med Agnes Borgersen fra Kristiania, som Peter Olssen Veberg, vognmaker på Myrene, født i «Sverige, Bromma Sn.». Det var en borgerlig vielse ved sorenskriveren i Nedenes. Slike vielser var for dissentere, så minst én av dem sto trolig utenfor statskirken. Kanskje er det derfor Sverres dåp mangler. Hun døde 30.5.1899, og var mor til Einar, Sverre, Sigurd og Torbjørn. I Kristiania kalte han seg vekselvis Per Olsen Viberg, Peter Viberg og Petter Vibey. Han giftet seg igjen 2.12.1899 med enken Bolette Danielsen, født Aronsdatter, da bosatt i Nordbygata 58 i Kristiania. Bodde i 1900 på Nedre Gausens grunn i Dunkebæk i Botne ved Holmestrand. Petter er en form av Peder, og det forklarer at sønnen het Torbjørn Pedersen.",
+   "src": "vielP"
+  },
+  "agnes": {
+   "n": "Agnes Borgersen",
+   "d": "1.4.1868 – 30.5.1899",
+   "r": "Kristiania (Sagene)",
+   "s": "ok",
+   "role": "Tippoldemor",
+   "f": "christianB",
+   "m": "kajaD",
+   "sp": "petter",
+   "sibx": [
+    "Kaspara Borgersen, f. 21.7.1857 i Gamle Aker, sylærling i 1875, senere gift Hallen og separert (halvsøster eller helsøster)",
+    "Henrik Borgersen, f. 1871"
+   ],
+   "srcs": [
+    "vielAg",
+    "konfA",
+    "vielP"
+   ],
+   "note": "Født 1.4.1868 i Kristiania, fire år før foreldrene giftet seg, og konfirmert 1.10.1882 i Sagene, da bosatt i Aasengaden 22. Bodde med foreldrene Christian Borgersen og Kaja Danielsen i Aasengade 22B i 1875. Kafejomfru i Rosenkrantz' gate 18 i 1885. I mars 1891 sto hun og Peder Viberg sammen som faddere for søsteren Kaspara Hallens sønn Henry i Sagene. Giftet seg 29.8.1891 i Barbu ved Arendal med Peter Olssen Veberg, altså Petter Viborg. Barn: Einar (1892), Sverre og Bjørn (1893, trolig tvillinger), Asta (1894), Sigurd (1895) og Torbjørn (1897). Bjørn og Asta døde som spedbarn. Familien bodde i Vogts gate 32, Solheimsgata 7, Schøttes gate(?) 7 og Thorvald Meyers gate 20. Vielsen var borgerlig, ved sorenskriveren i Nedenes. Hun døde 30.5.1899, bare 31 år gammel, ifølge Petters vielse i desember samme år. Skiftet etter henne ble avsluttet i Kristiania skifterett 24.11.1899. Begravelsen er ikke funnet i indeksen ennå.",
+   "src": "daapT"
+  },
+  "bolette": {
+   "n": "Bolette Viborg",
+   "d": "f. 1866, f. Aronsen",
+   "r": "Røyken",
+   "s": "ok",
+   "role": "Torbjørns stemor",
+   "f": "aron",
+   "m": "lisa",
+   "sibx": [
+    "Christian Aronsen, f. 1869",
+    "Anette Aronsdatter, f. 1871",
+    "Otto Aronsen, f. 1873",
+    "Anthon Aronsen, f. 1874",
+    "Lovise Aronsdatter, f. 1875",
+    "Karl Aronsen, f. 1883 (trolig; bodde hos Bolette i 1900)"
+   ],
+   "note": "Født Bolette Aronsdatter i Røyken i 1866, datter av husmann Aron Olsen fra Sverige og Lisa Olsdatter. Bodde med foreldrene på Follestadeie i Røyken i 1875. Første mann, en Danielsen, døde 13.10.1896, og hun hadde datteren Ragnhild med ham. Giftet seg med enkemannen Petter Viborg 2.12.1899 som «Bolette Danielsen f. Aronsdtr.», uten stilling. Vielsen oppgir faren som husmann Aron Olsen på Frydenlund, og broren Anton Aronsen fra Follestad i Røyken var forlover. Hun var stemor til Petters sønner, også oldefar Torbjørn, og hennes slekt er derfor trolig ikke din. Lillebroren Karl Aronsen var hjulmakerlærling hos dem i 1900.",
+   "src": "vielP"
+  },
+  "oleNV": {
+   "n": "Ola Nilsson (Ole Nilsen Viborg)",
+   "d": "f. 12.2.1842",
+   "r": "Bromma, Skåne",
+   "s": "ok",
+   "role": "Tipp-tippoldefar",
+   "sp": "petterMor",
+   "srcs": [
+    "daapP",
+    "hfPB"
+   ],
+   "note": "Født 12.2.1842 ifølge husförhörslängden for Bromma 1861–1868, der han er inhysesman med hustru Kerstin Jönsdotter og barna Nils, Inga og Per. Fødestedet er skrevet «Spjutst.», trolig Spjutstorp, men dåpen er ikke funnet i Spjutstorps digitaliserte bøker: januar–februar 1842 mangler der. Familien flyttet internt i Bromma i 1866. I vielsen til Petter i 1899 står han som «bagermester Ole Nilsen Viborg». Farsnavnet viser at hans egen far het Nils, og på svensk het han trolig Ola Nilsson. Han var inhysesman, altså jordløs losjerende, i 1867, så bakermester kan være en senere tittel eller en overdrivelse. Viborg-navnet står ikke i de svenske bøkene fra 1860-tallet. Det kan være tatt senere, kanskje av sønnen i Norge. Det er en gjetning.",
+   "src": "vielP"
+  },
+  "christianB": {
+   "n": "Christian Borgersen",
+   "d": "f. 1821",
+   "r": "Aker",
+   "s": "ok",
+   "role": "Tipp-tippoldefar",
+   "f": "borgerT",
+   "sp": "kajaD",
+   "note": "Født 1821 i Aker, sønn av Borger Torstensen. Giftet seg 22.3.1872 i Gamle Aker med Kaisa Danielsen fra Karlanda i Värmland, fire år etter at datteren Agnes var født. Murarbeider i Aasengade 22B i 1875. Fabrikkarbeider og enkemann ifølge Agnes' konfirmasjon i 1882, så Kaja var trolig død før oktober 1882. Barn: Kaspara (1857, trolig med en tidligere kone), Agnes (1868) og Henrik (1871).",
+   "src": "vielCB",
+   "srcs": [
+    "ft1875a",
+    "konfA"
+   ]
+  },
+  "kajaD": {
+   "n": "Kaisa (Kaja) Danielsen",
+   "d": "f. ca. 1824–26",
+   "r": "Karlanda, Värmland",
+   "s": "ok",
+   "role": "Tipp-tippoldemor",
+   "f": "danielP",
+   "sp": "christianB",
+   "note": "Født ca. 1824–26 i Karlanda socken i Värmland, like øst for grensen mot Marker. Vielsen skriver «Carlanda Warnsland», tellingen 1875 «Werneland». Datter av Daniel Pettersen, så på svensk het hun Kajsa Danielsdotter. Giftet seg med Christian Borgersen 22.3.1872 i Gamle Aker, da bosatt i Aasengaden. Hun var «pike» da Agnes ble født i 1868. Christian var enkemann i 1882, så hun døde trolig mellom 1875 og 1882.",
+   "src": "vielCB",
+   "srcs": [
+    "ft1875a",
+    "konfA"
+   ]
+  },
+  "borgerT": {
+   "n": "Borger Torstensen",
+   "d": "",
+   "r": "Aker?",
+   "s": "ok",
+   "role": "Tipp-tipp-tippoldefar",
+   "note": "Står som brudgommens far da Christian Borgersen giftet seg i 1872. Farsnavnet viser at hans egen far het Torsten. Christian ble født i Aker i 1821, så dåpen der gir morens navn.",
+   "src": "vielCB"
+  },
+  "danielP": {
+   "n": "Daniel Pettersen",
+   "d": "",
+   "r": "Karlanda, Värmland?",
+   "s": "ok",
+   "role": "Tipp-tipp-tippoldefar",
+   "note": "Står som bruras far da Kaisa Danielsen giftet seg i 1872. På svensk het han trolig Daniel Pettersson. Kaisa var født i Karlanda socken i Värmland ca. 1824–26, så födelseboken og husförhörslängden for Karlanda gir familien.",
+   "src": "vielCB"
+  },
+  "petterMor": {
+   "n": "Kerstin Jönsdotter",
+   "d": "f. 17.5.1839",
+   "r": "Bromma, Skåne",
+   "s": "ok",
+   "role": "Tipp-tippoldemor",
+   "sp": "oleNV",
+   "note": "Mor til Per (Petter), født 18.10.1867 i Bromma, ifølge dåpen. Husförhörslängden gir fødselsdatoen 17.5.1839, og ved Pers fødsel var hun 28 år. Farsnavnet viser at faren het Jöns. Fødestedet er skrevet «Spjutst.» sammen med mannen, men hun står ikke blant fødslene i Spjutstorp i mai 1839. Fødestedet er derfor usikkert.",
+   "src": "daapP",
+   "srcs": [
+    "hfPB"
+   ]
+  },
+  "aron": {
+   "n": "Aron Olsen",
+   "d": "f. ca. 1836",
+   "r": "Sverige → Røyken",
+   "s": "ok",
+   "role": "Bolettes far",
+   "note": "Husmann med jord på Follestadeie i Røyken i 1875. Født i Sverige, men tellingen sier ikke hvor. Farsnavnet tyder på at faren het Ole. Kalt husmann på Frydenlund i Bolettes vielse 1899. Bolette var trolig Torbjørns stemor, så Aron er trolig ikke din direkte forfar. Vielsen hans med Lisa Olsdatter i Røyken, trolig ca. 1864–1865, kan oppgi fødestedet.",
+   "src": "ft1875r"
+  },
+  "lisa": {
+   "n": "Lisa Olsdatter",
+   "d": "f. ca. 1842",
+   "r": "Røyken",
+   "s": "ok",
+   "role": "Bolettes mor",
+   "note": "Kona til Aron Olsen på Follestadeie i Røyken i 1875. Faren het trolig Ole. Mor til minst seks barn i 1875, blant dem Bolette.",
+   "src": "ft1875r"
+  },
+  "karelius": {
+   "n": "Karelius Andersen",
+   "srcs": [
+    "ft1891e",
+    "vielK"
+   ],
+   "d": "f. 3.8.1867",
+   "r": "Vestmarka, Eidskog",
+   "s": "ok",
+   "role": "Tippoldefar",
+   "f": "anders",
+   "m": "maren",
+   "sibx": [
+    "Halvbror Ole Christiansen, f. 1853, far Christen Olsen Enger (Aker)",
+    "Halvsøster Kristine Nilsdatter, f. 1857, far Nils Hansen Fjellskogen",
+    "Halvsøster Mathilde Edvardsdatter, f. 13.4.1863, far oppgitt som Edvard Dinesen Soot. Hun kalte seg selv Soot",
+    "Halvsøster Hedda Hansdatter, f. 1864 i Høland, far Hans Larsen, Rambøl",
+    "Halvsøster Thea Olsdatter, f. 7.5.1869 i Kristiania tukthus, far Ole Larsen"
+   ],
+   "note": "Født 3.8.1867 og døpt dagen etter i Eidskog, sønn av ungkar Anders Olsen fra Morast ved Eda glassverk i Värmland og Maren Olsdatter på Langvasengen. Foreldrene var ikke gift. I folketellingen 1891 (1. januar) bodde han som ugift 24-åring hos moren og stefaren på Rognlien i Eidskog, under navnet Karelius Marthinsen Rognlien. Han brukte altså stefarens farsnavn og gårdsnavn, noe stebarn ofte gjorde. Dåpen oppgir likevel Anders Olsen som far. Han giftet seg 5.10.1891 i Vestmarka med Ingeborg Olsen, datter av Ole Gustavsen, og flyttet til Kongsvinger. I folketellingen 1920 oppga han 27.7.1867. Moren hadde seks barn med seks ulike fedre, og i 1882 giftet hun seg med Martin Hansen Rognlien, som dermed ble stefaren hans. I 1900 bodde familien i Storgade 8 på Kongsvinger, og han var fast arbeider ved Kongsvinger vann- og veivesen. Brannassistent og rørlegger i Oskarsgate 2 i 1910, og rørlegger samme sted i 1920. Farfar Erling Karelius har mellomnavnet etter ham. Navnet Karelius var svært sjeldent, men i 1865 bodde en Peder Carelius Olsen (f. ca. 1837) på Rambøl i Eidskog, sønn av gårdbruker Ole Hansen. Marens far kom fra Rambøl, og stefaren Martin Hansen var født der. Peder Carelius var ikke fadder ved dåpen, men navnet kan likevel ha kommet derfra. Eidskog bygdebok bind 5 (s. 35, Magnor) nevner også Karl Olaf Kareliussen, født 1870 som sønn av den ugifte sypiken Karen Eriksdatter. Faren hans het altså Karelius, så navnet var i bruk i bygda rundt 1870. Det er en gjetning. Karelius ble hjemmedøpt dagen etter fødselen, og presten noterte at det var morens femte «leiermål», altså femte barn utenfor ekteskap.",
+   "src": "daapK",
+   "ext": [
+    null,
+    {
+     "k": "Obs",
+     "st": "obs",
+     "h": "Navnebror",
+     "c": "Mange avistreff på «Karelius Andersen» gjelder K. A. Rambøl, lokalpolitiker og en periode ordfører i Eidskog, død 1930. Han regnes som en annen mann enn tippoldefaren din, men er trolig i slekt: Karelius' morfar het Ole Olsen Rambøl."
+    }
+   ]
+  },
+  "ingeborg": {
+   "n": "Ingeborg Andersen",
+   "d": "29.7.1865 – 11.8.1944",
+   "r": "Finrødningen, Vinger",
+   "s": "ok",
+   "role": "Tippoldemor",
+   "f": "oleG",
+   "m": "sigrid",
+   "sibx": [
+    "Ole Olsen, f. ca. 1854 i Sverige",
+    "Sigvart Olsen, f. ca. 1858",
+    "Martinus Olsen, f. ca. 1861",
+    "Christian Olsen, f. 1869 i Vinger",
+    "Andreas Olsen, f. 1876 på Kongsvinger, jordarbeider"
+   ],
+   "note": "Født 29.7.1865 og døpt 3.9.1865 i Vinger, datter av husmann Ole Gustavsen og Sigrid Olsdatter på Finrødningen under Strengelsrud. Folketellingene 1910 og 1920 oppgir 23.6.1865, men kirkeboka er primærkilden og veier tyngst. Bodde som ettåring med foreldrene og tre eldre brødre på plassen i 1865. Giftet seg 5.10.1891 i Vestmarka med Karelius Andersen, og står der som Ingeborg Olsen, f. 1865 på «Högmoen». Husmor på Kongsvinger. Fadder for barnebarnet Ingrid Alvilde i 1920. I dåpsboka for datteren Yngva i 1896 står hun som «Ingeborg Olsdtr f. Gjørstad». Gjørstad var trolig et senere bosted eller en tjenesteplass, ikke fødestedet. Det er en tolkning. Hun døde som enke 11.8.1944 på Kongsvinger.",
+   "src": "daapI",
+   "srcs": [
+    "vielK",
+    "ft1865v",
+    "ft1900k",
+    "hbrI"
+   ]
+  },
+  "anders": {
+   "n": "Anders Olsen",
+   "d": "",
+   "r": "Morast ved Eda glassverk, Värmland",
+   "s": "ok",
+   "role": "Tipp-tippoldefar",
+   "note": "Ungkar, står som far ved dåpen til Karelius 4.8.1867 i Eidskog, med bostedet «Morast ved Eda Glasbrug». Eda glassverk lå i Eda socken i Värmland, like over grensen fra Eidskog, og Morast var trolig en plass ved verket. Det bekrefter opplysningen fra Slektsforum. I Sverige het han trolig Anders Olsson, og faren het Ole (Ola). Husförhörslängden for Eda rundt 1860–1870 bør vise ham ved glassverket, med fødselsdato og fødesogn.",
+   "src": "daapK"
+  },
+  "maren": {
+   "n": "Maren Olsdatter",
+   "srcs": [
+    "ft1891e"
+   ],
+   "d": "f. 1826–28",
+   "r": "Eidskog",
+   "s": "ok",
+   "role": "Tipp-tippoldemor",
+   "f": "oleR",
+   "m": "marenMor",
+   "sibx": [
+    "Guldbrand Olsen Rambølsødegården (ikke bekreftet)",
+    "Ole Olsen, f. 1836 (ikke bekreftet)"
+   ],
+   "note": "Datter av gårdmann Ole Olsen Rambøl. En sammenstilling uten kildehenvisninger gir fødselsdatoen 6.1.1828 i Eidskog. Folketellingen 1891 har henne som Maren Olsdtr. Rognlien, født 1828 i Eidskog, og det støtter den datoen, moren Kristine Olsdatter Speismark og søsknene Guldbrand og Ole. Det er ikke kontrollert mot kirkebøkene ennå. Hadde seks barn med seks ulike fedre: Ole (1853), Kristine (1857), Mathilde (1863), Hedda (1864), Karelius (1867) og Thea (1869). Ble dømt 11.3.1865 etter konkubinatloven for å ha fått barn med flere fedre (dombok nr. 2 for Vinger og Odal, fol. 334), og fikk 12 dager på vann og brød. Thea ble født i Kristiania tukthus 7.5.1869, trolig mens Maren sonet. I 1875 var hun ugift husholderske hos selveier Martin Hansen (f. 1813) på Rognelien Stangnæs i Eidskog, med barna Mathilde, Hedda, Karelius og Thea, som alle fikk delvis fattigunderstøttelse. Tellingen oppgir at hun selv var født i Eidskog i 1826. Hun giftet seg med ham 8.9.1882 i Eidskog, etter at han hadde sonet en dom for å ha slått en mann i hjel. Det var hennes første ekteskap og hans andre. Vielsen gir faren som gårdmann Ole Olsen Rambøl, altså fra samme gård som Martin var født på, og fødestedet som «Sænner paa Hedemarken» i 1827. Det stemmer ikke med Eidskog i 1875. Presten konfererte muntlig med sorenskriveren og noterte at dommen over Martin ikke inneholdt juridisk bevis for at han hadde «bedrevet Hor med Pigen». To som var dømt for hor med hverandre, fikk ikke gifte seg, så presten måtte sjekke dette før vielsen.",
+   "src": "vielM"
+  },
+  "oleR": {
+   "n": "Ole Olsen Rambøl",
+   "srcs": [
+    "v1814"
+   ],
+   "d": "f. 1788?",
+   "r": "Rambølsødegården?",
+   "s": "ok",
+   "role": "Tipp-tipp-tippoldefar",
+   "note": "Gårdmann («Gd.») og bruras far da Maren giftet seg i 1882. Kalt Rambøl etter gården, den samme som Martin Hansen var født på. Transkripsjonen «Rovnböl» er feil: den skannede siden viser Rambøl. Farsnavnet viser at hans egen far het Ole. Rambøl i Eidskog var delt i flere bruk. I 1865 hadde gårdbruker Ole Hansen (55) og kona Marie Pedersdatter bruket med løpenummer 12.3, med sønnene Peder Carelius, Tosten, Guttorm, Syver og Julius. Ole Olsen må derfor ha hatt et annet bruk på gården, eller vært død før 1865. En sammenstilling uten kildehenvisninger, som du fant, sier at han var Ole Olsen Rambølsødegården, født 1788, og giftet seg i 1819 med Kristine Olsdatter Speismark. Rambølsødegården finnes som stedsnavn i Eidskog. Opplysningene er ikke kontrollert, men navneskikken passer: Marens to eldste barn het Ole og Kristine. Et mulig spor til foreldrene: 2.1.1814 giftet enkemannen Ole Olsen (60 år, f. 1754) fra Grønrud under Midtskog seg med enken Eli Nilsdatter (f. 1771) på Rambøl. Ole Olsen f. 1754 kan være faren til vår Ole, som da fulgte med til Rambøl. Det er en hypotese. Merk: Eidskog bygdebok bind 4 s. 169 (kapitlet om Sørpebøl) forteller at Olia, født 1789 på Sørpebøl, giftet seg i 1819 med Erik Gunnarsen Sjølåen og flyttet «til Rambølsødegården». At sammenstillingen også sier «gift 1819», kan derfor være en sammenblanding.",
+   "src": "vielM",
+   "ext": [
+    {
+     "k": "Bygdebok",
+     "st": "mulig",
+     "h": "<a href='https://www.nb.no/items/5476cc56a1e8139cef6452cad99415c6?searchText=Ramb%C3%B8ls%C3%B8deg%C3%A5rden'>Eidskog bygdebok bind 4, s. 169</a>",
+     "c": "De fem utgitte bindene dekker gårdsnummer 1–73. Rambøl i Vestmarka ser ikke ut til å ha eget kapittel der, og gården nevnes bare når folk flytter til eller fra, som i kapitlet om Sørpebøl: Olia, f. 1789, giftet seg 1819 med Erik Gunnarsen Sjølåen og flyttet til Rambølsødegården. Kirkebøkene er derfor den beste veien videre."
+    },
+    {
+     "k": "Foto",
+     "st": "treff",
+     "h": "<a href='https://www.nb.no/items/9d4847aab6f2f6aacba478b9b9c6d8e4'>Flyfoto av Rambøl-Øgarden, Vestmarka, 22.7.1952</a>",
+     "c": "Widerøes flyfoto i Nasjonalbiblioteket, fritt tilgjengelig og nedlastbart. Det finnes tre bilder av gården fra samme dag."
+    }
+   ]
+  },
+  "marenMor": {
+   "n": "Kristine Olsdatter Speismark",
+   "d": "1797–1862?",
+   "r": "Speismark, Eidskog?",
+   "s": "cand",
+   "role": "Tipp-tipp-tippoldemor",
+   "note": "Ikke bekreftet. Ikke oppgitt i vielsen 1882. En sammenstilling uten kildehenvisninger, som du fant, sier at Ole Olsen Rambølsødegården giftet seg med Kristine Olsdatter Speismark i 1819, og at hun levde 1797–1862. Det støttes av navneskikken: Marens eldste datter, født 1857, het Kristine, og eldste sønn, født 1853, het Ole. Dåpen til Maren eller vielsen i kirkeboka for Vinger avgjør det. Årstallet 1819 for vielsen kan være en sammenblanding med en annen familie som kom til Rambølsødegården det året.",
+   "src": "none"
+  },
+  "oleG": {
+   "n": "Ole Gustavsen",
+   "d": "f. 27.1.1828",
+   "r": "Kneppa, Vinger",
+   "s": "ok",
+   "role": "Tipp-tippoldefar",
+   "f": "gustavN",
+   "m": "ingeborO",
+   "sp": "sigrid",
+   "note": "Født 27.1.1828 og døpt 30.3.1828 i Vinger, ekte sønn av Gustav Nilssen Kneppa og Ingebor Olsdatter. Datteren Ingeborg ble oppkalt etter farmoren. Dagarbeider og vedhugger i Grænsegaden 1 på Kongsvinger i 1885 og 1900, med Sigri og barna Ingeborg (1865), Christian (1869) og Andreas (1876). Husmann med jord på Finrødningen (Tinrydningen) under Strengelsrud i Vinger i 1865, da 36 år og født i Eidskog. Ungkar fra Kneppa da han giftet seg med Sigri Olsdatter 5.11.1854 i Vinger. Sønnen Ole var født i Sverige ca. 1854, før vielsen, så paret bodde trolig en tid på svensk side. Farsnavnet stemmer med faren Gustav Nielsen i vielsen. Står som bruras far da datteren Ingeborg giftet seg med Karelius i 1891.",
+   "src": "daapO",
+   "srcs": [
+    "vielOG",
+    "ft1865v",
+    "ft1885kv",
+    "ft1900kv",
+    "daapI",
+    "vielK"
+   ]
+  },
+  "sigrid": {
+   "n": "Sigrid Olsdatter",
+   "d": "f. ca. 1831–33",
+   "r": "Røisdalmoen, Eidskog",
+   "s": "ok",
+   "role": "Tipp-tippoldemor",
+   "f": "oleE",
+   "m": "martheT2",
+   "sp": "oleG",
+   "note": "Pike fra Røisdalmoen da hun giftet seg med Ole Gustavsen 5.11.1854 i Vinger. Født i Eidskog: 34 år i 1865, og født 1832 ifølge tellingene 1885 og 1900. Faren var Ole Eriksen. En mulig dåp er Sigri, født 29.3.1833 og døpt 5.5.1833 i Vinger, datter av Ole Eriksen Goustadmoen og Marthe Tordsdatter. Farsnavnet stemmer, men året og plassen avviker litt, så koblingen er ikke bekreftet. Bodde på Kongsvinger med Ole i 1885 og 1900.",
+   "src": "vielOG",
+   "srcs": [
+    "ft1865v",
+    "ft1885kv",
+    "ft1900kv",
+    "daapSi"
+   ]
+  },
+  "gustavN": {
+   "n": "Gustav Nielsen Kneppa",
+   "d": "f. ca. 1794",
+   "r": "Kneppa, Vinger",
+   "s": "ok",
+   "role": "Tipp-tipp-tippoldefar",
+   "sp": "ingeborO",
+   "note": "Giftet seg 30.12.1821 i Vinger med Ingebor Olsdatter fra Torp. Kalt Gustav Nilssen Kneppa ved sønnen Oles dåp i 1828, så han bodde på Kneppa. Farsnavnet viser at hans egen far het Niels. Han finnes ikke i folketellingen 1801 for Vinger. Gustav var et vanlig navn i Sverige, så han kan ha kommet over grensen. Det er en gjetning. Folketellingen 1801 for Eidskog, eller svenske kirkebøker for Eda eller Köla, kan avgjøre det.",
+   "src": "vielGN",
+   "srcs": [
+    "daapO",
+    "vielOG"
+   ]
+  },
+  "ingeborO": {
+   "n": "Ingebor Olsdatter",
+   "d": "f. ca. 1797",
+   "r": "Torp, Vinger",
+   "s": "ok",
+   "role": "Tipp-tipp-tippoldemor",
+   "sp": "gustavN",
+   "note": "Fra Torp da hun giftet seg med Gustav Nielsen 30.12.1821 i Vinger. Mor til Ole Gustavsen (1828). Farsnavnet viser at faren het Ole. Barnebarnet Ingeborg (1865) ble oppkalt etter henne. Folketellingen 1801 for Vinger har tre Ingebor Olsdatter født 1797–98, på Rudberg, Liøner og Nevjen. Hvem av dem som er henne, er ikke avklart.",
+   "src": "vielGN",
+   "srcs": [
+    "daapO"
+   ]
+  },
+  "oleE": {
+   "n": "Ole Eriksen",
+   "d": "",
+   "r": "Goustadmoen? Vinger/Eidskog",
+   "s": "ok",
+   "role": "Tipp-tipp-tippoldefar",
+   "note": "Står som bruras far da Sigrid Olsdatter giftet seg i 1854. Farsnavnet viser at hans egen far het Erik. Trolig samme mann som Ole Eriksen Goustadmoen, gift med Marthe Tordsdatter, som fikk datteren Sigri døpt i Vinger i 1833. Den koblingen er ikke bekreftet.",
+   "src": "vielOG",
+   "srcs": [
+    "daapSi"
+   ]
+  },
+  "martheT2": {
+   "n": "Marthe Tordsdatter",
+   "d": "",
+   "r": "Goustadmoen?",
+   "s": "cand",
+   "role": "Tipp-tipp-tippoldemor",
+   "note": "Ikke bekreftet. Mor til Sigri, født 29.3.1833 i Vinger, med Ole Eriksen Goustadmoen. Hvis den Sigri er vår Sigrid, er Marthe tipp-tipp-tippoldemoren din. Farsnavnet viser at faren het Tord. Folketellingen 1865 for Vinger og Eidskog kan vise om Ole og Marthe hadde en datter Sigrid på rett alder.",
+   "src": "daapSi"
+  },
+  "egil": {
+   "n": "Egil Olav Aanonsen",
+   "d": "11.3.1921 – 20.4.2013",
+   "r": "død Lørenskog",
+   "s": "ok",
+   "role": "Morfar",
+   "f": "eaFar",
+   "m": "eaMor",
+   "sp": "mormor",
+   "sibs": [
+    "odd",
+    "elsa"
+   ],
+   "note": "Gift med Laura Oline Skjefstad. Skrevet Anonsen i dødsregisteret. Bosatt i Oppegård, død i Lørenskog, 92 år. Født tre måneder etter folketellingen 1920. Foreldrene er funnet gjennom søsteren Elsa, som du har bekreftet.",
+   "src": "dodE"
+  },
+  "mormor": {
+   "n": "Laura Oline Skjefstad",
+   "d": "f. 16.9.1919",
+   "r": "Oppegård",
+   "s": "ok",
+   "role": "Mormor",
+   "f": "eugen",
+   "m": "olga",
+   "sp": "egil",
+   "sibx": [
+    "Randi Eugenie Skjefstad, f. 17.5.1911 i Kråkstad",
+    "Odd Heine Skjefstad, f. 14.4.1912 i Kristiania",
+    "Reidar Heine Skjefstad, f. 16.1.1916 i Oppegård"
+   ],
+   "note": "Gift med Egil Olav Aanonsen. Bodde som ettåring med foreldrene og tre eldre søsken i Oppegård i 1920, i samme hus som telegrafisten ved Oppegård stasjon. Mellomnavnet Oline har hun trolig etter farmoren. Døde hun i 1951–2017, står dødsdatoen i dødsregisteret på Digitalarkivet.",
+   "src": "ft1920o",
+   "ext": [
+    {
+     "k": "Avis",
+     "st": "mulig",
+     "h": "<a href='https://www.nb.no/items/a73559f461bc53f0dbaad3911f202cc2?searchText=Skjefstad'>Lokalavisen Oppegård 12.11.2009</a>",
+     "c": "Side 22 nevner Skjefstad og Oline, og side 23 Anonsen. Familien bodde i Oppegård, så det kan være en annonse om henne. Ikke lest."
+    }
+   ]
+  },
+  "eugen": {
+   "n": "Kristoffer Eugen Skjefstad",
+   "d": "f. 19.7.1889",
+   "r": "Kråkstad",
+   "s": "ok",
+   "role": "Oldefar",
+   "f": "torkild",
+   "m": "oline",
+   "sibx": [
+    "Hilda Josefa Thorkildsdatter, f. 1874 i Kongsberg",
+    "Julie Skjefstad, f. 1883 i Kråkstad",
+    "Thea Skjefstad, f. 1887 i Kråkstad"
+   ],
+   "note": "Kontorist i Oppegård i 1920, trolig ved jernbanen: faren var banevokter, og familien bodde i samme hus som telegrafisten ved stasjonen. I 1900 bodde han som 11-åring hos foreldrene i Kråkstad og står der bare som Eugen, som trolig var tiltalenavnet hans. Begge tellingene oppgir Kråkstad som fødested. Datteren Randi fikk mellomnavnet Eugenie. En Eugen Skjefstad var ordenssjef i Den norske godtemplarordenen og nevnes i jernbanens blader og i avisa Folket fra 1938 til 1977, blant annet 19.7.1969, dagen han fylte 80. Det er trolig ham, men ikke bekreftet.",
+   "src": "ft1900kr",
+   "ext": [
+    {
+     "k": "Foto",
+     "st": "mulig",
+     "h": "<a href='https://www.nb.no/items/5360f799608f5bb10c3186f0fa728978'>Portrett av Eugen Skjefstad</a>",
+     "c": "Studioportrett i Nasjonalbiblioteket, fritt tilgjengelig og nedlastbart. Beskrevet som ordenssjef i Den norske godtemplarordenen. Trolig oldefaren din."
+    },
+    {
+     "k": "Bok",
+     "st": "mulig",
+     "h": "<a href='https://www.nb.no/items/c18d6345cb761b82633991068b9182a8?searchText=Skjefstad'>100 år for edru livsstil (1988)</a>",
+     "c": "Jubileumsboka for godtemplarordenen nevner Skjefstad på s. 69–74. Kan gi årene han var ordenssjef."
+    },
+    {
+     "k": "Avis",
+     "st": "mulig",
+     "h": "<a href='https://www.nb.no/items/30f739436b1ff8a7e557c3a47fcb24db?searchText=Skjefstad'>Folket 19.7.1969</a> og <a href='https://www.nb.no/items/68383f451d58c808c603f88ead9dff81?searchText=Skjefstad'>Jernbanemanden 3.4.1963</a>",
+     "c": "Nevner Eugen Skjefstad. Folket kom ut på 80-årsdagen hans."
+    }
+   ]
+  },
+  "olga": {
+   "n": "Olga Konstance Skjefstad",
+   "d": "17.2.1889 – 19.5.1978, f. Jakobsen",
+   "r": "Sarpsborg",
+   "s": "ok",
+   "role": "Oldemor",
+   "f": "hartvig",
+   "m": "lauraN",
+   "srcs": [
+    "hbrO"
+   ],
+   "note": "Født Olga Konstanse Jakobsen 17.2.1889 i Sarpsborg og døpt 21.4.1889, datter av jernbanemann Hartvig Jakobsen og Laura Nilsen. Familien flyttet til Kristiania før 1900. Hun var sigarmaker i 1910, giftet seg med Eugen rundt 1910 og fikk Randi på Langlid i Kråkstad i 1911. Husmor i Oppegård i 1920. Døde 19.5.1978. Datteren Laura Oline er trolig oppkalt etter begge bestemødrene: Laura Nilsen og Oline Skjefstad. Min gjetning om at Heine var hennes slektsnavn var feil.",
+   "src": "ft1920o",
+   "ext": [
+    {
+     "k": "Avis",
+     "st": "treff",
+     "h": "<a href='https://www.nb.no/items/5340360260cb8604e07d9ca7c600dc36?searchText=Skjefstad'>Aftenposten 20.5.1978</a> og <a href='https://www.nb.no/items/1acce4065546c975e79e6c3fcc48c1d7?searchText=Skjefstad'>23.5.1978</a>",
+     "c": "Dødsannonse og bisettelse: hun døde 19.5.1978 ifølge dødsregisteret. Annonsene lister trolig barna."
+    }
+   ]
+  },
+  "torkild": {
+   "n": "Torkild Johnsen Skjefstad",
+   "d": "2.10.1845 – 30.10.1936",
+   "r": "Elverum",
+   "s": "ok",
+   "role": "Tippoldefar",
+   "f": "johnJ",
+   "m": "martheT",
+   "srcs": [
+    "hbrT"
+   ],
+   "note": "Født 2.10.1845 og døpt 19.10.1845 i Elverum, sønn av John Jensen og Marthe Torkildsdatter. Vokste opp på Skjefstad i Elverum, der faren var gårdbruker og selveier. Døde 30.10.1936 i Kråkstad, og var da enkemann. Banevokter, bosatt i Kråkstad i 1900 med kona Oline og barna Julie, Thea og Eugen. Farsnavnet Johnsen viser at faren het John. I 1875 bodde han på gården Lo vestre i Eiker, med yrket transkribert som «forpagter jernbanekonduktør». Han var trolig jernbanekonduktør og forpaktet samtidig gården, eller en del av den. Han var gift med Oline Hansdatter Sterud og far til Hilda Josefa, født 1874 i Kongsberg. Familien fulgte altså jernbanen: fra Hedmark til Eiker og Kongsberg, der Kongsbergbanen åpnet i 1871, og videre til Kråkstad senest i 1883. Østfoldbanen gjennom Kråkstad åpnet i 1879, og det kan være da han kom dit. Det er en gjetning. Født i Elverum. Der ligger gården Skjefstad i Heradsbygda, ved Skjefstadfossen i Glomma, og familienavnet kommer trolig derfra. Elverum bygdebok bind 5 har et kapittel om Skjefstad og nevner en Torkild noen sider senere.",
+   "src": "ft1875s",
+   "ext": [
+    {
+     "k": "Bygdebok",
+     "st": "mulig",
+     "h": "<a href='https://www.nb.no/items/10639501db6e76fd41a5ed5af4ddc5d5?searchText=Skjefstad'>Elverum bygdebok 5: Heradsbygda 2 (1988)</a>",
+     "c": "Skjefstad står på s. 297–299 og en Torkild på s. 305–309. Kan gi foreldrene hans og flere generasjoner bakover. Kan leses på nb.no fra norsk nettadresse."
+    }
+   ]
+  },
+  "oline": {
+   "n": "Oline Skjefstad",
+   "d": "f. 1844, f. Hansdatter",
+   "r": "Sterud, Nes på Hedmarken",
+   "s": "ok",
+   "role": "Tippoldemor",
+   "f": "olineP",
+   "note": "Født Oline Hansdatter Sterud på Nes på Hedmarken i 1844: faren het Hans, og Sterud er trolig gården hun kom fra. Gift med Torkild senest i 1874, da datteren Hilda Josefa ble født i Kongsberg. Husgjerning i Kråkstad i 1900. Barnebarnet Laura Oline er trolig oppkalt etter henne.",
+   "src": "ft1875s"
+  },
+  "johnJ": {
+   "n": "John Jensen",
+   "d": "f. 1813",
+   "r": "Skjefstad, Elverum",
+   "s": "ok",
+   "role": "Tipp-tippoldefar",
+   "note": "Gårdbruker og selveier på Skjefstad (øvre/østre) i Elverum i 1865. Gift med Marthe Torkildsdatter. Barn døpt i Elverum: Torkild (1845), Anne (1847), Olia (1850), Martin (1855) og Anton Julius (1858). Det er altså fra ham familien har Skjefstad-navnet. Foreldrene hans er ikke koblet i registeret ennå. Født ca. 1813 i Elverum, så dåpen der gir dem.",
+   "src": "hbrT"
+  },
+  "martheT": {
+   "n": "Marthe Torkildsdatter",
+   "d": "",
+   "r": "Elverum",
+   "s": "ok",
+   "role": "Tipp-tippoldemor",
+   "note": "Kona til John Jensen på Skjefstad, mor til Torkild (1845) og søsknene. Farsnavnet viser at faren het Torkild, og sønnen Torkild ble trolig oppkalt etter ham. Det er en gjetning ut fra navneskikken. Folketellingen 1865 for Elverum gir alder og fødested.",
+   "src": "hbrT"
+  },
+  "olineP": {
+   "n": "Olines foreldre",
+   "d": "faren het Hans",
+   "r": "Sterud, Nes på Hedmarken",
+   "s": "unk",
+   "role": "Tipp-tippoldeforeldre",
+   "note": "Oline Hansdatter Sterud ble født i 1844 på Nes på Hedmarken, så faren het Hans, trolig på Sterud. Dåpen i kirkeboka for Nes gir begge foreldrene. Nes bygdebok bind 2 (Helgøya og Østfjerdingen) nevner Sterud flere steder.",
+   "src": "ft1875s"
+  },
+  "hartvig": {
+   "n": "Hartvig Sofus Jakobsen",
+   "d": "f. 13.3.1862",
+   "r": "Sarpsborg",
+   "s": "ok",
+   "role": "Tippoldefar",
+   "f": "nilsN",
+   "m": "ingerS",
+   "note": "Født 13.3.1862 i Sarpsborg og døpt 15.6.1862. Giftet seg 27.12.1882 i Fredrikshald med Laura Kristine Nilsen. Jernbanemann: portør ved Sarpsborg stasjon i 1885, konduktør i 1893–95, senere elevatorfører og portner i Kristiania. Barn: Nils Hartvig Olaf (1883), Inga Marie (1885), Olga Konstanse (1889), Harriet Isidore (1893), Fridolf (1895) og Annie Johanne (1897). Familien bodde i St. Mariegate i Sarpsborg, og fra 1897 i Stolmakergata 9 og på Torvet 5 i Kristiania. Faren står som Nils Nilssen i dåpen og som Nils Jakobsen i vielsen.",
+   "src": "hbrO"
+  },
+  "lauraN": {
+   "n": "Laura Kristine Nilsen",
+   "d": "f. 19.12.1859",
+   "r": "Fredrikshald (Halden)",
+   "s": "ok",
+   "role": "Tippoldemor",
+   "f": "lauraNP",
+   "note": "Født 19.12.1859 i Fredrikshald. Bodde som datter i Busterudgata i Fredrikshald i 1865, da kalt Laura Kristin Olavesen, og i Fredrikstad i 1875. Gift med Hartvig Jakobsen 27.12.1882. Barnebarnet Laura Oline Skjefstad er trolig oppkalt etter henne.",
+   "src": "hbrO"
+  },
+  "lauraNP": {
+   "n": "Lauras foreldre",
+   "d": "faren het trolig Ole",
+   "r": "Fredrikshald",
+   "s": "unk",
+   "role": "Tipp-tippoldeforeldre",
+   "note": "I 1865 står Laura som Laura Kristin Olavesen, datter, i Busterudgata i Fredrikshald. Faren het altså trolig Olav eller Ole. Husstanden i folketellingen 1865 for Halden (pf01037979004326) gir begge foreldrene, og dåpen hennes i Fredrikshald i desember 1859 bekrefter dem.",
+   "src": "hbrO"
+  },
+  "nilsN": {
+   "n": "Nils Nilsen (Jakobsen)",
+   "d": "",
+   "r": "Sarpsborg",
+   "s": "ok",
+   "role": "Tipp-tippoldefar",
+   "note": "Far til Hartvig Sofus ifølge dåpen 15.6.1862 i Sarpsborg, der han står som Nils Nilssen. I sønnens vielse i 1882 kalles han Nils Jakobsen, og det er trolig derfra familienavnet Jakobsen kommer. Folketellingen 1865 for Sarpsborg, St. Mariegate, bør vise ham med familien.",
+   "src": "hbrO"
+  },
+  "ingerS": {
+   "n": "Inger Sorine Andersdatter",
+   "d": "",
+   "r": "Sarpsborg",
+   "s": "ok",
+   "role": "Tipp-tippoldemor",
+   "note": "Mor til Hartvig Sofus ifølge dåpen 15.6.1862 i Sarpsborg.",
+   "src": "hbrO"
+  },
+  "elsa": {
+   "n": "Elsa Solveig Thilesen",
+   "d": "5.10.1917 – 2009, f. Anonsen",
+   "r": "Kristiania",
+   "s": "ok",
+   "role": "Morfars søster",
+   "note": "Bekreftet av deg: søster av Egil. Bodde i 1920 med foreldrene Olav Ragnvald og Evina Anonsen i Thor Olsens gate 10.",
+   "src": "ft1920m"
+  },
+  "odd": {
+   "n": "Odd Øivind Anonsen",
+   "d": "f. 20.12.1915",
+   "r": "Kristiania",
+   "s": "ok",
+   "role": "Morfars bror",
+   "note": "Eldste barn av Olav Ragnvald og Evina Anonsen.",
+   "src": "ft1920m"
+  },
+  "eaFar": {
+   "n": "Olaf Ragnvald Anonsen",
+   "d": "f. 3.7.1893",
+   "r": "Vestre Fredrikstad",
+   "s": "ok",
+   "role": "Oldefar",
+   "f": "oParents",
+   "m": "karen",
+   "sibx": [
+    "Julie Elenore Anonsen, f. 1881",
+    "Anna Marie Anonsen, f. 1885",
+    "Elna Otilie Anonsen, f. 1888",
+    "Anton Fritjof Anonsen, f. 1890",
+    "Halvbror Anton Anonsen, f. 1867 i Sarpsborg, sjømann",
+    "Halvbror Johan Anonsen, f. 1872 i Sarpsborg",
+    "Halvbror Axel Sigvard Anonsen, f. 1874 i Sarpsborg, styrmann"
+   ],
+   "note": "Kelner. Konfirmert i Vestre Fredrikstad 1907. Gift med Evina Martinsdatter 6.12.1914 i Fagerborg kirke, da bosatt i Pilestredet 46. Bodde i 1920 i Thor Olsens gate 10 i Kristiania. Sønnen Egil Olav har trolig mellomnavnet etter ham. Søsteren Julie og kona Evina har profiler på Geni, så noen har bygget Anonsen-familien fra Fredrikstad der.",
+   "src": "vigsel",
+   "ext": [
+    {
+     "k": "Geni",
+     "st": "treff",
+     "h": "<a href='https://www.geni.com/people/Julie-Anonsen/6000000004966231254'>Julie Eleonore Anonsen, f. 1881</a>",
+     "c": "Søsteren hans, som står som Julie Elenore, f. 1881, i folketellingene. Olaf ligger trolig i samme Geni-familie."
+    }
+   ]
+  },
+  "eaMor": {
+   "n": "Evina Anonsen",
+   "d": "18.9.1889 – 10.9.1974",
+   "r": "Tomter, Romedal",
+   "s": "ok",
+   "role": "Oldemor",
+   "f": "evParents",
+   "m": "evMor",
+   "sibx": [
+    "Oline Martinsdatter, f. 1883",
+    "Karl Martinsen, f. 1885",
+    "Bernt Martinsen, f. 1897"
+   ],
+   "note": "Født Evina Martinsdatter, datter av selveier Martin Olsen på Stuberudstuen i Romedal. Konfirmert i Tomter, Romedal, 1904. Kjøkkenjomfru i Mauritz Hansens gate 6 da hun giftet seg 6.12.1914. Trolig oppkalt etter mormoren Evine Pedersdatter. Døde 10.9.1974 i Oslo, en uke før hun ville fylt 85, ifølge dødsregisteret. Dødsannonser sto i Nationen og Arbeiderbladet 17.9.1974. Både hun og Olaf arbeidet i restaurantbransjen, og navnet hennes dukker opp i Norsk hotell- og restaurantblad i 1948, 1949 og 1975.",
+   "src": "vigsel",
+   "srcs": [
+    "hbrEv"
+   ],
+   "ext": [
+    {
+     "k": "Geni",
+     "st": "treff",
+     "h": "<a href='https://www.geni.com/people/Evina-Anonsen/6000000004593249920'>Evina Anonsen (Martinsdatter), 1889–1974</a>",
+     "c": "Samme person: navn, pikenavn og fødselsår stemmer, og profilen gir dødsåret 1974. Logget inn ser du hvem som forvalter profilen og hvem som er koblet til henne."
+    },
+    {
+     "k": "Avis",
+     "st": "treff",
+     "h": "Dødsannonser i <a href='https://www.nb.no/items/47ea684f8f1355429f8747f1b5e5c119?searchText=Anonsen'>Nationen 17.9.1974</a>, <a href='https://www.nb.no/items/885ca78fb3c2cdcda9bd66e0ce7b8855?searchText=Anonsen'>Arbeiderbladet 17.9.1974</a>, <a href='https://www.nb.no/items/31555e9b83d4434ae28666a621de3c13?searchText=Anonsen'>Morgenbladet</a> og <a href='https://www.nb.no/items/694b9d4078a3628b93d4d2bacd0f46a7?searchText=Anonsen'>Aftenposten</a>",
+     "c": "Gir dødsdatoen og lister trolig barna og svigerbarna."
+    },
+    {
+     "k": "Avis",
+     "st": "mulig",
+     "h": "<a href='https://www.nb.no/items/c9d3d305173dba63e8c8ca2edd8fcf32?searchText=Anonsen'>Norsk hotell- og restaurantblad 1948</a>, <a href='https://www.nb.no/items/5a0f867d2b63ca52c1a738649abafe0c?searchText=Anonsen'>1949</a> og <a href='https://www.nb.no/items/0c2e628bcf6d6305479204c80e3b5334?searchText=Anonsen'>1975</a>",
+     "c": "Nevner Evina Anonsen. Ikke lest ennå, kan være jubileer eller minneord."
+    },
+    {
+     "k": "Avis",
+     "st": "mulig",
+     "h": "<a href='https://www.nb.no/items/082751f11b4fc725034693b1fcbb84bb?searchText=Anonsen'>Valdres 9.8.1956</a>, <a href='https://www.nb.no/items/8869a94964afc6e6817286dc59f0618f?searchText=Anonsen'>Norsk Lysingsblad 13.8.1956</a> og <a href='https://www.nb.no/items/8d4f7228a7b976995bb49e64608f2edd?searchText=Anonsen'>Samhold 15.2.1957</a>",
+     "c": "Kunngjøringer og tinglyste skjøter fra Valdres som nevner Evina Anonsen. Kan gjelde et eiendomskjøp eller et dødsbo, og kan derfor gi dødsåret til Olaf."
+    }
+   ]
+  },
+  "oParents": {
+   "n": "Anon Andersen",
+   "d": "f. 1833/34, d. før 1900",
+   "r": "Skjeberg → Fredrikstad",
+   "s": "ok",
+   "role": "Tippoldefar",
+   "f": "andersE",
+   "m": "anonMor",
+   "note": "Gårdsgutt og gårdskarl, sønn av Anders Eriksen. Giftet seg med Karen Regine Johannesdatter 1.5.1881, da bosatt på Løkkeberg, trolig i Skjeberg. Det var hans andre ekteskap: de tre eldste sønnene er født i Sarpsborg 1867–1874. Bodde i 1885 på Apenesberget i Vestre Fredrikstad med Karen Regine og barn fra begge ekteskapene. Karen står som enke i 1900. Både vielsen 1881 og nettutskriften av vielsen i 1914 har navnet hans som Aron, men den skannede siden fra 1914 viser Anon.",
+   "src": "vielA"
+  },
+  "karen": {
+   "n": "Karen Regine Johannesen",
+   "d": "f. 1854/55",
+   "r": "Varteig",
+   "s": "ok",
+   "role": "Tippoldemor",
+   "f": "johannesH",
+   "m": "karenMor",
+   "note": "Datter av Johannes Hakonsen, født i Varteig. Giftet seg med enkemannen Anon Andersen 1.5.1881 i Fredrikstad. Står som Karen Regine Johanessen i 1885, og som Karen Rigine Andersen (gift navn) i 1900, da vaskekone og enke i Nygaardsgata i Fredrikstad.",
+   "src": "vielA"
+  },
+  "andersE": {
+   "n": "Anders Eriksen",
+   "d": "",
+   "r": "Skjeberg",
+   "s": "ok",
+   "role": "Tipp-tippoldefar",
+   "note": "Står som brudgommens far da Anon giftet seg i 1881. Farsnavnet viser at hans egen far het Erik. Anon ble født i Skjeberg ca. 1833–34, så dåpen der gir også morens navn.",
+   "src": "vielA"
+  },
+  "anonMor": {
+   "n": "Anons mor",
+   "d": "ukjent",
+   "r": "Skjeberg",
+   "s": "unk",
+   "role": "Tipp-tippoldemor",
+   "note": "Ikke oppgitt i vielsen. Dåpen til Anon i Skjeberg ca. 1833–34 gir navnet hennes, og folketellingen 1865 for Skjeberg kan vise familien.",
+   "src": "none"
+  },
+  "johannesH": {
+   "n": "Johannes Hakonsen",
+   "d": "",
+   "r": "Varteig?",
+   "s": "ok",
+   "role": "Tipp-tippoldefar",
+   "note": "Står som bruras far da Karen Regine giftet seg i 1881. Karen ble født i Varteig i 1854–55. Hun bør stå som 10–11-åring hos ham i folketellingen 1865, trolig i Varteig eller Tune. Kandidaten Karen M. Johanesdatter på Skauge nordre i Tune i 1865 passer bare hvis faren der heter Johannes Hakonsen.",
+   "src": "vielA"
+  },
+  "karenMor": {
+   "n": "Karens mor",
+   "d": "ukjent",
+   "r": "Varteig?",
+   "s": "unk",
+   "role": "Tipp-tippoldemor",
+   "note": "Ikke oppgitt i vielsen. Dåpen til Karen Regine i Varteig ca. 1854–55, eller folketellingen 1865, gir navnet hennes.",
+   "src": "none"
+  },
+  "evParents": {
+   "n": "Martin Olsen",
+   "d": "f. 1849",
+   "r": "Stuberudstuen, Romedal",
+   "s": "ok",
+   "role": "Tippoldefar",
+   "f": "oleO",
+   "m": "berte",
+   "note": "Gårdbruker og selveier på Stuberudstuen i Romedal. Bekreftet som far til oldemor Evina i vielsen 1914. Bodde på samme gård som 17-åring i 1865.",
+   "src": "ft1900r"
+  },
+  "evMor": {
+   "n": "Else Kristensdatter",
+   "d": "29.8.1861 – 1954",
+   "r": "Romedal",
+   "s": "ok",
+   "role": "Tippoldemor",
+   "f": "christen",
+   "m": "evine",
+   "srcs": [
+    "hbrE"
+   ],
+   "note": "Født 29.8.1861 og døpt 17.11.1861 i Romedal, datter av Christen Nielsen og Evine Pedersdatter. Det bekrefter koblingen til Sæthersbakken, som til nå bare var sannsynlig. Kona til Martin Olsen, og bodde på Tøstirydningen i 1875–76, på Stuberudstuen 1891–1910 og på Nyhus i 1920. Døde i april 1954 i Romedal. Datteren Evina ble oppkalt etter mormoren Evine.",
+   "src": "ft1900r"
+  },
+  "oleO": {
+   "n": "Ole Olsen",
+   "d": "f. ca. 1811",
+   "r": "Stuberudstuen, Romedal",
+   "s": "ok",
+   "role": "Tipp-tippoldefar",
+   "note": "Gårdbruker og selveier på Stuberudstuen i 1865. Farsnavnet tyder på at faren også het Ole. Mons Olsen (f. ca. 1820), bortsatt fattiglem på gården, kan være en bror.",
+   "src": "ft1865r"
+  },
+  "berte": {
+   "n": "Berte Larsdatter",
+   "d": "f. ca. 1815",
+   "r": "Romedal",
+   "s": "ok",
+   "role": "Tipp-tippoldemor",
+   "note": "Kona til Ole Olsen på Stuberudstuen. Faren het trolig Lars.",
+   "src": "ft1865r"
+  },
+  "christen": {
+   "n": "Christen Nilsen",
+   "d": "f. ca. 1827",
+   "r": "Gudbrandsdalen → Romedal",
+   "s": "ok",
+   "role": "Tipp-tippoldefar",
+   "note": "Husmann med jord og tømmermann på Sæthersbakken i Romedal i 1865. Født i Gudbrandsdalen. Faren het trolig Nils. Barn i 1865: Anne (ca. 1854), Peder (ca. 1856), Nils (ca. 1858), Else (ca. 1861) og Christian (ca. 1862).",
+   "src": "ft1865e"
+  },
+  "evine": {
+   "n": "Evine Pedersdatter",
+   "d": "f. ca. 1825",
+   "r": "Romedal",
+   "s": "ok",
+   "role": "Tipp-tippoldemor",
+   "note": "Kona til Christen Nilsen. Faren het trolig Peder. Navnet hennes er hintet som kobler familien til Stuberudstuen: Evina Martinsdatter ble trolig oppkalt etter henne.",
+   "src": "ft1865e"
+  }
+ },
+ "kilder": {
+  "user": "Oppgitt av deg i samtale, oktober 2026.",
+  "none": "Ingen kilde ennå.",
+  "dodM": "Dødsregisteret på Digitalarkivet (Døde 1951–2017), Margit Wiborg, ID pc00000003163615. Bekreftet av deg.",
+  "dodS": "Datoer fra dødsregisteret på Digitalarkivet (pc00000002923926). Foreldrekoblingen bygger på dåpen til søsteren Ingrid 15.2.1920 og folketellingen 1920 for Kongsvinger, sammen med din bekreftelse av at Ingrid og Erling var søsken.",
+  "dod": "Fødested oppgitt av deg. Datoer fra dødsregisteret på Digitalarkivet, Erling Wiborg, ID pc00000002923926.",
+  "dodE": "Dødsregisteret på Digitalarkivet, Egil Olav Anonsen, ID pc00000003673879. Bekreftet av deg.",
+  "daap": "Dåp 15.2.1920, Vinger prestegjeld, Kongsvinger sokn: ministerialboka 1898–1920 (pd00000022374654) og klokkerboka 1895–1920 (pd00000022073979). Skannet side 62, kvinnekjønn nr. 4: foreldre «Torbjørn Pedersen Viborg, stenarb.» og «Marta Kristine f. Andersen». Faddere: Sofie Andersen, arbeider Sverre Viborg (Kristiania), gift Ingeborg Andersen og ugift Marie Eriksen Digerud.",
+  "ft1910k": "Folketelling 1910 for Kongsvinger kjøpstad, krets 003 Stationssiden, Oskarsgate 2 (pf01036394002141): Karelius (27.7.1867), Ingeborg (23.6.1865), Sofus Karl (13.6.1893), Helga Otilie (7.12.1896), Martha Kristine (26.1.1900), Yngva Marie (26.10.1902) og Thorvald Arelius (15.10.1905). Folketelling 1920 for Kongsvinger (pf01073703002347).",
+  "ft1900k": "Folketelling 1900 for Kongsvinger kjøpstad, krets 001, Storgade 8, leilighet 03 (<a href=\"https://xml.arkivverket.no/folketellinger/hefter/1900/04Hedmark/b00402_hefte.pdf\">Arkivverkets transkriberte hefte b00402</a>): Karelius Andersen (1867, Eidskogen, «Fast Arbeider ved Kvgr. Vand og Veivæsen»), Ingeborg (Olsdtr) Andersen (1865, Vinger), Karl Sofus (1893), Helga Ottilie (1896) og Martha (20.01.1900). Folketellingene 1910 og 1920 for Kongsvinger.",
+  "ft1920": "Folketelling 1920 for Kongsvinger kjøpstad, krets 002 Stasjonssiden og midtbyen, Oskars gate, leilighet 01 (pf01073703002347): husholdningen til Karelius Andersen.",
+  "ft1920t": "Folketelling 1900 for Botne herred (pf01037139002150). Folketelling 1920 for Kristiania, krets 073, Darres gate 1, leilighet 16, husholdning 02 (pf01073701039977): Torbjørn Wiborg, f. 8.8.1897 i Kristiania, losjerende, gift, lagerarbeider. Folketelling 1920 for Kongsvinger, Oskars gate (pf01073703002347): samme fødselsdato, svigersønn, merknad «er hjemme en tur hver uke». Dåpen 15.2.1920 i Kongsvinger sokn.",
+  "ft1900b": "Folketelling 1900 for Botne herred, krets 001, Nedre Gausens grund i Dunkebæk, husholdning 02 (pf01037139002150): Petter Viborg (1866, Skåne), Bolette f. Aronsen (1866, Røyken), Einar (1892), Sverre (1893) og Torbjørn (1897), stedatter Ragnhild Danielsen (1894) og Karl Aronsen (1883).",
+  "forumM": "Innlegg i trådene «Maren Olsdtr. Langvassenga» og «Thea Olsdtr. Rognlien» på Slektsforum (slektogdata.no), limt inn av deg. Viser til dombok nr. 2 for Vinger og Odal, fol. 334 (dom 11.3.1865), og kirkebøkene for Eidskog. Sekundærkilde: opplysningene bør kontrolleres mot kirkebøkene. Dåp 4.8.1867, ministerialbok for Eidskog 1867–1878 (pd00000033708196). Folketelling 1875 for Eidskog (pf01052066001417).",
+  "daapK": "Dåp 4.8.1867, ministerialbok for Eidskog prestegjeld 1867–1878, side 3, nr. 129 (Digitalarkivet pd00000033708196), lest fra skannet side: Karelius, født 3.8., uekte. Foreldre «Pige Maren Olsdatter Langvasengen og Ungkarl Anders Olsen Morast ved Eda Glasbrug». Faddere: Clemet Thoresen Brustad, Syver Brustads hustru Ragnild, Thom Larsen R(a)stad(?), Christ. Larsen Jerpset(?) og pike Olea Hansdatter Klanderud(?). Hjemmedøpt av Ole Mathisens kone(?). Merknad: «5te Leiermaal», anmeldt av jordmoren(?). Folketelling 1875 for Eidskog (pf01052066001417). Folketelling 1920 for Kongsvinger.",
+  "ft1875r": "Folketelling 1875 for Røyken prestegjeld, krets 006 Frydenlund, Follestadeie (pf01052125003525), som du fant: Aron Olsen (1836, Sverige, husmann med jord), Lisa Olsdatter (1842, Røyken), Bolette (1866), Christian (1869), Anette (1871), Otto (1873), Anthon (1874) og Lovise (1875). Koblingen til Bolette Viborg i 1900 bygger på navn, fødselsår, fødested og broren Karl Aronsen. Folketelling 1900 for Botne (pf01037139002150).",
+  "ft1875": "Folketelling 1875 for Eidskog prestegjeld, krets 003 Tollefsbøl, Rognelien Stangnæs (pf01052066001417).",
+  "ft1885f": "Folketelling 1885 for Fredrikstad kjøpstad, krets 001 Vestre Fredrikstad, Apenesberget (pf01053251004875), og folketelling 1900 for Fredrikstad, Nygaardsgade (pf01036995004153).",
+  "vigsel": "Vielse 6.12.1914, ministerialbok for Fagerborg 1898–1916, side 125, nr. 103 (pv00000004937540), lest fra skannet side: brudgommens far «Gaardskarl Anon Andersen», brudens far «Selveier Martin Olsen». Folketelling 1920 for Kristiania.",
+  "ft1920m": "Folketelling 1920 for Kristiania, krets 469, Thor Olsens gate 10, leilighet 14 (pf01073701277826).",
+  "ft1900r": "Folketelling 1900 for Romedal herred, krets 009, Stuberudstuen (pf01037053003696), og vielsen 6.12.1914.",
+  "ft1865r": "Folketelling 1865 for Romedal prestegjeld, krets 006 Mælum, Strubrudstuen (pf01038034004975).",
+  "vielA": "Vielse 1.5.1881, Digitalarkivet pv00000004981134, side 587, nr. 25, som du fant: brudgom «Aron» Andersen (1834, Skeberg, bosatt Løkeberg), brud Karen Regine Johannesdtr. (1855, Vartig), brudgommens far Anders Eriksen, bruras far Johannes Hakonsen. Vielsesdatoen står som «05-01» (måned-dag, samme format som vielsen 1899). Folketelling 1885 for Fredrikstad (pf01053251004875) og 1900 for Fredrikstad (pf01036995004153).",
+  "vielP": "Vielse 2.12.1899, Digitalarkivet pv00000004400227, side 215, nr. 222, lest fra skannet side: brudgom Petter Viborg, hjulmakersvenn, Nordbygd. 58, født i Sverige 1867, konfirmert i Bromma i Malmöhus län; brud Bolette Danielsen f. Aronsdtr., uten stilling, født i Røken 1866. Begge gift for andre gang: brudgommens første kone døde 30.5.99 og brudens første mann 13.10.96, med skifte i Kristiania skifterett 24.11.99. Fedre: «bagermester Ole Nilsen Viborg» og «hsm. Aron Olsen, Frydenlund». Forlovere: Anton Aronsen, Follestad i Røken, og en Martinsen(?) i Nordbygd. 58. Lysning 26.11. Folketelling 1875 for Røyken (pf01052125003525) og 1900 for Botne (pf01037139002150).",
+  "ft1920o": "Folketelling 1920 for Oppegård herred, husholdning 01 (pf01073679000905, <a href=\"https://media.digitalarkivet.no/fs10761734903355\">skannet side</a>), som du fant: Kristoffer Eugen Skjefstad (19.7.1889, Kraakstad, kontorist), Olga Konstance (17.2.1889, Sarpsborg, husmor), Randi Eugenie (17.5.1911, Kraakstad), Odd Heine (14.4.1912, Kristiania), Reidar Heine (16.1.1916, Oppegaard) og Laura Oline (16.9.1919, Oppegaard). I samme hus bodde telegrafist ved Oppegaard st. Harald Hermansen Westbye med familie.",
+  "v1814": "Vielse 2.1.1814, kirkebok for Vinger 1814–1825 (Digitalarkivet <a href=\"https://digitalarkivet.no/en/view/327/pv00000002853720\">pv00000002853720</a>), som du fant: enkemann Ole Olsen (f. 1754, 60 år), Grønrud under Midtskog, og enken Eli Nilsdatter (f. 1771), Rambøl. Ikke bekreftet som slekt.",
+  "hbrT": "Historisk befolkningsregister (histreg.no), livsløpet til Torkild Johnsen Skjefstad (pf01038045001836), automatisk koblet fra Digitalarkivet: dåp 19.10.1845 i Elverum (pd00000039214286), født 2.10.1845, foreldre John Jensen og Marthe Torkildsdr; folketelling 1865 for Elverum, Skjefstad øvre og østre (pf01038045001836), med John Jensen, f. 1813, gårdbruker og selveier (pf01038045001832); død 30.10.1936 (pc00000004644912) og begravet i Kråkstad 5.11.1936 (pg00000003181843).",
+  "hbrO": "Historisk befolkningsregister (histreg.no), livsløpet til Olga Konstance Skjefstad f. Jakobsen (pf01036392011987): dåp 21.4.1889 i Sarpsborg (pd00000021761875), født 17.2.1889, foreldre Hartvig Jakobsen og Laura Nilsen; død 19.5.1978 (pc00000002257534). Hartvig Sofus Jakobsen (pd00000032465531): dåp 15.6.1862 i Sarpsborg (pd00000021095071), født 13.3.1862, foreldre Nils Nilssen og Inger Sorine Andersdatter; vielse 27.12.1882 i Fredrikshald (pv00000005772613). Laura Kristine Nilsen (pf01037979004326): født 19.12.1859 i Fredrikshald.",
+  "hbrE": "Historisk befolkningsregister (histreg.no), livsløpet til Else Kristensdatter (pd00000028522312): dåp 17.11.1861 i Romedal, født 29.8.1861, foreldre Christen Nielsen og Evine Pedersdtr.; folketelling 1865, Sæthersbakken (pf01038034002957); død april 1954 (pc00000001385212).",
+  "hbrI": "Historisk befolkningsregister (histreg.no), livsløpet til Ingeborg Olsdatter Andersen (pf01036394002141): «Ingeborg Olsdtr f. Gjørstad» ved dåpen til datteren Yngva i 1896 (pd00000022071075); død 11.8.1944 på Kongsvinger (pc00000004185272).",
+  "hbrEv": "Historisk befolkningsregister (histreg.no), livsløpet til Evina Anonsen f. Martinsdatter (pf01052728003561): konfirmasjon 1904 i Romedal med foreldrene Martin Olsen og Else Kristensdatter (pk00000001650018); død 10.9.1974 i Oslo (pc00000002189495).",
+  "ft1891e": "Folketelling 1891 for Eidskog herred, krets 005, bosted 093 (Digitalarkivet <a href=\"https://www.digitalarkivet.no/census/person/pf01052732002178\">pf01052732002178</a>), som du fant: Marthin Hansen Rognlien (1813, Eidskog, familiens overhode, gift), Maren Olsdtr. Rognlien (1828, Eidskog, hustru) og Karelius Marthinsen Rognlien (1867, Eidskog, sønn, ugift).",
+  "vielM": "Vielse 8.9.1882, ministerialbok for Eidskog 1879–1892, side 284, nr. 17 (Digitalarkivet pv00000004700872), lest fra skannet side: brudgom Martin Hansen, selveier av jord på Rognlien, født 1812 på Rambøl, gift for andre gang (attest fra skifteretten 7.8.1882); brud Maren Olsdatter, gift for første gang, født 1827 i «Sænner paa Hedemarken» (lesningen er usikker). Fedre: «Gd. Hans Nilsen Rudberg» og «Gd. Ole Olsen Rambøl». Forlovere: K. N. Jespeseth(?) og S. Rambøl. Lysning 10., 20. og 27.8. Merknad: «Efter mundtlig Konferance med Sorenskriveren intet juridisk Beviis i Dommen over Angjældende om at han har bedrevet Hor med Pigen. Larsen». Folketelling 1875 for Eidskog (pf01052066001414). Innlegg på Slektsforum om Maren, med henvisning til dombok nr. 2 for Vinger og Odal, fol. 334.",
+  "ft1875s": "Folketelling 1875 for Eiker prestegjeld (Buskerud), krets 003a, Lo vestre, gnr. 134, husholdning 01 (Digitalarkivet pf01052123001177), som du fant: Thorkild Johnsen Skjefstad (1845, Elverum, husfar, transkribert «forpagter jernbanekonduktør»), kone Oline Hansdatter Sterud (1844, Næs, Hedemarken) og datter Hilda Josefa Thorkildsdatter (1874, Kongsberg). Folketelling 1900 for Kråkstad (pf01037024000828).",
+  "ft1900kr": "Folketelling 1900 for Kråkstad herred, husholdning 01 (Digitalarkivet pf01037024000828, <a href=\"https://media.digitalarkivet.no/ft20090818410332\">skannet side</a>), som du fant: Torkild Skjefstad (1845, Elverum, banevokter), Oline (1844, Næs Hedemarken, husgjerning), Julie (1883), Thea (1887) og Eugen (1889), alle tre barna født i Kråkstad herred. Også i Nasjonalbibliotekets utgave <a href=\"https://www.nb.no/items/3fede538408a230b27ee4d924ccc9b2d?searchText=Skjefstad\">Folketellingen 3.12.1900 for 212 Kraakstad kommune</a> (1996), s. 35. Koblingen til Kristoffer Eugen i 1920 bygger på det sjeldne etternavnet, navnet Eugen, fødselsåret og fødestedet Kråkstad. Folketelling 1920 for Oppegård (pf01073679000905).",
+  "daapT": "Dåp 12.12.1897, Paulus menighet i Kristiania: klokkerboka 1895–1898, side 186, nr. 570 (<a href=\"https://www.digitalarkivet.no/view/255/pd00000025599751\">pd00000025599751</a>), og ministerialboka 1894–1899, side 304, nr. 570 (<a href=\"https://www.digitalarkivet.no/view/255/pd00000024324012\">pd00000024324012</a>): Torbjørn, født 8.8.1897, foreldre Peter Viberg (1867) og Agnes Borgersen (1868), Thorvald Meyers gate 20.",
+  "daapE": "Dåp 3.7.1892, ministerialbok for Sagene 1880–1893, side 251, nr. 105 (<a href=\"https://www.digitalarkivet.no/view/255/pd00000011535104\">pd00000011535104</a>): Einar, foreldre hjulmaker Per Olsen Viberg (1867, svensk) og hustru Agnes Borgersen (1868), Vogts gate 32.",
+  "daapS": "Dåp 26.12.1895, ministerialbok for Uranienborg 1895–1907, side 25, nr. 151 (<a href=\"https://www.digitalarkivet.no/view/255/pd00000020340810\">pd00000020340810</a>): Sigurd, foreldre Petter «Vibey» (1866) og Agnes Borgersen (1867), «Chaftegaden 7».",
+  "vielAg": "Vielse 29.8.1891, ministerialbok for Barbu 1883–1898, side 39 (<a href=\"https://www.digitalarkivet.no/view/327/pv00000010993303\">pv00000010993303</a>): brudgom Peter Olssen Veberg (1867, vognmaker, Myrene, født «Sverige, Bromma Sn.»), brud Agnes Borgerssen (1868, Kristiania, Sagene). Lest fra skannet side: merknaden sier at de ble «borgerligt viede» av sorenskriveren i Nedenes, ifølge attest av 29.8.1891. Fedrene er ikke oppgitt.",
+  "vielPT": "Vielse 2.12.1899, ministerialbok for Trefoldighet 1891–1900, side 226 (<a href=\"https://www.digitalarkivet.no/view/327/pv00000004759317\">pv00000004759317</a>): Petter Viborg, f. 17.10.1867 i «Broma Fossenby Malmshus Lan» ifølge søkeindeksen, og Bolette Danielsen. Brudgommens far Ole Nilsen Viborg.",
+  "konfA": "Konfirmasjon 1.10.1882, ministerialbok for Sagene 1880–1897, side 7, nr. 51 (<a href=\"https://www.digitalarkivet.no/view/279/pk00000000030495\">pk00000000030495</a>): Agnes Borgersen, født 1.4.1868 i Kristiania, bosatt Aasengaden 22, foreldre «Kristian Borgers., fabrikarb., enkemand» og «Kaja Daniels., pige».",
+  "ft1875a": "Folketelling 1875 for Kristiania, Aasengade 22B (<a href=\"https://www.digitalarkivet.no/census/person/pf01052055059764\">pf01052055059764</a>): Christian Borgersen (1821, Kristiania, murarbeider, gift), Kaja Danielsen (1824, «Werneland»), Agnes (1868) og Henrik (1871).",
+  "daapB": "Dåp 13.8.1893, ministerialbok for Uranienborg 1880–1895, side 252, nr. 93 (<a href=\"https://www.digitalarkivet.no/view/255/pd00000025580567\">pd00000025580567</a>): Björn, foreldre Peder Viberg (1867) og Agnes «Borgan» (1868).",
+  "gravB": "Begravelse 17.8.1893, ministerialbok for Uranienborg 1880–1901, side 81, nr. 31 (<a href=\"https://www.digitalarkivet.no/view/267/pg00000007270050\">pg00000007270050</a>): Bjørn Viberg, ekte barn, født 13.3.1893 i Christiania, far dagarbeider Viborg i Solheimsgaden.",
+  "daapA": "Dåp 18.10.1894, ministerialbok for Uranienborg 1880–1895, side 282, nr. 107 (<a href=\"https://www.digitalarkivet.no/view/255/pd00000025581569\">pd00000025581569</a>): Asta, foreldre Peter Viberg (1867) og Agnes «Bergersen» (1867), Solheimsgata 7.",
+  "gravA": "Begravelse 5.11.1894, ministerialbok for Uranienborg 1880–1901, side 90, nr. 63 (<a href=\"https://www.digitalarkivet.no/view/267/pg00000007270440\">pg00000007270440</a>): Asta Viberg, ekte barn, født 6.10.1894 i Christiania, far arbeider Peter Viberg, Solheimsgata 7.",
+  "ft1910s": "Folketelling 1910 for Nes (Romerike), Mørdre (<a href=\"https://www.digitalarkivet.no/census/person/pf01036387010095\">pf01036387010095</a>), og 1920 for Sør-Odal, Sundby (<a href=\"https://www.digitalarkivet.no/census/person/pf01073712004385\">pf01073712004385</a>): Sverre Pettersen Viborg, født 28.3.1893 i Kristiania.",
+  "vielCB": "Vielse 22.3.1872, Gamle Aker: ministerialboka 1865–1873, side 240, nr. 27 (<a href=\"https://www.digitalarkivet.no/view/327/pv00000005651434\">pv00000005651434</a>), og klokkerboka 1869–1874, side 290, nr. 27 (<a href=\"https://www.digitalarkivet.no/view/327/pv00000005475005\">pv00000005475005</a>): brudgom Christian Borgersen (1821, Aker), brud Kaisa Danielsen (1826, «Carlanda Warnsland», Aasengaden). Fedre: Borger Torstensen og Daniel Pettersen.",
+  "daapO": "Dåp 30.3.1828, ministerialbok for Vinger 1826–1839, side 26 (<a href=\"https://www.digitalarkivet.no/view/255/pd00000038156321\">pd00000038156321</a>), og klokkerboka 1818–1834: Ole, født 27.1.1828, ekte, foreldre Gustav Nilssen Kneppa og Ingebor Olsdatter.",
+  "vielGN": "Vielse 30.12.1821, klokkerbok for Vinger 1814–1825, side 453–454, nr. 62 (<a href=\"https://www.digitalarkivet.no/view/327/pv00000009200136\">pv00000009200136</a>): Gustav Nielsen (ca. 1794) og Ingebor Olsdatter (ca. 1797), Torp.",
+  "ft1885kv": "Folketelling 1885 for Kongsvinger, Grænsegaden 1 (<a href=\"https://www.digitalarkivet.no/census/person/pf01053259000106\">pf01053259000106</a>): Ole Gustavsen (1828, Eidskogen, dagarbeider), Sigri Olsdatter (1832, Eidskogen), Ingebør Olsen (1865, Vinger), Christian Olsen (1869, Vinger) og Andreas Olsen (1876, Kongsvinger).",
+  "ft1900kv": "Folketelling 1900 for Kongsvinger, Grænsegade (<a href=\"https://www.digitalarkivet.no/census/person/pf01037047000480\">pf01037047000480</a>): Ole Gustavsen (1828, Eidskogen, dagarbeider og vedhugger), Sigrid (1832, Eidskogen) og Andreas Olsen (1876).",
+  "daapSi": "Mulig dåp: 5.5.1833, ministerialbok for Vinger 1826–1839, side 76 (<a href=\"https://www.digitalarkivet.no/view/255/pd00000038160500\">pd00000038160500</a>): Sigri, født 29.3.1833, ekte, foreldre Ole Eriksen Goustadmoen og Marthe Tordsdatter. Ikke bekreftet som samme person.",
+  "daapP": "Dåp 27.10.1867, Bromma församling (Malmöhus län), födelse- och dopbok C I/5 (1861–1887), bild 28, sida 24, nr. 22, Riksarkivet (<a href=\"https://sok.riksarkivet.se/bildvisning/A0025831_00028\">A0025831_00028</a>), lest fra skannet side: Per, født 18.10.1867, foreldre «Inhusman Ola Nilsson» og «Kerstin Jönsdotter, hustru», bosted nr. 20 (navnet usikkert lest), husförhör side 134. Moren 28 år. Faddere: husman Nils Håkansson og hustru Hanna Jönsdotter i Hedeskoga, og dreng Nils Jönsson.",
+  "hfPB": "Husförhörslängd for Bromma 1861–1868, A I/7, side 134, bild 137, Riksarkivet (<a href=\"https://sok.riksarkivet.se/bildvisning/C0064223_00137\">C0064223_00137</a>), lest fra skannet side: husm. Ola Nilsson (12.2.1842), h. Kerstin Jönsdotter (17.5.1839), s. Nils (6.11.1864), d. Inga (12.1.1866) og s. Per (oktober 1867). Fødested for foreldrene og Nils skrevet «Spjutst.». Innflyttet fra side 100 i 1866.",
+  "vielK": "Vielse 5.10.1891, ministerialbok for Eidskog, Vestmarka sokn 1884–1897, side 88, nr. 4 (<a href=\"https://www.digitalarkivet.no/view/327/pv00000005487191\">pv00000005487191</a>), kontrollert mot den skannede siden: brudgom Karelius Andersen (1866, «Dalfos»), brud Ingeborg Olsen (1865, «Högmoen»). Fedre: Anders Olsen og Ole Gustavsen.",
+  "daapI": "Dåp 3.9.1865, ministerialbok for Vinger 1862–1870, side 100, nr. 188 (<a href=\"https://www.digitalarkivet.no/view/255/pd00000026354890\">pd00000026354890</a>): Ingeborg, født 29.7.1865, ekte, foreldre husmann Ole Gustavsen og Sigrid Olsdatter, Finrødningen under Strengelsrud.",
+  "ft1865v": "Folketelling 1865 for Vinger, krets 008 Lier, «Tinrydningen» (<a href=\"https://www.digitalarkivet.no/census/person/pf01038039007519\">pf01038039007519</a>): Ole Gustavsen (36, Eidskog, husmann med jord), Sigrid Olsdatter (34, Eidskog), Ole (11, Sverige), Sigvart (7), Martinus (4) og Ingeborg (1).",
+  "vielOG": "Vielse 5.11.1854, ministerialbok for Vinger 1847–1855, side 356, nr. 74 (<a href=\"https://www.digitalarkivet.no/view/327/pv00000004435247\">pv00000004435247</a>): ungkar Ole Gustavsen (ca. 1829, Kneppa) og pike Sigri Olsdatter (ca. 1831, Røisdalmoen). Fedre: Gustav Nielsen og Ole Eriksen.",
+  "ft1865e": "Folketelling 1865 for Romedal prestegjeld, krets 004 Brunstad, Sæthersbakken (pf01038034002957). Koblingen til Else Kristensdatter bygger på navn, alder, sted og oppkalling, ikke på kirkebok."
+ }
+}
