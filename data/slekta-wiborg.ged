@@ -22,7 +22,7 @@
 1 SOUR Datoer fra dødsregisteret på Digitalarkivet (pc00000002923926). Foreldrekoblingen bygger på dåpen til søsteren Ingrid 15.2.1920 og folketellingen 1920 for Kongsvinger, sammen med din bekreftelse av at
 2 CONC  Ingrid og Erling var søsken.
 1 FAMC @F1@
-1 FAMS @F29@
+1 FAMS @F37@
 0 @I2@ INDI
 1 NAME Margit /Wiborg/
 1 SEX F
@@ -34,7 +34,7 @@
 1 NOTE Bosatt i Oppegård, død i Lørenskog 21.6.2011, 88 år. Bekreftet av deg. Pikenavn og fødested er ennå ukjent. Hun er født etter folketellingen 1920, og dåpen hennes er trolig ikke åpen ennå. Pikenavnet 
 2 CONC kan finnes i vielsen med Erling, i avisannonser om forlovelse eller bryllup på nb.no, eller på gravsteinen.
 1 SOUR Dødsregisteret på Digitalarkivet (Døde 1951–2017), Margit Wiborg, ID pc00000003163615. Bekreftet av deg.
-1 FAMS @F29@
+1 FAMS @F37@
 0 @I3@ INDI
 1 NAME Ingrid Alvilde /Wiborg/
 1 SEX F
@@ -143,7 +143,7 @@
 1 NOTE Datter av Bolette og hennes første mann, en Danielsen, som døde 13.10.1896. Står som «Viborgs stedatter» i 1900. Hun er ikke i slekt med Torbjørn.
 1 SOUR Folketelling 1900 for Botne herred, krets 001, Nedre Gausens grund i Dunkebæk, husholdning 02 (pf01037139002150): Petter Viborg (1866, Skåne), Bolette f. Aronsen (1866, Røyken), Einar (1892), Sverre (
 2 CONC 1893) og Torbjørn (1897), stedatter Ragnhild Danielsen (1894) og Karl Aronsen (1883).
-1 FAMC @F30@
+1 FAMC @F38@
 0 @I12@ INDI
 1 NAME Petter /Viborg/
 1 SEX M
@@ -213,7 +213,7 @@
 2 CONC 5 for Røyken (pf01052125003525) og 1900 for Botne (pf01037139002150).
 1 FAMS @F5@
 1 FAMC @F7@
-1 FAMS @F30@
+1 FAMS @F38@
 0 @I15@ INDI
 1 NAME Ola Nilsson Ole Nilsen /Viborg/
 1 SEX M
@@ -652,30 +652,97 @@
 2 CONC ranskribert «forpagter jernbanekonduktør»), kone Oline Hansdatter Sterud (1844, Næs, Hedemarken) og datter Hilda Josefa Thorkildsdatter (1874, Kongsberg). Folketelling 1900 for Kråkstad (pf01037024000
 2 CONC 828).
 1 FAMS @F19@
+1 FAMC @F22@
 0 @I43@ INDI
 1 NAME John /Jensen/
 1 SEX M
 1 BIRT
-2 DATE 1813
-2 PLAC Skjefstad, Elverum
-1 NOTE Gårdbruker og selveier på Skjefstad (øvre/østre) i Elverum i 1865. Gift med Marthe Torkildsdatter. Barn døpt i Elverum: Torkild (1845), Anne (1847), Olia (1850), Martin (1855) og Anton Julius (1858). 
-2 CONC Det er altså fra ham familien har Skjefstad-navnet. Foreldrene hans er ikke koblet i registeret ennå. Født ca. 1813 i Elverum, så dåpen der gir dem.
+2 DATE 4 JUN 1813
+2 PLAC Opsal → Skjefstad, Elverum
+1 NOTE Født 4.6.1813 og døpt 20.6.1813 i Elverum, sønn av Jens Embretsen og Anne Johnsdatter på Opsal. Ungkar og gårdmannssønn fra Opsal da han giftet seg 24.4.1835 med Marte Torkelsdatter på «Sjefstad». Går
+2 CONC dbruker og selveier på Skjefstad øvre og østre i 1865. Ved sønnen Torkilds dåp i 1845 står gården som «Schulstad øvre», og han som Jon Jonsen. Skjefstad og Skjulstad er trolig samme gård med ulike skr
+2 CONC ivemåter, og det tyder på at Skjefstad-navnet kom med kona Marthe og hennes mor. Det er en tolkning. Barn døpt i Elverum: Torkild (1845), Anne (1847), Olia (1850), Martin (1855) og Anton Julius (1858)
+2 CONC .
+1 SOUR Vielse 24.4.1835, ministerialbok for Elverum 1830–1842, side 308, nr. 14 (pv00000009004443): ungkar og gårdmannssønn John Jensen (ca. 1813, Opsahl), pike og «frilledatter» Marte Torkelsdatter (ca. 181
+2 CONC 7, bosatt Sjefstad). Fedre: Jens Embretsen og Torkild Olsen.
+1 SOUR Dåp 20.6.1813, ministerialbok for Elverum 1794–1814, side 119, nr. 18 (pd00000010474677): John, født 4.6.1813, foreldre Jens Embrethsen og Anne Johnsdatter, Opsal.
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Torkild Johnsen Skjefstad (pf01038045001836), automatisk koblet fra Digitalarkivet: dåp 19.10.1845 i Elverum (pd00000039214286), født 2.10.184
 2 CONC 5, foreldre John Jensen og Marthe Torkildsdr; folketelling 1865 for Elverum, Skjefstad øvre og østre (pf01038045001836), med John Jensen, f. 1813, gårdbruker og selveier (pf01038045001832); død 30.10.
 2 CONC 1936 (pc00000004644912) og begravet i Kråkstad 5.11.1936 (pg00000003181843).
 1 FAMS @F21@
+1 FAMC @F23@
 0 @I44@ INDI
 1 NAME Marthe /Torkildsdatter/
 1 SEX F
 1 BIRT
-2 PLAC Elverum
-1 NOTE Kona til John Jensen på Skjefstad, mor til Torkild (1845) og søsknene. Farsnavnet viser at faren het Torkild, og sønnen Torkild ble trolig oppkalt etter ham. Det er en gjetning ut fra navneskikken. Fo
-2 CONC lketellingen 1865 for Elverum gir alder og fødested.
+2 DATE 20 DEC 1816
+2 PLAC Skjefstad, Elverum
+1 NOTE Født 20.12.1816 og døpt 29.12.1816 i Elverum, utenfor ekteskap. Faren var Torkild Olsen fra «Wolla», moren pigen Marthe Olsdatter på «Schiefstad». Vielsen i 1835 kaller henne «pige, frilledatter», bos
+2 CONC att på «Sjefstad». Sønnen Torkild (1845) ble oppkalt etter faren hennes.
+1 SOUR Dåp 29.12.1816, ministerialbok for Elverum 1815–1830, side 49, nr. 81 (pd00000038742797): Marthe Torkildsdatter, født 20.12.1816, far Torkild Olsen (Wolla), mor pigen Marthe Olsdatter (Schiefstad).
+1 SOUR Vielse 24.4.1835, ministerialbok for Elverum 1830–1842, side 308, nr. 14 (pv00000009004443): ungkar og gårdmannssønn John Jensen (ca. 1813, Opsahl), pike og «frilledatter» Marte Torkelsdatter (ca. 181
+2 CONC 7, bosatt Sjefstad). Fedre: Jens Embretsen og Torkild Olsen.
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Torkild Johnsen Skjefstad (pf01038045001836), automatisk koblet fra Digitalarkivet: dåp 19.10.1845 i Elverum (pd00000039214286), født 2.10.184
 2 CONC 5, foreldre John Jensen og Marthe Torkildsdr; folketelling 1865 for Elverum, Skjefstad øvre og østre (pf01038045001836), med John Jensen, f. 1813, gårdbruker og selveier (pf01038045001832); død 30.10.
 2 CONC 1936 (pc00000004644912) og begravet i Kråkstad 5.11.1936 (pg00000003181843).
 1 FAMS @F21@
+1 FAMC @F24@
 0 @I45@ INDI
+1 NAME Jens /Embretsen/
+1 SEX M
+1 BIRT
+2 PLAC Opsal, Elverum
+1 NOTE Gårdmann på Opsal i Elverum. Far til John Jensen (1813) ifølge både dåpen og vielsen. Farsnavnet viser at hans egen far het Embret. Folketellingen 1801 for Elverum kan vise ham.
+1 SOUR Dåp 20.6.1813, ministerialbok for Elverum 1794–1814, side 119, nr. 18 (pd00000010474677): John, født 4.6.1813, foreldre Jens Embrethsen og Anne Johnsdatter, Opsal.
+1 SOUR Vielse 24.4.1835, ministerialbok for Elverum 1830–1842, side 308, nr. 14 (pv00000009004443): ungkar og gårdmannssønn John Jensen (ca. 1813, Opsahl), pike og «frilledatter» Marte Torkelsdatter (ca. 181
+2 CONC 7, bosatt Sjefstad). Fedre: Jens Embretsen og Torkild Olsen.
+1 FAMS @F23@
+0 @I46@ INDI
+1 NAME Anne /Johnsdatter/
+1 SEX F
+1 BIRT
+2 PLAC Opsal, Elverum
+1 NOTE Mor til John Jensen (1813) på Opsal. Sønnen John ble trolig oppkalt etter faren hennes, John. Det er en gjetning ut fra navneskikken.
+1 SOUR Dåp 20.6.1813, ministerialbok for Elverum 1794–1814, side 119, nr. 18 (pd00000010474677): John, født 4.6.1813, foreldre Jens Embrethsen og Anne Johnsdatter, Opsal.
+1 FAMS @F23@
+0 @I47@ INDI
+1 NAME Torkild /Olsen/
+1 SEX M
+1 BIRT
+2 PLAC «Wolla», Elverum
+1 NOTE Far til Marthe Torkildsdatter (1816), som han fikk utenfor ekteskap med Marthe Olsdatter på Skjefstad. Står som bruras far i vielsen 1835. Bostedet «Wolla» er trolig Volla eller Vål i Elverum.
+1 SOUR Dåp 29.12.1816, ministerialbok for Elverum 1815–1830, side 49, nr. 81 (pd00000038742797): Marthe Torkildsdatter, født 20.12.1816, far Torkild Olsen (Wolla), mor pigen Marthe Olsdatter (Schiefstad).
+1 SOUR Vielse 24.4.1835, ministerialbok for Elverum 1830–1842, side 308, nr. 14 (pv00000009004443): ungkar og gårdmannssønn John Jensen (ca. 1813, Opsahl), pike og «frilledatter» Marte Torkelsdatter (ca. 181
+2 CONC 7, bosatt Sjefstad). Fedre: Jens Embretsen og Torkild Olsen.
+1 FAMS @F24@
+0 @I48@ INDI
+1 NAME Marthe /Olsdatter/
+1 SEX F
+1 BIRT
+2 PLAC Skjefstad, Elverum
+1 NOTE Pige på «Schiefstad» (Skjefstad) da datteren Marthe ble født i 1816. Farsnavnet viser at faren het Ole. Skjefstad-navnet i slekta kan stamme fra henne. Det er en tolkning.
+1 SOUR Dåp 29.12.1816, ministerialbok for Elverum 1815–1830, side 49, nr. 81 (pd00000038742797): Marthe Torkildsdatter, født 20.12.1816, far Torkild Olsen (Wolla), mor pigen Marthe Olsdatter (Schiefstad).
+1 FAMS @F24@
+0 @I49@ INDI
+1 NAME Hans /Paulsen/
+1 SEX M
+1 BIRT
+2 PLAC Nes, Hedmark
+1 NOTE Far til Oline (1844) ifølge både dåpen på Nes og vielsen i 1873, der han står som bruras far. Farsnavnet viser at hans egen far het Paul. «Sterud» i Olines navn er trolig en gård familien bodde på sen
+2 CONC ere.
+1 SOUR Dåp 18.8.1844, ministerialbok for Nes (Hedmark) 1827–1851, side 118, nr. 31 (pd00000037984859): Oline Hansdatter, foreldre Hans Poulsen og Kari Thorsdatter.
+1 SOUR Vielse 5.10.1873, ministerialbok for Oslo Domkirke 1865–1884, side 199, nr. 132 (pv00000004453123): Torkild Johnsen Skjefstad (f. 2.10.1845, Elverum, bosatt Kongsberg) og Oline Hansdatter (1844, Nes, 
+2 CONC Hedemarken, Rådhusgata 7). Fedre: John Jensen og Hans Paulsen.
+1 FAMS @F22@
+0 @I50@ INDI
+1 NAME Kari /Thorsdatter/
+1 SEX F
+1 BIRT
+2 PLAC Nes, Hedmark
+1 NOTE Mor til Oline Hansdatter, døpt 18.8.1844 på Nes. Farsnavnet viser at faren het Thor.
+1 SOUR Dåp 18.8.1844, ministerialbok for Nes (Hedmark) 1827–1851, side 118, nr. 31 (pd00000037984859): Oline Hansdatter, foreldre Hans Poulsen og Kari Thorsdatter.
+1 FAMS @F22@
+0 @I51@ INDI
 1 NAME Hartvig Sofus /Jakobsen/
 1 SEX M
 1 BIRT
@@ -688,8 +755,8 @@
 2 CONC en og Laura Nilsen; død 19.5.1978 (pc00000002257534). Hartvig Sofus Jakobsen (pd00000032465531): dåp 15.6.1862 i Sarpsborg (pd00000021095071), født 13.3.1862, foreldre Nils Nilssen og Inger Sorine And
 2 CONC ersdatter; vielse 27.12.1882 i Fredrikshald (pv00000005772613). Laura Kristine Nilsen (pf01037979004326): født 19.12.1859 i Fredrikshald.
 1 FAMS @F20@
-1 FAMC @F22@
-0 @I46@ INDI
+1 FAMC @F25@
+0 @I52@ INDI
 1 NAME Laura Kristine /Nilsen/
 1 SEX F
 1 BIRT
@@ -701,28 +768,100 @@
 2 CONC en og Laura Nilsen; død 19.5.1978 (pc00000002257534). Hartvig Sofus Jakobsen (pd00000032465531): dåp 15.6.1862 i Sarpsborg (pd00000021095071), født 13.3.1862, foreldre Nils Nilssen og Inger Sorine And
 2 CONC ersdatter; vielse 27.12.1882 i Fredrikshald (pv00000005772613). Laura Kristine Nilsen (pf01037979004326): født 19.12.1859 i Fredrikshald.
 1 FAMS @F20@
-0 @I47@ INDI
+1 FAMC @F26@
+0 @I53@ INDI
+1 NAME Olaus Olaves /Nilsen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1829
+2 PLAC Berg → Fredrikshald
+1 NOTE Født ca. 1829–30 i Berg sogn. Tomtearbeider i Busterudgaden i Fredrikshald i 1865, med kona og døtrene Otelie Marie (ca. 1856), Laura Kristin (1859) og Nicoline Elise (ca. 1862). Giftet seg 28.5.1855 
+2 CONC i Halden med Johanne Marie Clemetsdatter. Faren var Nils Knudsen. Laura kalles «Olavesen» etter ham i 1865 og Nilsen senere.
+1 SOUR Vielse 28.5.1855, ministerialbok for Halden 1845–1856, side 320 (pv00000009608546): Olaus Nilsen (ca. 1830, Berg) og Johanne Marie Clemetsdatter (ca. 1831, Fredrikshald). Fedre: Nils Knudsen og «Lyder
+2 CONC  Ch. Clemets.».
+1 SOUR Folketelling 1865 for Fredrikshald, Busterudgaden, husholdning 14 (pf01037979004326): tomtearbeider Olaves Nilsen (36, Berg), Johanne Marie Klemesen (35, Fredrikshald), Otelie Marie (9), Laura Kristin
+2 CONC  (7) og Nicoline Elise (3) Olavesen.
+1 FAMS @F26@
+1 FAMC @F27@
+0 @I54@ INDI
+1 NAME Johanne Marie /Clemetsdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1830
+2 PLAC Fredrikshald
+1 NOTE Født ca. 1830–31 i Fredrikshald. Giftet seg 28.5.1855 med Olaus Nilsen. Står som Johanne Marie Klemesen i tellingen 1865. Faren var Lyder Christian Clemetsen. Barnebarnet Olga (1889) var datter av Lau
+2 CONC ra.
+1 SOUR Vielse 28.5.1855, ministerialbok for Halden 1845–1856, side 320 (pv00000009608546): Olaus Nilsen (ca. 1830, Berg) og Johanne Marie Clemetsdatter (ca. 1831, Fredrikshald). Fedre: Nils Knudsen og «Lyder
+2 CONC  Ch. Clemets.».
+1 SOUR Folketelling 1865 for Fredrikshald, Busterudgaden, husholdning 14 (pf01037979004326): tomtearbeider Olaves Nilsen (36, Berg), Johanne Marie Klemesen (35, Fredrikshald), Otelie Marie (9), Laura Kristin
+2 CONC  (7) og Nicoline Elise (3) Olavesen.
+1 FAMS @F26@
+1 FAMC @F28@
+0 @I55@ INDI
+1 NAME Nils /Knudsen/
+1 SEX M
+1 BIRT
+2 PLAC Berg, Østfold
+1 NOTE Står som brudgommens far da Olaus Nilsen giftet seg i Halden i 1855. Olaus var født i Berg sogn, så familien hørte trolig hjemme der.
+1 SOUR Vielse 28.5.1855, ministerialbok for Halden 1845–1856, side 320 (pv00000009608546): Olaus Nilsen (ca. 1830, Berg) og Johanne Marie Clemetsdatter (ca. 1831, Fredrikshald). Fedre: Nils Knudsen og «Lyder
+2 CONC  Ch. Clemets.».
+1 FAMS @F27@
+0 @I56@ INDI
+1 NAME Lyder Christian /Clemetsen/
+1 SEX M
+1 BIRT
+2 PLAC Fredrikshald
+1 NOTE Står som bruras far («Lyder Ch. Clemets.») da Johanne Marie giftet seg i Halden i 1855.
+1 SOUR Vielse 28.5.1855, ministerialbok for Halden 1845–1856, side 320 (pv00000009608546): Olaus Nilsen (ca. 1830, Berg) og Johanne Marie Clemetsdatter (ca. 1831, Fredrikshald). Fedre: Nils Knudsen og «Lyder
+2 CONC  Ch. Clemets.».
+1 FAMS @F28@
+0 @I57@ INDI
 1 NAME Nils Nilsen /Jakobsen/
 1 SEX M
 1 BIRT
-2 PLAC Sarpsborg
-1 NOTE Far til Hartvig Sofus ifølge dåpen 15.6.1862 i Sarpsborg, der han står som Nils Nilssen. I sønnens vielse i 1882 kalles han Nils Jakobsen, og det er trolig derfra familienavnet Jakobsen kommer. Folket
-2 CONC ellingen 1865 for Sarpsborg, St. Mariegate, bør vise ham med familien.
+2 PLAC Østre Sarp, Tune
+1 NOTE Født på Østre Sarp i Tune. Giftet seg 24.11.1854 i Tune med Inger Sørine Andersdatter. Faren var Niels Jacobsen, og det forklarer at sønnen Hartvig og etterkommerne brukte navnet Jakobsen. Han står so
+2 CONC m Nils Nilssen ved Hartvigs dåp i 1862 og som Nils Jakobsen i Hartvigs vielse i 1882.
+1 SOUR Vielse 24.11.1854, ministerialbok for Tune 1852–1856, side 173, nr. 59 (pv00000003511091): Niels Nielsen (f. Østre Sarp) og Inger Sørine Andersdatter (ca. 1828, Fredrikstad). Fedre: Niels Jacobsen og 
+2 CONC Anders Nielsen.
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Olga Konstance Skjefstad f. Jakobsen (pf01036392011987): dåp 21.4.1889 i Sarpsborg (pd00000021761875), født 17.2.1889, foreldre Hartvig Jakobs
 2 CONC en og Laura Nilsen; død 19.5.1978 (pc00000002257534). Hartvig Sofus Jakobsen (pd00000032465531): dåp 15.6.1862 i Sarpsborg (pd00000021095071), født 13.3.1862, foreldre Nils Nilssen og Inger Sorine And
 2 CONC ersdatter; vielse 27.12.1882 i Fredrikshald (pv00000005772613). Laura Kristine Nilsen (pf01037979004326): født 19.12.1859 i Fredrikshald.
-1 FAMS @F22@
-0 @I48@ INDI
+1 FAMS @F25@
+1 FAMC @F29@
+0 @I58@ INDI
+1 NAME Niels /Jacobsen/
+1 SEX M
+1 BIRT
+2 PLAC Tune, Østfold
+1 NOTE Står som brudgommens far da Niels Nielsen giftet seg i Tune i 1854. Kilden til slektsnavnet Jakobsen. Farsnavnet viser at hans egen far het Jacob.
+1 SOUR Vielse 24.11.1854, ministerialbok for Tune 1852–1856, side 173, nr. 59 (pv00000003511091): Niels Nielsen (f. Østre Sarp) og Inger Sørine Andersdatter (ca. 1828, Fredrikstad). Fedre: Niels Jacobsen og 
+2 CONC Anders Nielsen.
+1 FAMS @F29@
+0 @I59@ INDI
 1 NAME Inger Sorine /Andersdatter/
 1 SEX F
 1 BIRT
-2 PLAC Sarpsborg
-1 NOTE Mor til Hartvig Sofus ifølge dåpen 15.6.1862 i Sarpsborg.
+2 DATE ABT 1828
+2 PLAC Fredrikstad → Sarpsborg
+1 NOTE Født ca. 1828 i Fredrikstad. Giftet seg 24.11.1854 i Tune med Niels Nielsen fra Østre Sarp. Mor til Hartvig Sofus (1862). Faren var Anders Nielsen.
+1 SOUR Vielse 24.11.1854, ministerialbok for Tune 1852–1856, side 173, nr. 59 (pv00000003511091): Niels Nielsen (f. Østre Sarp) og Inger Sørine Andersdatter (ca. 1828, Fredrikstad). Fedre: Niels Jacobsen og 
+2 CONC Anders Nielsen.
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Olga Konstance Skjefstad f. Jakobsen (pf01036392011987): dåp 21.4.1889 i Sarpsborg (pd00000021761875), født 17.2.1889, foreldre Hartvig Jakobs
 2 CONC en og Laura Nilsen; død 19.5.1978 (pc00000002257534). Hartvig Sofus Jakobsen (pd00000032465531): dåp 15.6.1862 i Sarpsborg (pd00000021095071), født 13.3.1862, foreldre Nils Nilssen og Inger Sorine And
 2 CONC ersdatter; vielse 27.12.1882 i Fredrikshald (pv00000005772613). Laura Kristine Nilsen (pf01037979004326): født 19.12.1859 i Fredrikshald.
-1 FAMS @F22@
-0 @I49@ INDI
+1 FAMS @F25@
+1 FAMC @F30@
+0 @I60@ INDI
+1 NAME Anders /Nielsen/
+1 SEX M
+1 BIRT
+2 PLAC Fredrikstad?
+1 NOTE Står som bruras far da Inger Sørine giftet seg i Tune i 1854.
+1 SOUR Vielse 24.11.1854, ministerialbok for Tune 1852–1856, side 173, nr. 59 (pv00000003511091): Niels Nielsen (f. Østre Sarp) og Inger Sørine Andersdatter (ca. 1828, Fredrikstad). Fedre: Niels Jacobsen og 
+2 CONC Anders Nielsen.
+1 FAMS @F30@
+0 @I61@ INDI
 1 NAME Elsa Solveig /Thilesen/
 1 SEX F
 1 BIRT
@@ -733,7 +872,7 @@
 1 NOTE Bekreftet av deg: søster av Egil. Bodde i 1920 med foreldrene Olav Ragnvald og Evina Anonsen i Thor Olsens gate 10.
 1 SOUR Folketelling 1920 for Kristiania, krets 469, Thor Olsens gate 10, leilighet 14 (pf01073701277826).
 1 FAMC @F16@
-0 @I50@ INDI
+0 @I62@ INDI
 1 NAME Odd Øivind /Anonsen/
 1 SEX M
 1 BIRT
@@ -742,7 +881,7 @@
 1 NOTE Eldste barn av Olav Ragnvald og Evina Anonsen.
 1 SOUR Folketelling 1920 for Kristiania, krets 469, Thor Olsens gate 10, leilighet 14 (pf01073701277826).
 1 FAMC @F16@
-0 @I51@ INDI
+0 @I63@ INDI
 1 NAME Olaf Ragnvald /Anonsen/
 1 SEX M
 1 BIRT
@@ -753,8 +892,8 @@
 1 SOUR Vielse 6.12.1914, ministerialbok for Fagerborg 1898–1916, side 125, nr. 103 (pv00000004937540), lest fra skannet side: brudgommens far «Gaardskarl Anon Andersen», brudens far «Selveier Martin Olsen». 
 2 CONC Folketelling 1920 for Kristiania.
 1 FAMS @F16@
-1 FAMC @F23@
-0 @I52@ INDI
+1 FAMC @F31@
+0 @I64@ INDI
 1 NAME Evina /Anonsen/
 1 SEX F
 1 BIRT
@@ -770,56 +909,98 @@
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Evina Anonsen f. Martinsdatter (pf01052728003561): konfirmasjon 1904 i Romedal med foreldrene Martin Olsen og Else Kristensdatter (pk000000016
 2 CONC 50018); død 10.9.1974 i Oslo (pc00000002189495).
 1 FAMS @F16@
-1 FAMC @F24@
-0 @I53@ INDI
+1 FAMC @F32@
+0 @I65@ INDI
 1 NAME Anon /Andersen/
 1 SEX M
 1 BIRT
-2 DATE BET 1833 AND 1834
-2 PLAC Skjeberg → Fredrikstad
-1 NOTE Gårdsgutt og gårdskarl, sønn av Anders Eriksen. Giftet seg med Karen Regine Johannesdatter 1.5.1881, da bosatt på Løkkeberg, trolig i Skjeberg. Det var hans andre ekteskap: de tre eldste sønnene er fø
-2 CONC dt i Sarpsborg 1867–1874. Bodde i 1885 på Apenesberget i Vestre Fredrikstad med Karen Regine og barn fra begge ekteskapene. Karen står som enke i 1900. Både vielsen 1881 og nettutskriften av vielsen i
-2 CONC  1914 har navnet hans som Aron, men den skannede siden fra 1914 viser Anon.
+2 DATE 26 APR 1834
+2 PLAC Vik søndre, Skjeberg → Fredrikstad
+1 NOTE Født 26.4.1834 og døpt 18.5.1834 i Skjeberg som Amund (Anund/Anon), sønn av gårdmann Anders Eriksen og Maria Andersdatter på Vik søndre. Første ekteskap var med Ingeborg Andersdatter (f. ca. 1838 i Li
+2 CONC er). I 1865 var de husmannsfolk med jord på Grasto nordre i Skjeberg, med barna Harda (ca. 1863) og Edvard Martinius (døpt 16.7.1865). Fadderne ved Edvards dåp var Anders Eriksen og Anon-søsknene Syve
+2 CONC r, Ole, Maria og Johanne på Vik. Det knytter Anon på Grasto sikkert til familien på Vik. Gårdsgutt og gårdskarl. Giftet seg med Karen Regine Johannesdatter 1.5.1881, da bosatt på Løkkeberg, trolig i S
+2 CONC kjeberg. Det var hans andre ekteskap: de tre eldste sønnene er født i Sarpsborg 1867–1874. Bodde i 1885 på Apenesberget i Vestre Fredrikstad med Karen Regine og barn fra begge ekteskapene. Karen står 
+2 CONC som enke i 1900. Både vielsen 1881 og nettutskriften av vielsen i 1914 har navnet hans som Aron, men den skannede siden fra 1914 viser Anon.
 1 SOUR Vielse 1.5.1881, Digitalarkivet pv00000004981134, side 587, nr. 25, som du fant: brudgom «Aron» Andersen (1834, Skeberg, bosatt Løkeberg), brud Karen Regine Johannesdtr. (1855, Vartig), brudgommens fa
-2 CONC r Anders Eriksen, bruras far Johannes Hakonsen. Vielsesdatoen står som «05-01» (måned-dag, samme format som vielsen 1899). Folketelling 1885 for Fredrikstad (pf01053251004875) og 1900 for Fredrikstad 
-2 CONC (pf01036995004153).
-1 FAMS @F23@
-1 FAMC @F25@
-0 @I54@ INDI
+2 CONC r Anders Eriksen, bruras far transkribert «Johannes Hakonsen», men den skannede siden viser «Gaardbruger Johannes Isaksen». Brudgommen er «Anon Andersen, Gaardsgut, Løkkeberg», født 1834 i Skjeberg, k
+2 CONC onfirmert der i 1849, gift for andre gang. Vielsesdatoen står som «05-01» (måned-dag, samme format som vielsen 1899). Folketelling 1885 for Fredrikstad (pf01053251004875) og 1900 for Fredrikstad (pf01
+2 CONC 036995004153).
+1 SOUR Dåp 18.5.1834, ministerialbok for Skjeberg 1830–1845, side 44, nr. 61 (pd00000015368832): Amund Andersen, født 26.4.1834, foreldre gårdmann Anders Eriksen og Maria Andersdatter, Wiig søndre. Broren Er
+2 CONC ik er døpt 8.4.1832 med samme foreldre (pd00000015366336).
+1 SOUR Folketelling 1865 for Skjeberg, Grasto nordre (plass) (pf01037986002369): husmann med jord Anon Andersen (31, Skjeberg), Ingeborg Andersdatter (27, Lier), Harda M. (2) og Edevard (1). Dåp av Edvard Ma
+2 CONC rtinius 16.7.1865 (pd00000010514625) med faddere Anders Eriksen, Syver, Ole, Maria og Johanne Andersen, alle på Vik.
+1 FAMS @F31@
+1 FAMC @F33@
+0 @I66@ INDI
 1 NAME Karen Regine /Johannesen/
 1 SEX F
 1 BIRT
-2 DATE BET 1854 AND 1855
-2 PLAC Varteig
-1 NOTE Datter av Johannes Hakonsen, født i Varteig. Giftet seg med enkemannen Anon Andersen 1.5.1881 i Fredrikstad. Står som Karen Regine Johanessen i 1885, og som Karen Rigine Andersen (gift navn) i 1900, d
-2 CONC a vaskekone og enke i Nygaardsgata i Fredrikstad.
+2 DATE 12 JUN 1855
+2 PLAC Kultorp, Varteig
+1 NOTE Født 12.6.1855 og døpt 8.7.1855 (ført i Tune-boka) som datter av inderst Johannes Isaksen og Elen Gundersdatter på Kultorp i Varteig. Bodde hjemme på Kultorp i 1865. Vielsen i 1881 er transkribert «Jo
+2 CONC hannes Hakonsen», men den skannede siden viser «Gaardbruger Johannes Isaksen». Datter av Johannes Isaksen, født i Varteig. Giftet seg med enkemannen Anon Andersen 1.5.1881 i Fredrikstad. Står som Kare
+2 CONC n Regine Johanessen i 1885, og som Karen Rigine Andersen (gift navn) i 1900, da vaskekone og enke i Nygaardsgata i Fredrikstad.
 1 SOUR Vielse 1.5.1881, Digitalarkivet pv00000004981134, side 587, nr. 25, som du fant: brudgom «Aron» Andersen (1834, Skeberg, bosatt Løkeberg), brud Karen Regine Johannesdtr. (1855, Vartig), brudgommens fa
-2 CONC r Anders Eriksen, bruras far Johannes Hakonsen. Vielsesdatoen står som «05-01» (måned-dag, samme format som vielsen 1899). Folketelling 1885 for Fredrikstad (pf01053251004875) og 1900 for Fredrikstad 
-2 CONC (pf01036995004153).
-1 FAMS @F23@
-1 FAMC @F26@
-0 @I55@ INDI
+2 CONC r Anders Eriksen, bruras far transkribert «Johannes Hakonsen», men den skannede siden viser «Gaardbruger Johannes Isaksen». Brudgommen er «Anon Andersen, Gaardsgut, Løkkeberg», født 1834 i Skjeberg, k
+2 CONC onfirmert der i 1849, gift for andre gang. Vielsesdatoen står som «05-01» (måned-dag, samme format som vielsen 1899). Folketelling 1885 for Fredrikstad (pf01053251004875) og 1900 for Fredrikstad (pf01
+2 CONC 036995004153).
+1 SOUR Dåp 8.7.1855, ministerialbok for Tune 1852–1856, side 96, nr. 195 (pd00000018970108): Karen Regine («Kegine»), født 12.6.1855, foreldre inderst Johannes Isaksen og Elen Gundersdatter, Kultorp.
+1 SOUR Folketelling 1865 for Varteig, Kultorp (pf01037985001061): Johannes Isaksen (34, Varteig, gårdbruker og selveier), Elen M. Gundersdatter (43, Tune), Karen R. (11), Iver (8), Gunder (5), Edvard (3) og 
+2 CONC Oline M. (3).
+1 FAMS @F31@
+1 FAMC @F34@
+0 @I67@ INDI
 1 NAME Anders /Eriksen/
 1 SEX M
 1 BIRT
-2 PLAC Skjeberg
-1 NOTE Står som brudgommens far da Anon giftet seg i 1881. Farsnavnet viser at hans egen far het Erik. Anon ble født i Skjeberg ca. 1833–34, så dåpen der gir også morens navn.
+2 PLAC Vik søndre, Skjeberg
+1 NOTE Gårdmann på Vik (Wiig) søndre i Skjeberg, gift med Maria Andersdatter. Far til Erik (1832) og Amund/Anon (1834). Står som brudgommens far i Anons vielse i 1881, og var fadder for Anons sønn Edvard i 1
+2 CONC 865. Farsnavnet viser at hans egen far het Erik.
+1 SOUR Dåp 18.5.1834, ministerialbok for Skjeberg 1830–1845, side 44, nr. 61 (pd00000015368832): Amund Andersen, født 26.4.1834, foreldre gårdmann Anders Eriksen og Maria Andersdatter, Wiig søndre. Broren Er
+2 CONC ik er døpt 8.4.1832 med samme foreldre (pd00000015366336).
 1 SOUR Vielse 1.5.1881, Digitalarkivet pv00000004981134, side 587, nr. 25, som du fant: brudgom «Aron» Andersen (1834, Skeberg, bosatt Løkeberg), brud Karen Regine Johannesdtr. (1855, Vartig), brudgommens fa
-2 CONC r Anders Eriksen, bruras far Johannes Hakonsen. Vielsesdatoen står som «05-01» (måned-dag, samme format som vielsen 1899). Folketelling 1885 for Fredrikstad (pf01053251004875) og 1900 for Fredrikstad 
-2 CONC (pf01036995004153).
-1 FAMS @F25@
-0 @I56@ INDI
-1 NAME Johannes /Hakonsen/
+2 CONC r Anders Eriksen, bruras far transkribert «Johannes Hakonsen», men den skannede siden viser «Gaardbruger Johannes Isaksen». Brudgommen er «Anon Andersen, Gaardsgut, Løkkeberg», født 1834 i Skjeberg, k
+2 CONC onfirmert der i 1849, gift for andre gang. Vielsesdatoen står som «05-01» (måned-dag, samme format som vielsen 1899). Folketelling 1885 for Fredrikstad (pf01053251004875) og 1900 for Fredrikstad (pf01
+2 CONC 036995004153).
+1 FAMS @F33@
+0 @I68@ INDI
+1 NAME Maria /Andersdatter/
+1 SEX F
+1 BIRT
+2 PLAC Vik søndre, Skjeberg
+1 NOTE Kona til gårdmann Anders Eriksen på Vik (Wiig) søndre i Skjeberg. Mor til Erik (1832) og Amund/Anon (1834), og trolig også Syver, Ole, Maria og Johanne, som var faddere for Anons sønn i 1865. Farsnavn
+2 CONC et viser at faren het Anders.
+1 SOUR Dåp 18.5.1834, ministerialbok for Skjeberg 1830–1845, side 44, nr. 61 (pd00000015368832): Amund Andersen, født 26.4.1834, foreldre gårdmann Anders Eriksen og Maria Andersdatter, Wiig søndre. Broren Er
+2 CONC ik er døpt 8.4.1832 med samme foreldre (pd00000015366336).
+1 FAMS @F33@
+0 @I69@ INDI
+1 NAME Johannes /Isaksen/
 1 SEX M
 1 BIRT
-2 PLAC Varteig?
-1 NOTE Står som bruras far da Karen Regine giftet seg i 1881. Karen ble født i Varteig i 1854–55. Hun bør stå som 10–11-åring hos ham i folketellingen 1865, trolig i Varteig eller Tune. Kandidaten Karen M. J
-2 CONC ohanesdatter på Skauge nordre i Tune i 1865 passer bare hvis faren der heter Johannes Hakonsen.
+2 DATE ABT 1831
+2 PLAC Kultorp, Varteig
+1 NOTE Født ca. 1831 i Varteig. Inderst på Kultorp i 1855, og gårdbruker, selveier og lensearbeider samme sted i 1865, med kona Elen M. Gundersdatter og barna Karen R. (1855), Iver, Gunder, Edvard og Oline. 
+2 CONC Står som «Gaardbruger Johannes Isaksen» i datterens vielse i 1881. Transkripsjonen «Johannes Hakonsen» er feil. Farsnavnet viser at faren het Isak.
 1 SOUR Vielse 1.5.1881, Digitalarkivet pv00000004981134, side 587, nr. 25, som du fant: brudgom «Aron» Andersen (1834, Skeberg, bosatt Løkeberg), brud Karen Regine Johannesdtr. (1855, Vartig), brudgommens fa
-2 CONC r Anders Eriksen, bruras far Johannes Hakonsen. Vielsesdatoen står som «05-01» (måned-dag, samme format som vielsen 1899). Folketelling 1885 for Fredrikstad (pf01053251004875) og 1900 for Fredrikstad 
-2 CONC (pf01036995004153).
-1 FAMS @F26@
-0 @I57@ INDI
+2 CONC r Anders Eriksen, bruras far transkribert «Johannes Hakonsen», men den skannede siden viser «Gaardbruger Johannes Isaksen». Brudgommen er «Anon Andersen, Gaardsgut, Løkkeberg», født 1834 i Skjeberg, k
+2 CONC onfirmert der i 1849, gift for andre gang. Vielsesdatoen står som «05-01» (måned-dag, samme format som vielsen 1899). Folketelling 1885 for Fredrikstad (pf01053251004875) og 1900 for Fredrikstad (pf01
+2 CONC 036995004153).
+1 SOUR Dåp 8.7.1855, ministerialbok for Tune 1852–1856, side 96, nr. 195 (pd00000018970108): Karen Regine («Kegine»), født 12.6.1855, foreldre inderst Johannes Isaksen og Elen Gundersdatter, Kultorp.
+1 SOUR Folketelling 1865 for Varteig, Kultorp (pf01037985001061): Johannes Isaksen (34, Varteig, gårdbruker og selveier), Elen M. Gundersdatter (43, Tune), Karen R. (11), Iver (8), Gunder (5), Edvard (3) og 
+2 CONC Oline M. (3).
+1 FAMS @F34@
+0 @I70@ INDI
+1 NAME Elen M. /Gundersdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1822
+2 PLAC Tune → Varteig
+1 NOTE Født ca. 1822 i Tune. Kona til Johannes Isaksen på Kultorp i Varteig, og mor til Karen Regine (1855) og fire yngre barn. Sønnen Gunder ble trolig oppkalt etter faren hennes, Gunder.
+1 SOUR Dåp 8.7.1855, ministerialbok for Tune 1852–1856, side 96, nr. 195 (pd00000018970108): Karen Regine («Kegine»), født 12.6.1855, foreldre inderst Johannes Isaksen og Elen Gundersdatter, Kultorp.
+1 SOUR Folketelling 1865 for Varteig, Kultorp (pf01037985001061): Johannes Isaksen (34, Varteig, gårdbruker og selveier), Elen M. Gundersdatter (43, Tune), Karen R. (11), Iver (8), Gunder (5), Edvard (3) og 
+2 CONC Oline M. (3).
+1 FAMS @F34@
+0 @I71@ INDI
 1 NAME Martin /Olsen/
 1 SEX M
 1 BIRT
@@ -827,9 +1008,9 @@
 2 PLAC Stuberudstuen, Romedal
 1 NOTE Gårdbruker og selveier på Stuberudstuen i Romedal. Bekreftet som far til oldemor Evina i vielsen 1914. Bodde på samme gård som 17-åring i 1865.
 1 SOUR Folketelling 1900 for Romedal herred, krets 009, Stuberudstuen (pf01037053003696), og vielsen 6.12.1914.
-1 FAMS @F24@
-1 FAMC @F27@
-0 @I58@ INDI
+1 FAMS @F32@
+1 FAMC @F35@
+0 @I72@ INDI
 1 NAME Else /Kristensdatter/
 1 SEX F
 1 BIRT
@@ -842,9 +1023,9 @@
 1 SOUR Folketelling 1900 for Romedal herred, krets 009, Stuberudstuen (pf01037053003696), og vielsen 6.12.1914.
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Else Kristensdatter (pd00000028522312): dåp 17.11.1861 i Romedal, født 29.8.1861, foreldre Christen Nielsen og Evine Pedersdtr.; folketelling 
 2 CONC 1865, Sæthersbakken (pf01038034002957); død april 1954 (pc00000001385212).
-1 FAMS @F24@
-1 FAMC @F28@
-0 @I59@ INDI
+1 FAMS @F32@
+1 FAMC @F36@
+0 @I73@ INDI
 1 NAME Ole /Olsen/
 1 SEX M
 1 BIRT
@@ -852,8 +1033,8 @@
 2 PLAC Stuberudstuen, Romedal
 1 NOTE Gårdbruker og selveier på Stuberudstuen i 1865. Farsnavnet tyder på at faren også het Ole. Mons Olsen (f. ca. 1820), bortsatt fattiglem på gården, kan være en bror.
 1 SOUR Folketelling 1865 for Romedal prestegjeld, krets 006 Mælum, Strubrudstuen (pf01038034004975).
-1 FAMS @F27@
-0 @I60@ INDI
+1 FAMS @F35@
+0 @I74@ INDI
 1 NAME Berte /Larsdatter/
 1 SEX F
 1 BIRT
@@ -861,8 +1042,8 @@
 2 PLAC Romedal
 1 NOTE Kona til Ole Olsen på Stuberudstuen. Faren het trolig Lars.
 1 SOUR Folketelling 1865 for Romedal prestegjeld, krets 006 Mælum, Strubrudstuen (pf01038034004975).
-1 FAMS @F27@
-0 @I61@ INDI
+1 FAMS @F35@
+0 @I75@ INDI
 1 NAME Christen /Nilsen/
 1 SEX M
 1 BIRT
@@ -871,8 +1052,8 @@
 1 NOTE Husmann med jord og tømmermann på Sæthersbakken i Romedal i 1865. Født i Gudbrandsdalen. Faren het trolig Nils. Barn i 1865: Anne (ca. 1854), Peder (ca. 1856), Nils (ca. 1858), Else (ca. 1861) og Chri
 2 CONC stian (ca. 1862).
 1 SOUR Folketelling 1865 for Romedal prestegjeld, krets 004 Brunstad, Sæthersbakken (pf01038034002957). Koblingen til Else Kristensdatter bygger på navn, alder, sted og oppkalling, ikke på kirkebok.
-1 FAMS @F28@
-0 @I62@ INDI
+1 FAMS @F36@
+0 @I76@ INDI
 1 NAME Evine /Pedersdatter/
 1 SEX F
 1 BIRT
@@ -880,7 +1061,7 @@
 2 PLAC Romedal
 1 NOTE Kona til Christen Nilsen. Faren het trolig Peder. Navnet hennes er hintet som kobler familien til Stuberudstuen: Evina Martinsdatter ble trolig oppkalt etter henne.
 1 SOUR Folketelling 1865 for Romedal prestegjeld, krets 004 Brunstad, Sæthersbakken (pf01038034002957). Koblingen til Else Kristensdatter bygger på navn, alder, sted og oppkalling, ikke på kirkebok.
-1 FAMS @F28@
+1 FAMS @F36@
 0 @F1@ FAM
 1 HUSB @I4@
 1 WIFE @I5@
@@ -945,11 +1126,11 @@
 1 WIFE @I36@
 1 CHIL @I32@
 0 @F16@ FAM
-1 HUSB @I51@
-1 WIFE @I52@
+1 HUSB @I63@
+1 WIFE @I64@
 1 CHIL @I37@
-1 CHIL @I50@
-1 CHIL @I49@
+1 CHIL @I62@
+1 CHIL @I61@
 0 @F17@ FAM
 1 HUSB @I37@
 1 WIFE @I38@
@@ -962,43 +1143,73 @@
 1 WIFE @I42@
 1 CHIL @I39@
 0 @F20@ FAM
-1 HUSB @I45@
-1 WIFE @I46@
+1 HUSB @I51@
+1 WIFE @I52@
 1 CHIL @I40@
 0 @F21@ FAM
 1 HUSB @I43@
 1 WIFE @I44@
 1 CHIL @I41@
 0 @F22@ FAM
+1 HUSB @I49@
+1 WIFE @I50@
+1 CHIL @I42@
+0 @F23@ FAM
+1 HUSB @I45@
+1 WIFE @I46@
+1 CHIL @I43@
+0 @F24@ FAM
 1 HUSB @I47@
 1 WIFE @I48@
-1 CHIL @I45@
-0 @F23@ FAM
+1 CHIL @I44@
+0 @F25@ FAM
+1 HUSB @I57@
+1 WIFE @I59@
+1 CHIL @I51@
+0 @F26@ FAM
 1 HUSB @I53@
 1 WIFE @I54@
-1 CHIL @I51@
-0 @F24@ FAM
-1 HUSB @I57@
-1 WIFE @I58@
 1 CHIL @I52@
-0 @F25@ FAM
+0 @F27@ FAM
 1 HUSB @I55@
 1 CHIL @I53@
-0 @F26@ FAM
+0 @F28@ FAM
 1 HUSB @I56@
 1 CHIL @I54@
-0 @F27@ FAM
-1 HUSB @I59@
-1 WIFE @I60@
-1 CHIL @I57@
-0 @F28@ FAM
-1 HUSB @I61@
-1 WIFE @I62@
-1 CHIL @I58@
 0 @F29@ FAM
+1 HUSB @I58@
+1 CHIL @I57@
+0 @F30@ FAM
+1 HUSB @I60@
+1 CHIL @I59@
+0 @F31@ FAM
+1 HUSB @I65@
+1 WIFE @I66@
+1 CHIL @I63@
+0 @F32@ FAM
+1 HUSB @I71@
+1 WIFE @I72@
+1 CHIL @I64@
+0 @F33@ FAM
+1 HUSB @I67@
+1 WIFE @I68@
+1 CHIL @I65@
+0 @F34@ FAM
+1 HUSB @I69@
+1 WIFE @I70@
+1 CHIL @I66@
+0 @F35@ FAM
+1 HUSB @I73@
+1 WIFE @I74@
+1 CHIL @I71@
+0 @F36@ FAM
+1 HUSB @I75@
+1 WIFE @I76@
+1 CHIL @I72@
+0 @F37@ FAM
 1 HUSB @I1@
 1 WIFE @I2@
-0 @F30@ FAM
+0 @F38@ FAM
 1 WIFE @I14@
 1 CHIL @I11@
 0 TRLR
