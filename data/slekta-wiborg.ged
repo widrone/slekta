@@ -22,7 +22,7 @@
 1 SOUR Datoer fra dødsregisteret på Digitalarkivet (pc00000002923926). Foreldrekoblingen bygger på dåpen til søsteren Ingrid 15.2.1920 og folketellingen 1920 for Kongsvinger, sammen med din bekreftelse av at
 2 CONC  Ingrid og Erling var søsken.
 1 FAMC @F1@
-1 FAMS @F28@
+1 FAMS @F29@
 0 @I2@ INDI
 1 NAME Margit /Wiborg/
 1 SEX F
@@ -34,7 +34,7 @@
 1 NOTE Bosatt i Oppegård, død i Lørenskog 21.6.2011, 88 år. Bekreftet av deg. Pikenavn og fødested er ennå ukjent. Hun er født etter folketellingen 1920, og dåpen hennes er trolig ikke åpen ennå. Pikenavnet 
 2 CONC kan finnes i vielsen med Erling, i avisannonser om forlovelse eller bryllup på nb.no, eller på gravsteinen.
 1 SOUR Dødsregisteret på Digitalarkivet (Døde 1951–2017), Margit Wiborg, ID pc00000003163615. Bekreftet av deg.
-1 FAMS @F28@
+1 FAMS @F29@
 0 @I3@ INDI
 1 NAME Ingrid Alvilde /Wiborg/
 1 SEX F
@@ -143,7 +143,7 @@
 1 NOTE Datter av Bolette og hennes første mann, en Danielsen, som døde 13.10.1896. Står som «Viborgs stedatter» i 1900. Hun er ikke i slekt med Torbjørn.
 1 SOUR Folketelling 1900 for Botne herred, krets 001, Nedre Gausens grund i Dunkebæk, husholdning 02 (pf01037139002150): Petter Viborg (1866, Skåne), Bolette f. Aronsen (1866, Røyken), Einar (1892), Sverre (
 2 CONC 1893) og Torbjørn (1897), stedatter Ragnhild Danielsen (1894) og Karl Aronsen (1883).
-1 FAMC @F29@
+1 FAMC @F30@
 0 @I12@ INDI
 1 NAME Petter /Viborg/
 1 SEX M
@@ -151,19 +151,20 @@
 2 DATE 18 OCT 1867
 2 PLAC Bromma, Skåne
 1 NOTE Født 18.10.1867 og døpt 27.10.1867 i Bromma församling ved Ystad som Per, sønn av inhysesman Ola Nilsson og hustru Kerstin Jönsdotter. Faddere: husman Nils Håkansson og hustru Hanna Jönsdotter i Hedes
-2 CONC koga, og dreng Nils Jönsson. Den norske indeksen hadde 17.10. Husförhörslängden 1861–1868 viser familien med Per og de eldre søsknene Nils (1864) og Inga (1866). Viborg-navnet står ikke i de svenske b
-2 CONC økene, så det ble tatt i bruk senere, kanskje i Norge. Konfirmert i Bromma i Malmöhus län, rett ved Ystad, så han vokste trolig opp der. Faren var bakermester Ole Nilsen Viborg, så Petter het egentlig
-2 CONC  Peder (Per) Olsen, eller Olsson på svensk, og Wiborg-navnet hadde han etter faren. Var gift to ganger. Første gang 29.8.1891 i Barbu ved Arendal med Agnes Borgersen fra Kristiania, som Peter Olssen V
-2 CONC eberg, vognmaker på Myrene, født i «Sverige, Bromma Sn.». Det var en borgerlig vielse ved sorenskriveren i Nedenes. Slike vielser var for dissentere, så minst én av dem sto trolig utenfor statskirken.
-2 CONC  Kanskje er det derfor Sverres dåp mangler. Hun døde 30.5.1899, og var mor til Einar, Sverre, Sigurd og Torbjørn. I Kristiania kalte han seg vekselvis Per Olsen Viberg, Peter Viberg og Petter Vibey. H
-2 CONC an giftet seg igjen 2.12.1899 med enken Bolette Danielsen, født Aronsdatter, da bosatt i Nordbygata 58 i Kristiania. Bodde i 1900 på Nedre Gausens grunn i Dunkebæk i Botne ved Holmestrand. Petter er e
-2 CONC n form av Peder, og det forklarer at sønnen het Torbjørn Pedersen.
+2 CONC koga, og dreng Nils Jönsson. Den norske indeksen hadde 17.10. Husförhörslängden 1861–1868 viser familien med Per og de eldre søsknene Nils (1863) og Inga (1866). Foreldrene kom fra Ystad S:t Petri til
+2 CONC  Appeltorp nr. 5 i Spjutstorp i november 1863, og flyttet derfra til Bromma i 1865. Viborg-navnet står ikke i de svenske bøkene, så det ble tatt i bruk senere, kanskje i Norge. Konfirmert i Bromma i M
+2 CONC almöhus län, rett ved Ystad, så han vokste trolig opp der. Faren var bakermester Ole Nilsen Viborg, så Petter het egentlig Peder (Per) Olsen, eller Olsson på svensk, og Wiborg-navnet hadde han etter f
+2 CONC aren. Var gift to ganger. Første gang 29.8.1891 i Barbu ved Arendal med Agnes Borgersen fra Kristiania, som Peter Olssen Veberg, vognmaker på Myrene, født i «Sverige, Bromma Sn.». Det var en borgerlig
+2 CONC  vielse ved sorenskriveren i Nedenes. Slike vielser var for dissentere, så minst én av dem sto trolig utenfor statskirken. Kanskje er det derfor Sverres dåp mangler. Hun døde 30.5.1899, og var mor til
+2 CONC  Einar, Sverre, Sigurd og Torbjørn. I Kristiania kalte han seg vekselvis Per Olsen Viberg, Peter Viberg og Petter Vibey. Han giftet seg igjen 2.12.1899 med enken Bolette Danielsen, født Aronsdatter, d
+2 CONC a bosatt i Nordbygata 58 i Kristiania. Bodde i 1900 på Nedre Gausens grunn i Dunkebæk i Botne ved Holmestrand. Petter er en form av Peder, og det forklarer at sønnen het Torbjørn Pedersen.
 1 SOUR Vielse 2.12.1899, Digitalarkivet pv00000004400227, side 215, nr. 222, lest fra skannet side: brudgom Petter Viborg, hjulmakersvenn, Nordbygd. 58, født i Sverige 1867, konfirmert i Bromma i Malmöhus lä
 2 CONC n; brud Bolette Danielsen f. Aronsdtr., uten stilling, født i Røken 1866. Begge gift for andre gang: brudgommens første kone døde 30.5.99 og brudens første mann 13.10.96, med skifte i Kristiania skift
 2 CONC erett 24.11.99. Fedre: «bagermester Ole Nilsen Viborg» og «hsm. Aron Olsen, Frydenlund». Forlovere: Anton Aronsen, Follestad i Røken, og en Martinsen(?) i Nordbygd. 58. Lysning 26.11. Folketelling 187
 2 CONC 5 for Røyken (pf01052125003525) og 1900 for Botne (pf01037139002150).
-1 SOUR Husförhörslängd for Bromma 1861–1868, A I/7, side 134, bild 137, Riksarkivet (C0064223_00137), lest fra skannet side: husm. Ola Nilsson (12.2.1842), h. Kerstin Jönsdotter (17.5.1839), s. Nils (6.11.18
-2 CONC 64), d. Inga (12.1.1866) og s. Per (oktober 1867). Fødested for foreldrene og Nils skrevet «Spjutst.». Innflyttet fra side 100 i 1866.
+1 SOUR Husförhörslängd for Bromma 1861–1868, A I/7, side 134, bild 137, Riksarkivet (C0064223_00137), lest fra skannet side: husm. Ola Nilsson (lest som 12.2.1842, men Spjutstorp-boka gir 18.2.1832), h. Kers
+2 CONC tin Jönsdotter (17.5.1839), s. Nils (lest som 6.11.1864, men dåpen gir 26.11.1863), d. Inga (12.1.1866) og s. Per (oktober 1867). Fødested for foreldrene og Nils skrevet «Spjutst.». Innflyttet fra sid
+2 CONC e 100 i 1866.
 1 SOUR Vielse 29.8.1891, ministerialbok for Barbu 1883–1898, side 39 (pv00000010993303): brudgom Peter Olssen Veberg (1867, vognmaker, Myrene, født «Sverige, Bromma Sn.»), brud Agnes Borgerssen (1868, Kristi
 2 CONC ania, Sagene). Lest fra skannet side: merknaden sier at de ble «borgerligt viede» av sorenskriveren i Nedenes, ifølge attest av 29.8.1891. Fedrene er ikke oppgitt.
 1 SOUR Vielse 2.12.1899, ministerialbok for Trefoldighet 1891–1900, side 226 (pv00000004759317): Petter Viborg, f. 17.10.1867 i «Broma Fossenby Malmshus Lan» ifølge søkeindeksen, og Bolette Danielsen. Brudgo
@@ -212,17 +213,20 @@
 2 CONC 5 for Røyken (pf01052125003525) og 1900 for Botne (pf01037139002150).
 1 FAMS @F5@
 1 FAMC @F7@
-1 FAMS @F29@
+1 FAMS @F30@
 0 @I15@ INDI
 1 NAME Ola Nilsson Ole Nilsen /Viborg/
 1 SEX M
 1 BIRT
-2 DATE 12 FEB 1842
-2 PLAC Bromma, Skåne
-1 NOTE Født 12.2.1842 ifølge husförhörslängden for Bromma 1861–1868, der han er inhysesman med hustru Kerstin Jönsdotter og barna Nils, Inga og Per. Fødestedet er skrevet «Spjutst.», trolig Spjutstorp, men d
-2 CONC åpen er ikke funnet i Spjutstorps digitaliserte bøker: januar–februar 1842 mangler der. Familien flyttet internt i Bromma i 1866. I vielsen til Petter i 1899 står han som «bagermester Ole Nilsen Vibor
-2 CONC g». Farsnavnet viser at hans egen far het Nils, og på svensk het han trolig Ola Nilsson. Han var inhysesman, altså jordløs losjerende, i 1867, så bakermester kan være en senere tittel eller en overdri
-2 CONC velse. Viborg-navnet står ikke i de svenske bøkene fra 1860-tallet. Det kan være tatt senere, kanskje av sønnen i Norge. Det er en gjetning.
+2 DATE 18 FEB 1832
+2 PLAC Spjutstorp → Ystad → Bromma, Skåne
+1 NOTE Født 18.2.1832 i Spjutstorp ifølge husförhörslängden for Spjutstorp 1861–1865. Jeg leste først 12.2.1842 i Bromma-boka, men Spjutstorp-boka er tydelig, og alderen passer bedre. Han kom fra Simrishamn 
+2 CONC til Ystad S:t Petri i 1862, og var dreng i hus nr. 233 der. Församlingslängden for Ystad gir også født 18.2.1832 i Spjutstorp, så to uavhengige kilder er enige. Han flyttet med kona fra Ystad 28.10.18
+2 CONC 63, med attest til Spjutstorp, og ble husmann på Appeltorp nr. 5, der sønnen Nils ble født 26.11.1863. I 1865 flyttet familien til Bromma, der han var inhysesman i 1867. Dåpen er likevel ikke funnet i
+2 CONC  Spjutstorps födelsebok for februar 1830–1834. Han kan være født utenfor ekteskap og ført et annet sted, eller døpt i et nabosogn. Han var dreng og husmann, ikke baker, så «bagermester» i 1899 er trol
+2 CONC ig en senere tittel eller pynting. I vielsen til Petter i 1899 står han som «bagermester Ole Nilsen Viborg». Farsnavnet viser at hans egen far het Nils, og på svensk het han trolig Ola Nilsson. Han va
+2 CONC r inhysesman, altså jordløs losjerende, i 1867, så bakermester kan være en senere tittel eller en overdrivelse. Viborg-navnet står ikke i de svenske bøkene fra 1860-tallet. Det kan være tatt senere, k
+2 CONC anskje av sønnen i Norge. Det er en gjetning.
 1 SOUR Vielse 2.12.1899, Digitalarkivet pv00000004400227, side 215, nr. 222, lest fra skannet side: brudgom Petter Viborg, hjulmakersvenn, Nordbygd. 58, født i Sverige 1867, konfirmert i Bromma i Malmöhus lä
 2 CONC n; brud Bolette Danielsen f. Aronsdtr., uten stilling, født i Røken 1866. Begge gift for andre gang: brudgommens første kone døde 30.5.99 og brudens første mann 13.10.96, med skifte i Kristiania skift
 2 CONC erett 24.11.99. Fedre: «bagermester Ole Nilsen Viborg» og «hsm. Aron Olsen, Frydenlund». Forlovere: Anton Aronsen, Follestad i Røken, og en Martinsen(?) i Nordbygd. 58. Lysning 26.11. Folketelling 187
@@ -230,8 +234,15 @@
 1 SOUR Dåp 27.10.1867, Bromma församling (Malmöhus län), födelse- och dopbok C I/5 (1861–1887), bild 28, sida 24, nr. 22, Riksarkivet (A0025831_00028), lest fra skannet side: Per, født 18.10.1867, foreldre «
 2 CONC Inhusman Ola Nilsson» og «Kerstin Jönsdotter, hustru», bosted nr. 20 (navnet usikkert lest), husförhör side 134. Moren 28 år. Faddere: husman Nils Håkansson og hustru Hanna Jönsdotter i Hedeskoga, og 
 2 CONC dreng Nils Jönsson.
-1 SOUR Husförhörslängd for Bromma 1861–1868, A I/7, side 134, bild 137, Riksarkivet (C0064223_00137), lest fra skannet side: husm. Ola Nilsson (12.2.1842), h. Kerstin Jönsdotter (17.5.1839), s. Nils (6.11.18
-2 CONC 64), d. Inga (12.1.1866) og s. Per (oktober 1867). Fødested for foreldrene og Nils skrevet «Spjutst.». Innflyttet fra side 100 i 1866.
+1 SOUR Husförhörslängd for Bromma 1861–1868, A I/7, side 134, bild 137, Riksarkivet (C0064223_00137), lest fra skannet side: husm. Ola Nilsson (lest som 12.2.1842, men Spjutstorp-boka gir 18.2.1832), h. Kers
+2 CONC tin Jönsdotter (17.5.1839), s. Nils (lest som 6.11.1864, men dåpen gir 26.11.1863), d. Inga (12.1.1866) og s. Per (oktober 1867). Fødested for foreldrene og Nils skrevet «Spjutst.». Innflyttet fra sid
+2 CONC e 100 i 1866.
+1 SOUR Husförhörslängd for Spjutstorp 1861–1865, A I/6, side 130, bild 122, Riksarkivet (C0061965_00122), lest fra skannet side: Appeltorp nr. 5. Nilsson Ola, husm., f. 18.2.1832 i Spjutstorp, innflyttet fra
+2 CONC  Ystad S:t Petri 6.11.1863. Jöns dotter Kjersti, f. 17.5.1839 i Hedeskoga, innflyttet fra Ystad i november 1863. Nils, f. 26.11.1863 i Appeltorp. Flyttet til Bromma i 1865.
+1 SOUR Dåp 29.11.1863, Spjutstorp, födelsebok C I/5 (1862–1893), bild 12, nr. 32, Riksarkivet (00107208_00012): Nils, født 26.11.1863, foreldre husm. Ola Nilsson og Kjersti Jönsdotter, Appeltorp nr. 5, husfö
+2 CONC rhör side 130. Moren 24 år.
+1 SOUR Utflyttningslängd for Ystad S:t Petri 1861–1881, B/4, bild 24, Riksarkivet (C0070972_00024), lest fra skannet side: attest 28.10.1863, folio 12 og 140, «Drengen Ola Nilsson och Hustru», fra nr. 233 og
+2 CONC  284, til Spjutstorp. Församlingslängd 1859–1867, A I/11, bild 21 (C0070963_00021), nr. 233: dreng Ola Nilsson, f. 18.2.1832 i Spjutstorp, kom fra Cimbrishamn (Simrishamn) i 1862.
 1 FAMS @F4@
 0 @I16@ INDI
 1 NAME Christian /Borgersen/
@@ -284,20 +295,45 @@
 2 CONC rud Kaisa Danielsen (1826, «Carlanda Warnsland», Aasengaden). Fedre: Borger Torstensen og Daniel Pettersen.
 1 FAMS @F9@
 0 @I20@ INDI
-1 NAME Kerstin /Jönsdotter/
+1 NAME Kerstin Kersti /Jönsdotter/
 1 SEX F
 1 BIRT
 2 DATE 17 MAY 1839
-2 PLAC Bromma, Skåne
-1 NOTE Mor til Per (Petter), født 18.10.1867 i Bromma, ifølge dåpen. Husförhörslängden gir fødselsdatoen 17.5.1839, og ved Pers fødsel var hun 28 år. Farsnavnet viser at faren het Jöns. Fødestedet er skrevet
-2 CONC  «Spjutst.» sammen med mannen, men hun står ikke blant fødslene i Spjutstorp i mai 1839. Fødestedet er derfor usikkert.
+2 PLAC Hedeskoga, Skåne
+1 NOTE Født 17.5.1839 og døpt 18.5.1839 i Hedeskoga, rett nord for Ystad, datter av husmann Jöns Persson og hustru Ingar Carlsdotter. Fadderne ved Pers dåp i 1867 kom fra Hedeskoga, og det passer med dette. 
+2 CONC Flyttet fra Ystad til Appeltorp i Spjutstorp i november 1863, og til Bromma i 1865. Bromma-boka skriver fødestedet som Spjutstorp, men Spjutstorp-boka sier Hedeskoga, og dåpen bekrefter det.
+1 SOUR Dåp 18.5.1839, Hedeskoga, födelse- och dopbok C I/2 (1749–1855), bild 98, Riksarkivet (C0065779_00098), lest fra skannet side: født 17.5.1839, «Husm. Jöns Perssons o. h. Ingar Carlsdotters dotter i He
+2 CONC deskoga, kallad Kersti». Fadder: husm. Ola Persson og hustru Ingar. Moren 28 år.
 1 SOUR Dåp 27.10.1867, Bromma församling (Malmöhus län), födelse- och dopbok C I/5 (1861–1887), bild 28, sida 24, nr. 22, Riksarkivet (A0025831_00028), lest fra skannet side: Per, født 18.10.1867, foreldre «
 2 CONC Inhusman Ola Nilsson» og «Kerstin Jönsdotter, hustru», bosted nr. 20 (navnet usikkert lest), husförhör side 134. Moren 28 år. Faddere: husman Nils Håkansson og hustru Hanna Jönsdotter i Hedeskoga, og 
 2 CONC dreng Nils Jönsson.
-1 SOUR Husförhörslängd for Bromma 1861–1868, A I/7, side 134, bild 137, Riksarkivet (C0064223_00137), lest fra skannet side: husm. Ola Nilsson (12.2.1842), h. Kerstin Jönsdotter (17.5.1839), s. Nils (6.11.18
-2 CONC 64), d. Inga (12.1.1866) og s. Per (oktober 1867). Fødested for foreldrene og Nils skrevet «Spjutst.». Innflyttet fra side 100 i 1866.
+1 SOUR Husförhörslängd for Bromma 1861–1868, A I/7, side 134, bild 137, Riksarkivet (C0064223_00137), lest fra skannet side: husm. Ola Nilsson (lest som 12.2.1842, men Spjutstorp-boka gir 18.2.1832), h. Kers
+2 CONC tin Jönsdotter (17.5.1839), s. Nils (lest som 6.11.1864, men dåpen gir 26.11.1863), d. Inga (12.1.1866) og s. Per (oktober 1867). Fødested for foreldrene og Nils skrevet «Spjutst.». Innflyttet fra sid
+2 CONC e 100 i 1866.
+1 SOUR Husförhörslängd for Spjutstorp 1861–1865, A I/6, side 130, bild 122, Riksarkivet (C0061965_00122), lest fra skannet side: Appeltorp nr. 5. Nilsson Ola, husm., f. 18.2.1832 i Spjutstorp, innflyttet fra
+2 CONC  Ystad S:t Petri 6.11.1863. Jöns dotter Kjersti, f. 17.5.1839 i Hedeskoga, innflyttet fra Ystad i november 1863. Nils, f. 26.11.1863 i Appeltorp. Flyttet til Bromma i 1865.
 1 FAMS @F4@
+1 FAMC @F10@
 0 @I21@ INDI
+1 NAME Jöns /Persson/
+1 SEX M
+1 BIRT
+2 PLAC Hedeskoga, Skåne
+1 NOTE Husmann i Hedeskoga, far til Kersti (1839). Farsnavnet viser at hans egen far het Per. Husförhörslängden for Hedeskoga rundt 1835–1845 gir fødselsdatoen og fødestedet hans.
+1 SOUR Dåp 18.5.1839, Hedeskoga, födelse- och dopbok C I/2 (1749–1855), bild 98, Riksarkivet (C0065779_00098), lest fra skannet side: født 17.5.1839, «Husm. Jöns Perssons o. h. Ingar Carlsdotters dotter i He
+2 CONC deskoga, kallad Kersti». Fadder: husm. Ola Persson og hustru Ingar. Moren 28 år.
+1 FAMS @F10@
+0 @I22@ INDI
+1 NAME Ingar /Carlsdotter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1811
+2 PLAC Hedeskoga, Skåne
+1 NOTE Kona til husmann Jöns Persson i Hedeskoga. Hun var 28 år da Kersti ble født i 1839. Farsnavnet viser at faren het Carl.
+1 SOUR Dåp 18.5.1839, Hedeskoga, födelse- och dopbok C I/2 (1749–1855), bild 98, Riksarkivet (C0065779_00098), lest fra skannet side: født 17.5.1839, «Husm. Jöns Perssons o. h. Ingar Carlsdotters dotter i He
+2 CONC deskoga, kallad Kersti». Fadder: husm. Ola Persson og hustru Ingar. Moren 28 år.
+1 FAMS @F10@
+0 @I23@ INDI
 1 NAME Aron /Olsen/
 1 SEX M
 1 BIRT
@@ -309,7 +345,7 @@
 2 CONC ), Christian (1869), Anette (1871), Otto (1873), Anthon (1874) og Lovise (1875). Koblingen til Bolette Viborg i 1900 bygger på navn, fødselsår, fødested og broren Karl Aronsen. Folketelling 1900 for B
 2 CONC otne (pf01037139002150).
 1 FAMS @F7@
-0 @I22@ INDI
+0 @I24@ INDI
 1 NAME Lisa /Olsdatter/
 1 SEX F
 1 BIRT
@@ -320,7 +356,7 @@
 2 CONC ), Christian (1869), Anette (1871), Otto (1873), Anthon (1874) og Lovise (1875). Koblingen til Bolette Viborg i 1900 bygger på navn, fødselsår, fødested og broren Karl Aronsen. Folketelling 1900 for B
 2 CONC otne (pf01037139002150).
 1 FAMS @F7@
-0 @I23@ INDI
+0 @I25@ INDI
 1 NAME Karelius /Andersen/
 1 SEX M
 1 BIRT
@@ -343,8 +379,8 @@
 1 SOUR Vielse 5.10.1891, ministerialbok for Eidskog, Vestmarka sokn 1884–1897, side 88, nr. 4 (pv00000005487191), kontrollert mot den skannede siden: brudgom Karelius Andersen (1866, «Dalfos»), brud Ingeborg
 2 CONC  Olsen (1865, «Högmoen»). Fedre: Anders Olsen og Ole Gustavsen.
 1 FAMS @F3@
-1 FAMC @F10@
-0 @I24@ INDI
+1 FAMC @F11@
+0 @I26@ INDI
 1 NAME Ingeborg /Andersen/
 1 SEX F
 1 BIRT
@@ -367,8 +403,8 @@
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Ingeborg Olsdatter Andersen (pf01036394002141): «Ingeborg Olsdtr f. Gjørstad» ved dåpen til datteren Yngva i 1896 (pd00000022071075); død 11.8
 2 CONC .1944 på Kongsvinger (pc00000004185272).
 1 FAMS @F3@
-1 FAMC @F11@
-0 @I25@ INDI
+1 FAMC @F12@
+0 @I27@ INDI
 1 NAME Anders /Olsen/
 1 SEX M
 1 BIRT
@@ -379,8 +415,8 @@
 1 SOUR Dåp 4.8.1867, ministerialbok for Eidskog prestegjeld 1867–1878, side 3, nr. 129 (Digitalarkivet pd00000033708196), lest fra skannet side: Karelius, født 3.8., uekte. Foreldre «Pige Maren Olsdatter Lan
 2 CONC gvasengen og Ungkarl Anders Olsen Morast ved Eda Glasbrug». Faddere: Clemet Thoresen Brustad, Syver Brustads hustru Ragnild, Thom Larsen R(a)stad(?), Christ. Larsen Jerpset(?) og pike Olea Hansdatter 
 2 CONC Klanderud(?). Hjemmedøpt av Ole Mathisens kone(?). Merknad: «5te Leiermaal», anmeldt av jordmoren(?). Folketelling 1875 for Eidskog (pf01052066001417). Folketelling 1920 for Kongsvinger.
-1 FAMS @F10@
-0 @I26@ INDI
+1 FAMS @F11@
+0 @I28@ INDI
 1 NAME Maren /Olsdatter/
 1 SEX F
 1 BIRT
@@ -400,9 +436,9 @@
 2 CONC at han har bedrevet Hor med Pigen. Larsen». Folketelling 1875 for Eidskog (pf01052066001414). Innlegg på Slektsforum om Maren, med henvisning til dombok nr. 2 for Vinger og Odal, fol. 334.
 1 SOUR Folketelling 1891 for Eidskog herred, krets 005, bosted 093 (Digitalarkivet pf01052732002178), som du fant: Marthin Hansen Rognlien (1813, Eidskog, familiens overhode, gift), Maren Olsdtr. Rognlien (1
 2 CONC 828, Eidskog, hustru) og Karelius Marthinsen Rognlien (1867, Eidskog, sønn, ugift).
-1 FAMS @F10@
-1 FAMC @F12@
-0 @I27@ INDI
+1 FAMS @F11@
+1 FAMC @F13@
+0 @I29@ INDI
 1 NAME Ole Olsen /Rambøl/
 1 SEX M
 1 BIRT
@@ -421,8 +457,8 @@
 2 CONC at han har bedrevet Hor med Pigen. Larsen». Folketelling 1875 for Eidskog (pf01052066001414). Innlegg på Slektsforum om Maren, med henvisning til dombok nr. 2 for Vinger og Odal, fol. 334.
 1 SOUR Vielse 2.1.1814, kirkebok for Vinger 1814–1825 (Digitalarkivet pv00000002853720), som du fant: enkemann Ole Olsen (f. 1754, 60 år), Grønrud under Midtskog, og enken Eli Nilsdatter (f. 1771), Rambøl. I
 2 CONC kke bekreftet som slekt.
-1 FAMS @F12@
-0 @I28@ INDI
+1 FAMS @F13@
+0 @I30@ INDI
 1 NAME Kristine Olsdatter /Speismark/
 1 SEX F
 1 BIRT
@@ -431,8 +467,8 @@
 1 NOTE Ikke bekreftet. Ikke oppgitt i vielsen 1882. En sammenstilling uten kildehenvisninger, som du fant, sier at Ole Olsen Rambølsødegården giftet seg med Kristine Olsdatter Speismark i 1819, og at hun lev
 2 CONC de 1797–1862. Det støttes av navneskikken: Marens eldste datter, født 1857, het Kristine, og eldste sønn, født 1853, het Ole. Dåpen til Maren eller vielsen i kirkeboka for Vinger avgjør det. Årstallet
 2 CONC  1819 for vielsen kan være en sammenblanding med en annen familie som kom til Rambølsødegården det året.
-1 FAMS @F12@
-0 @I29@ INDI
+1 FAMS @F13@
+0 @I31@ INDI
 1 NAME Ole /Gustavsen/
 1 SEX M
 1 BIRT
@@ -454,9 +490,9 @@
 2 CONC srud.
 1 SOUR Vielse 5.10.1891, ministerialbok for Eidskog, Vestmarka sokn 1884–1897, side 88, nr. 4 (pv00000005487191), kontrollert mot den skannede siden: brudgom Karelius Andersen (1866, «Dalfos»), brud Ingeborg
 2 CONC  Olsen (1865, «Högmoen»). Fedre: Anders Olsen og Ole Gustavsen.
-1 FAMS @F11@
-1 FAMC @F13@
-0 @I30@ INDI
+1 FAMS @F12@
+1 FAMC @F14@
+0 @I32@ INDI
 1 NAME Sigrid /Olsdatter/
 1 SEX F
 1 BIRT
@@ -474,9 +510,9 @@
 1 SOUR Folketelling 1900 for Kongsvinger, Grænsegade (pf01037047000480): Ole Gustavsen (1828, Eidskogen, dagarbeider og vedhugger), Sigrid (1832, Eidskogen) og Andreas Olsen (1876).
 1 SOUR Mulig dåp: 5.5.1833, ministerialbok for Vinger 1826–1839, side 76 (pd00000038160500): Sigri, født 29.3.1833, ekte, foreldre Ole Eriksen Goustadmoen og Marthe Tordsdatter. Ikke bekreftet som samme pers
 2 CONC on.
-1 FAMS @F11@
-1 FAMC @F14@
-0 @I31@ INDI
+1 FAMS @F12@
+1 FAMC @F15@
+0 @I33@ INDI
 1 NAME Gustav Nielsen /Kneppa/
 1 SEX M
 1 BIRT
@@ -489,8 +525,8 @@
 1 SOUR Dåp 30.3.1828, ministerialbok for Vinger 1826–1839, side 26 (pd00000038156321), og klokkerboka 1818–1834: Ole, født 27.1.1828, ekte, foreldre Gustav Nilssen Kneppa og Ingebor Olsdatter.
 1 SOUR Vielse 5.11.1854, ministerialbok for Vinger 1847–1855, side 356, nr. 74 (pv00000004435247): ungkar Ole Gustavsen (ca. 1829, Kneppa) og pike Sigri Olsdatter (ca. 1831, Røisdalmoen). Fedre: Gustav Niels
 2 CONC en og Ole Eriksen.
-1 FAMS @F13@
-0 @I32@ INDI
+1 FAMS @F14@
+0 @I34@ INDI
 1 NAME Ingebor /Olsdatter/
 1 SEX F
 1 BIRT
@@ -500,8 +536,8 @@
 2 CONC 1801 for Vinger har tre Ingebor Olsdatter født 1797–98, på Rudberg, Liøner og Nevjen. Hvem av dem som er henne, er ikke avklart.
 1 SOUR Vielse 30.12.1821, klokkerbok for Vinger 1814–1825, side 453–454, nr. 62 (pv00000009200136): Gustav Nielsen (ca. 1794) og Ingebor Olsdatter (ca. 1797), Torp.
 1 SOUR Dåp 30.3.1828, ministerialbok for Vinger 1826–1839, side 26 (pd00000038156321), og klokkerboka 1818–1834: Ole, født 27.1.1828, ekte, foreldre Gustav Nilssen Kneppa og Ingebor Olsdatter.
-1 FAMS @F13@
-0 @I33@ INDI
+1 FAMS @F14@
+0 @I35@ INDI
 1 NAME Ole /Eriksen/
 1 SEX M
 1 BIRT
@@ -512,8 +548,8 @@
 2 CONC en og Ole Eriksen.
 1 SOUR Mulig dåp: 5.5.1833, ministerialbok for Vinger 1826–1839, side 76 (pd00000038160500): Sigri, født 29.3.1833, ekte, foreldre Ole Eriksen Goustadmoen og Marthe Tordsdatter. Ikke bekreftet som samme pers
 2 CONC on.
-1 FAMS @F14@
-0 @I34@ INDI
+1 FAMS @F15@
+0 @I36@ INDI
 1 NAME Marthe /Tordsdatter/
 1 SEX F
 1 BIRT
@@ -522,8 +558,8 @@
 2 CONC ngen 1865 for Vinger og Eidskog kan vise om Ole og Marthe hadde en datter Sigrid på rett alder.
 1 SOUR Mulig dåp: 5.5.1833, ministerialbok for Vinger 1826–1839, side 76 (pd00000038160500): Sigri, født 29.3.1833, ekte, foreldre Ole Eriksen Goustadmoen og Marthe Tordsdatter. Ikke bekreftet som samme pers
 2 CONC on.
-1 FAMS @F14@
-0 @I35@ INDI
+1 FAMS @F15@
+0 @I37@ INDI
 1 NAME Egil Olav /Aanonsen/
 1 SEX M
 1 BIRT
@@ -534,9 +570,9 @@
 1 NOTE Gift med Laura Oline Skjefstad. Skrevet Anonsen i dødsregisteret. Bosatt i Oppegård, død i Lørenskog, 92 år. Født tre måneder etter folketellingen 1920. Foreldrene er funnet gjennom søsteren Elsa, som
 2 CONC  du har bekreftet.
 1 SOUR Dødsregisteret på Digitalarkivet, Egil Olav Anonsen, ID pc00000003673879. Bekreftet av deg.
-1 FAMC @F15@
-1 FAMS @F16@
-0 @I36@ INDI
+1 FAMC @F16@
+1 FAMS @F17@
+0 @I38@ INDI
 1 NAME Laura Oline /Skjefstad/
 1 SEX F
 1 BIRT
@@ -547,9 +583,9 @@
 1 SOUR Folketelling 1920 for Oppegård herred, husholdning 01 (pf01073679000905, skannet side), som du fant: Kristoffer Eugen Skjefstad (19.7.1889, Kraakstad, kontorist), Olga Konstance (17.2.1889, Sarpsborg,
 2 CONC  husmor), Randi Eugenie (17.5.1911, Kraakstad), Odd Heine (14.4.1912, Kristiania), Reidar Heine (16.1.1916, Oppegaard) og Laura Oline (16.9.1919, Oppegaard). I samme hus bodde telegrafist ved Oppegaar
 2 CONC d st. Harald Hermansen Westbye med familie.
-1 FAMS @F16@
-1 FAMC @F17@
-0 @I37@ INDI
+1 FAMS @F17@
+1 FAMC @F18@
+0 @I39@ INDI
 1 NAME Kristoffer Eugen /Skjefstad/
 1 SEX M
 1 BIRT
@@ -561,9 +597,9 @@
 1 SOUR Folketelling 1900 for Kråkstad herred, husholdning 01 (Digitalarkivet pf01037024000828, skannet side), som du fant: Torkild Skjefstad (1845, Elverum, banevokter), Oline (1844, Næs Hedemarken, husgjern
 2 CONC ing), Julie (1883), Thea (1887) og Eugen (1889), alle tre barna født i Kråkstad herred. Også i Nasjonalbibliotekets utgave Folketellingen 3.12.1900 for 212 Kraakstad kommune (1996), s. 35. Koblingen t
 2 CONC il Kristoffer Eugen i 1920 bygger på det sjeldne etternavnet, navnet Eugen, fødselsåret og fødestedet Kråkstad. Folketelling 1920 for Oppegård (pf01073679000905).
-1 FAMS @F17@
-1 FAMC @F18@
-0 @I38@ INDI
+1 FAMS @F18@
+1 FAMC @F19@
+0 @I40@ INDI
 1 NAME Olga Konstance /Skjefstad/
 1 SEX F
 1 BIRT
@@ -580,9 +616,9 @@
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Olga Konstance Skjefstad f. Jakobsen (pf01036392011987): dåp 21.4.1889 i Sarpsborg (pd00000021761875), født 17.2.1889, foreldre Hartvig Jakobs
 2 CONC en og Laura Nilsen; død 19.5.1978 (pc00000002257534). Hartvig Sofus Jakobsen (pd00000032465531): dåp 15.6.1862 i Sarpsborg (pd00000021095071), født 13.3.1862, foreldre Nils Nilssen og Inger Sorine And
 2 CONC ersdatter; vielse 27.12.1882 i Fredrikshald (pv00000005772613). Laura Kristine Nilsen (pf01037979004326): født 19.12.1859 i Fredrikshald.
-1 FAMS @F17@
-1 FAMC @F19@
-0 @I39@ INDI
+1 FAMS @F18@
+1 FAMC @F20@
+0 @I41@ INDI
 1 NAME Torkild Johnsen /Skjefstad/
 1 SEX M
 1 BIRT
@@ -602,9 +638,9 @@
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Torkild Johnsen Skjefstad (pf01038045001836), automatisk koblet fra Digitalarkivet: dåp 19.10.1845 i Elverum (pd00000039214286), født 2.10.184
 2 CONC 5, foreldre John Jensen og Marthe Torkildsdr; folketelling 1865 for Elverum, Skjefstad øvre og østre (pf01038045001836), med John Jensen, f. 1813, gårdbruker og selveier (pf01038045001832); død 30.10.
 2 CONC 1936 (pc00000004644912) og begravet i Kråkstad 5.11.1936 (pg00000003181843).
-1 FAMS @F18@
-1 FAMC @F20@
-0 @I40@ INDI
+1 FAMS @F19@
+1 FAMC @F21@
+0 @I42@ INDI
 1 NAME Oline /Skjefstad/
 1 SEX F
 1 BIRT
@@ -615,8 +651,8 @@
 1 SOUR Folketelling 1875 for Eiker prestegjeld (Buskerud), krets 003a, Lo vestre, gnr. 134, husholdning 01 (Digitalarkivet pf01052123001177), som du fant: Thorkild Johnsen Skjefstad (1845, Elverum, husfar, t
 2 CONC ranskribert «forpagter jernbanekonduktør»), kone Oline Hansdatter Sterud (1844, Næs, Hedemarken) og datter Hilda Josefa Thorkildsdatter (1874, Kongsberg). Folketelling 1900 for Kråkstad (pf01037024000
 2 CONC 828).
-1 FAMS @F18@
-0 @I41@ INDI
+1 FAMS @F19@
+0 @I43@ INDI
 1 NAME John /Jensen/
 1 SEX M
 1 BIRT
@@ -627,8 +663,8 @@
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Torkild Johnsen Skjefstad (pf01038045001836), automatisk koblet fra Digitalarkivet: dåp 19.10.1845 i Elverum (pd00000039214286), født 2.10.184
 2 CONC 5, foreldre John Jensen og Marthe Torkildsdr; folketelling 1865 for Elverum, Skjefstad øvre og østre (pf01038045001836), med John Jensen, f. 1813, gårdbruker og selveier (pf01038045001832); død 30.10.
 2 CONC 1936 (pc00000004644912) og begravet i Kråkstad 5.11.1936 (pg00000003181843).
-1 FAMS @F20@
-0 @I42@ INDI
+1 FAMS @F21@
+0 @I44@ INDI
 1 NAME Marthe /Torkildsdatter/
 1 SEX F
 1 BIRT
@@ -638,8 +674,8 @@
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Torkild Johnsen Skjefstad (pf01038045001836), automatisk koblet fra Digitalarkivet: dåp 19.10.1845 i Elverum (pd00000039214286), født 2.10.184
 2 CONC 5, foreldre John Jensen og Marthe Torkildsdr; folketelling 1865 for Elverum, Skjefstad øvre og østre (pf01038045001836), med John Jensen, f. 1813, gårdbruker og selveier (pf01038045001832); død 30.10.
 2 CONC 1936 (pc00000004644912) og begravet i Kråkstad 5.11.1936 (pg00000003181843).
-1 FAMS @F20@
-0 @I43@ INDI
+1 FAMS @F21@
+0 @I45@ INDI
 1 NAME Hartvig Sofus /Jakobsen/
 1 SEX M
 1 BIRT
@@ -651,9 +687,9 @@
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Olga Konstance Skjefstad f. Jakobsen (pf01036392011987): dåp 21.4.1889 i Sarpsborg (pd00000021761875), født 17.2.1889, foreldre Hartvig Jakobs
 2 CONC en og Laura Nilsen; død 19.5.1978 (pc00000002257534). Hartvig Sofus Jakobsen (pd00000032465531): dåp 15.6.1862 i Sarpsborg (pd00000021095071), født 13.3.1862, foreldre Nils Nilssen og Inger Sorine And
 2 CONC ersdatter; vielse 27.12.1882 i Fredrikshald (pv00000005772613). Laura Kristine Nilsen (pf01037979004326): født 19.12.1859 i Fredrikshald.
-1 FAMS @F19@
-1 FAMC @F21@
-0 @I44@ INDI
+1 FAMS @F20@
+1 FAMC @F22@
+0 @I46@ INDI
 1 NAME Laura Kristine /Nilsen/
 1 SEX F
 1 BIRT
@@ -664,8 +700,8 @@
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Olga Konstance Skjefstad f. Jakobsen (pf01036392011987): dåp 21.4.1889 i Sarpsborg (pd00000021761875), født 17.2.1889, foreldre Hartvig Jakobs
 2 CONC en og Laura Nilsen; død 19.5.1978 (pc00000002257534). Hartvig Sofus Jakobsen (pd00000032465531): dåp 15.6.1862 i Sarpsborg (pd00000021095071), født 13.3.1862, foreldre Nils Nilssen og Inger Sorine And
 2 CONC ersdatter; vielse 27.12.1882 i Fredrikshald (pv00000005772613). Laura Kristine Nilsen (pf01037979004326): født 19.12.1859 i Fredrikshald.
-1 FAMS @F19@
-0 @I45@ INDI
+1 FAMS @F20@
+0 @I47@ INDI
 1 NAME Nils Nilsen /Jakobsen/
 1 SEX M
 1 BIRT
@@ -675,8 +711,8 @@
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Olga Konstance Skjefstad f. Jakobsen (pf01036392011987): dåp 21.4.1889 i Sarpsborg (pd00000021761875), født 17.2.1889, foreldre Hartvig Jakobs
 2 CONC en og Laura Nilsen; død 19.5.1978 (pc00000002257534). Hartvig Sofus Jakobsen (pd00000032465531): dåp 15.6.1862 i Sarpsborg (pd00000021095071), født 13.3.1862, foreldre Nils Nilssen og Inger Sorine And
 2 CONC ersdatter; vielse 27.12.1882 i Fredrikshald (pv00000005772613). Laura Kristine Nilsen (pf01037979004326): født 19.12.1859 i Fredrikshald.
-1 FAMS @F21@
-0 @I46@ INDI
+1 FAMS @F22@
+0 @I48@ INDI
 1 NAME Inger Sorine /Andersdatter/
 1 SEX F
 1 BIRT
@@ -685,8 +721,8 @@
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Olga Konstance Skjefstad f. Jakobsen (pf01036392011987): dåp 21.4.1889 i Sarpsborg (pd00000021761875), født 17.2.1889, foreldre Hartvig Jakobs
 2 CONC en og Laura Nilsen; død 19.5.1978 (pc00000002257534). Hartvig Sofus Jakobsen (pd00000032465531): dåp 15.6.1862 i Sarpsborg (pd00000021095071), født 13.3.1862, foreldre Nils Nilssen og Inger Sorine And
 2 CONC ersdatter; vielse 27.12.1882 i Fredrikshald (pv00000005772613). Laura Kristine Nilsen (pf01037979004326): født 19.12.1859 i Fredrikshald.
-1 FAMS @F21@
-0 @I47@ INDI
+1 FAMS @F22@
+0 @I49@ INDI
 1 NAME Elsa Solveig /Thilesen/
 1 SEX F
 1 BIRT
@@ -696,8 +732,8 @@
 2 DATE 2009
 1 NOTE Bekreftet av deg: søster av Egil. Bodde i 1920 med foreldrene Olav Ragnvald og Evina Anonsen i Thor Olsens gate 10.
 1 SOUR Folketelling 1920 for Kristiania, krets 469, Thor Olsens gate 10, leilighet 14 (pf01073701277826).
-1 FAMC @F15@
-0 @I48@ INDI
+1 FAMC @F16@
+0 @I50@ INDI
 1 NAME Odd Øivind /Anonsen/
 1 SEX M
 1 BIRT
@@ -705,8 +741,8 @@
 2 PLAC Kristiania
 1 NOTE Eldste barn av Olav Ragnvald og Evina Anonsen.
 1 SOUR Folketelling 1920 for Kristiania, krets 469, Thor Olsens gate 10, leilighet 14 (pf01073701277826).
-1 FAMC @F15@
-0 @I49@ INDI
+1 FAMC @F16@
+0 @I51@ INDI
 1 NAME Olaf Ragnvald /Anonsen/
 1 SEX M
 1 BIRT
@@ -716,9 +752,9 @@
 2 CONC r trolig mellomnavnet etter ham. Søsteren Julie og kona Evina har profiler på Geni, så noen har bygget Anonsen-familien fra Fredrikstad der.
 1 SOUR Vielse 6.12.1914, ministerialbok for Fagerborg 1898–1916, side 125, nr. 103 (pv00000004937540), lest fra skannet side: brudgommens far «Gaardskarl Anon Andersen», brudens far «Selveier Martin Olsen». 
 2 CONC Folketelling 1920 for Kristiania.
-1 FAMS @F15@
-1 FAMC @F22@
-0 @I50@ INDI
+1 FAMS @F16@
+1 FAMC @F23@
+0 @I52@ INDI
 1 NAME Evina /Anonsen/
 1 SEX F
 1 BIRT
@@ -733,9 +769,9 @@
 2 CONC Folketelling 1920 for Kristiania.
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Evina Anonsen f. Martinsdatter (pf01052728003561): konfirmasjon 1904 i Romedal med foreldrene Martin Olsen og Else Kristensdatter (pk000000016
 2 CONC 50018); død 10.9.1974 i Oslo (pc00000002189495).
-1 FAMS @F15@
-1 FAMC @F23@
-0 @I51@ INDI
+1 FAMS @F16@
+1 FAMC @F24@
+0 @I53@ INDI
 1 NAME Anon /Andersen/
 1 SEX M
 1 BIRT
@@ -747,9 +783,9 @@
 1 SOUR Vielse 1.5.1881, Digitalarkivet pv00000004981134, side 587, nr. 25, som du fant: brudgom «Aron» Andersen (1834, Skeberg, bosatt Løkeberg), brud Karen Regine Johannesdtr. (1855, Vartig), brudgommens fa
 2 CONC r Anders Eriksen, bruras far Johannes Hakonsen. Vielsesdatoen står som «05-01» (måned-dag, samme format som vielsen 1899). Folketelling 1885 for Fredrikstad (pf01053251004875) og 1900 for Fredrikstad 
 2 CONC (pf01036995004153).
-1 FAMS @F22@
-1 FAMC @F24@
-0 @I52@ INDI
+1 FAMS @F23@
+1 FAMC @F25@
+0 @I54@ INDI
 1 NAME Karen Regine /Johannesen/
 1 SEX F
 1 BIRT
@@ -760,9 +796,9 @@
 1 SOUR Vielse 1.5.1881, Digitalarkivet pv00000004981134, side 587, nr. 25, som du fant: brudgom «Aron» Andersen (1834, Skeberg, bosatt Løkeberg), brud Karen Regine Johannesdtr. (1855, Vartig), brudgommens fa
 2 CONC r Anders Eriksen, bruras far Johannes Hakonsen. Vielsesdatoen står som «05-01» (måned-dag, samme format som vielsen 1899). Folketelling 1885 for Fredrikstad (pf01053251004875) og 1900 for Fredrikstad 
 2 CONC (pf01036995004153).
-1 FAMS @F22@
-1 FAMC @F25@
-0 @I53@ INDI
+1 FAMS @F23@
+1 FAMC @F26@
+0 @I55@ INDI
 1 NAME Anders /Eriksen/
 1 SEX M
 1 BIRT
@@ -771,8 +807,8 @@
 1 SOUR Vielse 1.5.1881, Digitalarkivet pv00000004981134, side 587, nr. 25, som du fant: brudgom «Aron» Andersen (1834, Skeberg, bosatt Løkeberg), brud Karen Regine Johannesdtr. (1855, Vartig), brudgommens fa
 2 CONC r Anders Eriksen, bruras far Johannes Hakonsen. Vielsesdatoen står som «05-01» (måned-dag, samme format som vielsen 1899). Folketelling 1885 for Fredrikstad (pf01053251004875) og 1900 for Fredrikstad 
 2 CONC (pf01036995004153).
-1 FAMS @F24@
-0 @I54@ INDI
+1 FAMS @F25@
+0 @I56@ INDI
 1 NAME Johannes /Hakonsen/
 1 SEX M
 1 BIRT
@@ -782,8 +818,8 @@
 1 SOUR Vielse 1.5.1881, Digitalarkivet pv00000004981134, side 587, nr. 25, som du fant: brudgom «Aron» Andersen (1834, Skeberg, bosatt Løkeberg), brud Karen Regine Johannesdtr. (1855, Vartig), brudgommens fa
 2 CONC r Anders Eriksen, bruras far Johannes Hakonsen. Vielsesdatoen står som «05-01» (måned-dag, samme format som vielsen 1899). Folketelling 1885 for Fredrikstad (pf01053251004875) og 1900 for Fredrikstad 
 2 CONC (pf01036995004153).
-1 FAMS @F25@
-0 @I55@ INDI
+1 FAMS @F26@
+0 @I57@ INDI
 1 NAME Martin /Olsen/
 1 SEX M
 1 BIRT
@@ -791,9 +827,9 @@
 2 PLAC Stuberudstuen, Romedal
 1 NOTE Gårdbruker og selveier på Stuberudstuen i Romedal. Bekreftet som far til oldemor Evina i vielsen 1914. Bodde på samme gård som 17-åring i 1865.
 1 SOUR Folketelling 1900 for Romedal herred, krets 009, Stuberudstuen (pf01037053003696), og vielsen 6.12.1914.
-1 FAMS @F23@
-1 FAMC @F26@
-0 @I56@ INDI
+1 FAMS @F24@
+1 FAMC @F27@
+0 @I58@ INDI
 1 NAME Else /Kristensdatter/
 1 SEX F
 1 BIRT
@@ -806,9 +842,9 @@
 1 SOUR Folketelling 1900 for Romedal herred, krets 009, Stuberudstuen (pf01037053003696), og vielsen 6.12.1914.
 1 SOUR Historisk befolkningsregister (histreg.no), livsløpet til Else Kristensdatter (pd00000028522312): dåp 17.11.1861 i Romedal, født 29.8.1861, foreldre Christen Nielsen og Evine Pedersdtr.; folketelling 
 2 CONC 1865, Sæthersbakken (pf01038034002957); død april 1954 (pc00000001385212).
-1 FAMS @F23@
-1 FAMC @F27@
-0 @I57@ INDI
+1 FAMS @F24@
+1 FAMC @F28@
+0 @I59@ INDI
 1 NAME Ole /Olsen/
 1 SEX M
 1 BIRT
@@ -816,8 +852,8 @@
 2 PLAC Stuberudstuen, Romedal
 1 NOTE Gårdbruker og selveier på Stuberudstuen i 1865. Farsnavnet tyder på at faren også het Ole. Mons Olsen (f. ca. 1820), bortsatt fattiglem på gården, kan være en bror.
 1 SOUR Folketelling 1865 for Romedal prestegjeld, krets 006 Mælum, Strubrudstuen (pf01038034004975).
-1 FAMS @F26@
-0 @I58@ INDI
+1 FAMS @F27@
+0 @I60@ INDI
 1 NAME Berte /Larsdatter/
 1 SEX F
 1 BIRT
@@ -825,8 +861,8 @@
 2 PLAC Romedal
 1 NOTE Kona til Ole Olsen på Stuberudstuen. Faren het trolig Lars.
 1 SOUR Folketelling 1865 for Romedal prestegjeld, krets 006 Mælum, Strubrudstuen (pf01038034004975).
-1 FAMS @F26@
-0 @I59@ INDI
+1 FAMS @F27@
+0 @I61@ INDI
 1 NAME Christen /Nilsen/
 1 SEX M
 1 BIRT
@@ -835,8 +871,8 @@
 1 NOTE Husmann med jord og tømmermann på Sæthersbakken i Romedal i 1865. Født i Gudbrandsdalen. Faren het trolig Nils. Barn i 1865: Anne (ca. 1854), Peder (ca. 1856), Nils (ca. 1858), Else (ca. 1861) og Chri
 2 CONC stian (ca. 1862).
 1 SOUR Folketelling 1865 for Romedal prestegjeld, krets 004 Brunstad, Sæthersbakken (pf01038034002957). Koblingen til Else Kristensdatter bygger på navn, alder, sted og oppkalling, ikke på kirkebok.
-1 FAMS @F27@
-0 @I60@ INDI
+1 FAMS @F28@
+0 @I62@ INDI
 1 NAME Evine /Pedersdatter/
 1 SEX F
 1 BIRT
@@ -844,7 +880,7 @@
 2 PLAC Romedal
 1 NOTE Kona til Christen Nilsen. Faren het trolig Peder. Navnet hennes er hintet som kobler familien til Stuberudstuen: Evina Martinsdatter ble trolig oppkalt etter henne.
 1 SOUR Folketelling 1865 for Romedal prestegjeld, krets 004 Brunstad, Sæthersbakken (pf01038034002957). Koblingen til Else Kristensdatter bygger på navn, alder, sted og oppkalling, ikke på kirkebok.
-1 FAMS @F27@
+1 FAMS @F28@
 0 @F1@ FAM
 1 HUSB @I4@
 1 WIFE @I5@
@@ -860,8 +896,8 @@
 1 CHIL @I9@
 1 CHIL @I10@
 0 @F3@ FAM
-1 HUSB @I23@
-1 WIFE @I24@
+1 HUSB @I25@
+1 WIFE @I26@
 1 CHIL @I5@
 0 @F4@ FAM
 1 HUSB @I15@
@@ -875,8 +911,8 @@
 1 WIFE @I17@
 1 CHIL @I13@
 0 @F7@ FAM
-1 HUSB @I21@
-1 WIFE @I22@
+1 HUSB @I23@
+1 WIFE @I24@
 1 CHIL @I14@
 0 @F8@ FAM
 1 HUSB @I18@
@@ -885,80 +921,84 @@
 1 HUSB @I19@
 1 CHIL @I17@
 0 @F10@ FAM
-1 HUSB @I25@
-1 WIFE @I26@
-1 CHIL @I23@
+1 HUSB @I21@
+1 WIFE @I22@
+1 CHIL @I20@
 0 @F11@ FAM
-1 HUSB @I29@
-1 WIFE @I30@
-1 CHIL @I24@
-0 @F12@ FAM
 1 HUSB @I27@
 1 WIFE @I28@
-1 CHIL @I26@
-0 @F13@ FAM
+1 CHIL @I25@
+0 @F12@ FAM
 1 HUSB @I31@
 1 WIFE @I32@
-1 CHIL @I29@
+1 CHIL @I26@
+0 @F13@ FAM
+1 HUSB @I29@
+1 WIFE @I30@
+1 CHIL @I28@
 0 @F14@ FAM
 1 HUSB @I33@
 1 WIFE @I34@
-1 CHIL @I30@
+1 CHIL @I31@
 0 @F15@ FAM
-1 HUSB @I49@
-1 WIFE @I50@
-1 CHIL @I35@
-1 CHIL @I48@
-1 CHIL @I47@
-0 @F16@ FAM
 1 HUSB @I35@
 1 WIFE @I36@
+1 CHIL @I32@
+0 @F16@ FAM
+1 HUSB @I51@
+1 WIFE @I52@
+1 CHIL @I37@
+1 CHIL @I50@
+1 CHIL @I49@
 0 @F17@ FAM
 1 HUSB @I37@
 1 WIFE @I38@
-1 CHIL @I36@
 0 @F18@ FAM
 1 HUSB @I39@
 1 WIFE @I40@
-1 CHIL @I37@
-0 @F19@ FAM
-1 HUSB @I43@
-1 WIFE @I44@
 1 CHIL @I38@
-0 @F20@ FAM
+0 @F19@ FAM
 1 HUSB @I41@
 1 WIFE @I42@
 1 CHIL @I39@
-0 @F21@ FAM
+0 @F20@ FAM
 1 HUSB @I45@
 1 WIFE @I46@
-1 CHIL @I43@
+1 CHIL @I40@
+0 @F21@ FAM
+1 HUSB @I43@
+1 WIFE @I44@
+1 CHIL @I41@
 0 @F22@ FAM
-1 HUSB @I51@
-1 WIFE @I52@
-1 CHIL @I49@
+1 HUSB @I47@
+1 WIFE @I48@
+1 CHIL @I45@
 0 @F23@ FAM
-1 HUSB @I55@
-1 WIFE @I56@
-1 CHIL @I50@
-0 @F24@ FAM
 1 HUSB @I53@
+1 WIFE @I54@
 1 CHIL @I51@
-0 @F25@ FAM
-1 HUSB @I54@
-1 CHIL @I52@
-0 @F26@ FAM
+0 @F24@ FAM
 1 HUSB @I57@
 1 WIFE @I58@
-1 CHIL @I55@
+1 CHIL @I52@
+0 @F25@ FAM
+1 HUSB @I55@
+1 CHIL @I53@
+0 @F26@ FAM
+1 HUSB @I56@
+1 CHIL @I54@
 0 @F27@ FAM
 1 HUSB @I59@
 1 WIFE @I60@
-1 CHIL @I56@
+1 CHIL @I57@
 0 @F28@ FAM
+1 HUSB @I61@
+1 WIFE @I62@
+1 CHIL @I58@
+0 @F29@ FAM
 1 HUSB @I1@
 1 WIFE @I2@
-0 @F29@ FAM
+0 @F30@ FAM
 1 WIFE @I14@
 1 CHIL @I11@
 0 TRLR
