@@ -12,7 +12,7 @@ Et interaktivt slektstre (anetavle) med kilder. Treet er én HTML-fil, `index.ht
 
 ## Hva treet viser
 
-- 106 navngitte personer i 13 generasjoner. 84 av dem er dokumentert i primærkilder.
+- 108 navngitte personer i 13 generasjoner. 86 av dem er dokumentert i primærkilder.
 - Statusen til hver person: dokumentert, oppgitt eller ikke bekreftet.
 - Kilder med lenker til Digitalarkivet og Nasjonalbiblioteket.
 - Søsken, og spor fra andres trær.
@@ -22,4 +22,4 @@ Et interaktivt slektstre (anetavle) med kilder. Treet er én HTML-fil, `index.ht
 
 Levende personer er ikke med. Utgangspersonen og foreldrene står bare som «Utgangsperson», «Far» og «Mor», uten navn eller datoer. Konas side av treet er tatt ut.
 
-Versjon: 11.10.2026 (tilsvarer versjon 69 av arbeidstreet).
+Versjon: 11.10.2026 (tilsvarer versjon 72 av arbeidstreet).
