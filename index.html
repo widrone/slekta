@@ -39,38 +39,61 @@ h1{font-family:var(--display);font-weight:400;font-size:clamp(28px,4vw,40px);mar
 .ln{width:22px;height:0;border-top:1.5px solid var(--line);flex:none}
 .ln.d{border-top-style:dashed;border-color:var(--cand)}
 
-.layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:24px;align-items:start}
-@media (max-width:1100px){.layout{grid-template-columns:minmax(0,1fr)}}
+/* Verktøylinje: søk, sider, dybde */
+.toolbar{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin:0 0 10px}
+.search{position:relative;flex:1 1 260px;max-width:420px}
+.search input{width:100%;box-sizing:border-box;font:inherit;font-size:16px;padding:9px 12px;border:1.5px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink)}
+.search input:focus{outline:2px solid var(--you);outline-offset:1px}
+#hits{position:absolute;z-index:30;left:0;right:0;top:calc(100% + 4px);margin:0;padding:4px;list-style:none;background:var(--paper);border:1px solid var(--line);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.18);max-height:min(60vh,420px);overflow:auto}
+#hits li{padding:7px 10px;border-radius:6px;cursor:pointer;display:flex;flex-direction:column}
+#hits li.on,#hits li:hover{background:var(--you-bg)}
+#hits li.none{cursor:default;color:var(--muted)}
+#hits .hn{font-family:var(--display);font-size:15px}
+#hits .hm{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.views{display:flex;flex-wrap:wrap;gap:4px}
+.views button,.ghost{all:unset;cursor:pointer;font-size:13.5px;padding:6px 11px;border:1px solid var(--line);border-radius:99px;color:var(--ink);background:var(--paper)}
+.views button[aria-pressed="true"]{background:var(--you);border-color:var(--you);color:var(--paper)}
+.views button:focus-visible,.ghost:focus-visible{outline:2px solid var(--you);outline-offset:2px}
+.depth{font-size:13.5px;color:var(--muted);display:inline-flex;align-items:center;gap:6px}
+.depth select{font:inherit;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:4px 6px}
+.hint{font-size:13px;color:var(--muted);margin:0 0 8px}
+@media (min-width:900px){.hint{display:none}}
 
-.scroller{overflow-x:auto;min-width:0;padding-bottom:8px}
-.hint{display:none;font-size:13px;color:var(--muted);margin:0 0 8px}
-@media (max-width:1100px){.hint{display:block}}
-@media (max-width:640px){:root{--cw:128px;--g:16px}}
-.gens{display:flex;margin-bottom:10px;width:max-content}
-.gens span{width:calc(var(--cw) + var(--g));font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-.gens span:last-child{width:var(--cw)}
-
-.tree{width:max-content}
+/* Treet i eget rullevindu, med generasjonsraden låst øverst */
+.viewport{position:relative;overflow:auto;height:calc(100dvh - 120px);min-height:420px;border:1px solid var(--line);border-radius:10px;background:var(--bg);overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.viewport:focus-visible{outline:2px solid var(--you)}
+.gens{position:sticky;top:0;z-index:5;display:flex;width:max-content;min-width:100%;padding:8px 12px 6px;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(3px);border-bottom:1px solid var(--line);box-sizing:border-box}
+.gens span{flex:none;width:calc(var(--cw) + var(--g));padding-right:6px;box-sizing:border-box;font-family:var(--mono);font-size:10px;line-height:1.25;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);overflow-wrap:anywhere}
+.gens span.gap{width:0;padding:0}
+.tree{width:max-content;padding:10px 12px 40px}
 .sect{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border-top:1px solid var(--line);padding-top:8px;margin:18px 0 6px}
 .sect:first-child{border-top:0;padding-top:0;margin-top:0}
 .node{display:flex;align-items:center}
+.cw{position:relative;flex:none}
+.fold{all:unset;box-sizing:border-box;cursor:pointer;position:absolute;z-index:2;right:-11px;top:50%;transform:translateY(-50%);min-width:22px;height:22px;padding:0 5px;border-radius:99px;border:1.5px solid var(--line);background:var(--paper);color:var(--muted);font-family:var(--mono);font-size:11px;line-height:19px;text-align:center}
+.fold.closed{color:var(--you);border-color:var(--you)}
+.fold:hover{color:var(--ink)}
+.fold:focus-visible{outline:2px solid var(--you);outline-offset:1px}
+@media (pointer:coarse){.fold{min-width:28px;height:28px;line-height:25px;right:-14px}}
 .par{display:flex;flex-direction:column;justify-content:center;position:relative;padding-left:var(--g)}
 .par::before{content:"";position:absolute;left:0;top:50%;width:calc(var(--g) / 2);border-top:1.5px solid var(--line)}
-.par > .node{position:relative;padding-block:4px}
+.par > .node{position:relative;padding-block:3px}
 .par > .node::before{content:"";position:absolute;left:calc(var(--g) / -2);top:50%;width:calc(var(--g) / 2);border-top:1.5px solid var(--line)}
 .par > .node::after{content:"";position:absolute;left:calc(var(--g) / -2);top:0;bottom:0;border-left:1.5px solid var(--line)}
 .par > .node:first-child::after{top:50%}
 .par > .node:last-child::after{bottom:50%}
 .par.cand::before,.par.cand > .node::before,.par.cand > .node::after{border-style:dashed;border-color:var(--cand)}
 
-.p{all:unset;box-sizing:border-box;cursor:pointer;width:var(--cw);background:var(--paper);border:1.5px solid var(--line);border-radius:6px;padding:7px 10px;display:flex;flex-direction:column;gap:1px;transition:transform .12s ease}
+.p{all:unset;box-sizing:border-box;cursor:pointer;width:var(--cw);background:var(--paper);border:1.5px solid var(--line);border-radius:6px;padding:6px 10px;display:flex;flex-direction:column;gap:1px;transition:transform .12s ease}
 .p:hover{transform:translateY(-1px)}
 .p:focus-visible{outline:2px solid var(--you);outline-offset:2px}
 .p.ok{border-color:var(--ok);background:var(--ok-bg)}
 .p.you{border-color:var(--you);background:var(--you-bg)}
 .p.cand{border-color:var(--cand);border-style:dashed;background:var(--cand-bg)}
 .p.unk{border-style:dotted;border-color:var(--gap);background:transparent;color:var(--muted)}
-.p[aria-pressed="true"]{box-shadow:0 0 0 3px var(--line)}
+.p[aria-pressed="true"]{box-shadow:0 0 0 3px var(--you)}
+.p.flash{animation:flash 1.6s ease-out 1}
+@keyframes flash{0%,30%{box-shadow:0 0 0 6px var(--cand)}100%{box-shadow:0 0 0 3px var(--you)}}
 .p .eb{font-family:var(--mono);font-size:9.5px;letter-spacing:.07em;text-transform:uppercase}
 .p .eb.far{color:var(--far)} .p .eb.mor{color:var(--mor)}
 .p .n{font-family:var(--display);font-size:13.5px;line-height:1.25}
@@ -78,10 +101,40 @@ h1{font-family:var(--display);font-weight:400;font-size:clamp(28px,4vw,40px);mar
 .p .r{font-size:11.5px;color:var(--muted)}
 .p .sb{font-family:var(--mono);font-size:10px;color:var(--muted)}
 .p .xb{font-family:var(--mono);font-size:10px;color:var(--you)}
+@media (max-width:640px){.p .r{display:none}.p{padding:5px 8px}}
 
-aside{position:sticky;top:calc(env(safe-area-inset-top,0px) + 16px);background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:18px;display:flex;flex-direction:column;gap:12px;min-width:0}
-@media (max-width:1100px){aside{position:static}}
-aside h2{font-family:var(--display);font-weight:400;font-size:22px;margin:0;line-height:1.2}
+/* Detaljpanel: fast sideskuff på stor skjerm, bunnark på små skjermer */
+aside#panel{position:fixed;z-index:40;background:var(--paper);border:1px solid var(--line);box-shadow:0 12px 40px rgba(0,0,0,.25);overflow:auto;overscroll-behavior:contain;display:flex;flex-direction:column;gap:12px;box-sizing:border-box;transition:transform .2s ease}
+aside#panel[hidden]{display:none!important}
+@media (min-width:900px){
+  aside#panel{top:12px;right:12px;bottom:12px;width:min(400px,38vw);border-radius:10px;padding:18px 18px 22px;transform:translateX(110%)}
+  aside#panel.in{transform:none}
+  body.panel-open .wrap{padding-right:calc(min(400px,38vw) + 28px)}
+  .grab{display:none}
+}
+@media (max-width:899.98px){
+  aside#panel{left:0;right:0;bottom:0;max-height:68dvh;border-radius:16px 16px 0 0;padding:10px 16px calc(18px + env(safe-area-inset-bottom,0px));transform:translateY(105%)}
+  aside#panel.in{transform:none}
+  .grab{width:40px;height:4px;border-radius:2px;background:var(--line);margin:0 auto 2px;flex:none}
+  .viewport{height:calc(100dvh - 190px)}
+}
+#pbody{display:flex;flex-direction:column;gap:12px;min-width:0}
+.pclose{all:unset;cursor:pointer;position:sticky;top:0;align-self:flex-end;margin-bottom:-36px;width:34px;height:34px;border-radius:99px;text-align:center;font-size:22px;line-height:32px;color:var(--muted);background:var(--paper);border:1px solid var(--line);z-index:2;flex:none}
+.pclose:hover{color:var(--ink)}
+.pclose:focus-visible{outline:2px solid var(--you)}
+aside h2{font-family:var(--display);font-weight:400;font-size:22px;margin:0;line-height:1.2;padding-right:40px}
+
+@media (max-width:640px){
+  .wrap{padding-block:16px 32px}
+  header{gap:10px;padding-bottom:10px;margin-bottom:12px}
+  .sub{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:14px}
+  .sub.open{display:block}
+  .legend{font-size:12px;gap:4px 12px}
+  .toolbar{gap:8px}
+  .depth{font-size:13px}
+}
+@media (max-width:899.98px){aside#panel{max-height:58dvh}.viewport{height:calc(100dvh - 150px)}}
+@media (prefers-reduced-motion:reduce){aside#panel{transition:none}.p.flash{animation:none}}
 .chip{align-self:start;font-family:var(--mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;padding:2px 8px;border-radius:99px;border:1px solid}
 .chip.ok{color:var(--ok);border-color:var(--ok)}
 .chip.you{color:var(--you);border-color:var(--you)}
@@ -112,6 +165,7 @@ section.extra h4{font-family:var(--mono);font-size:11px;letter-spacing:.06em;tex
 section.extra ol, section.extra ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px;max-width:66ch}
 section.extra ol ol{margin-top:0}
 section.extra ol{padding-left:28px}
+details.srcd,details.nd{margin-top:4px;border-top:0;padding-top:0}
 details{margin-top:18px;border-top:1px solid var(--line);padding-top:12px}
 summary{cursor:pointer;font-family:var(--display);font-size:17px}
 details ul{margin-top:10px}
@@ -134,18 +188,30 @@ details ul{margin-top:10px}
     </div>
   </header>
 
-  <div class="layout">
-    <div class="scroller">
-      <p class="hint">Dra sideveis for å se eldre generasjoner.</p>
-      <div class="gens" id="gens"></div>
-      <div class="tree" id="tree"></div>
+  <div class="toolbar" role="search">
+    <div class="search">
+      <input id="q" type="search" placeholder="Søk etter navn eller sted …" autocomplete="off" spellcheck="false" aria-label="Søk etter person" role="combobox" aria-controls="hits" aria-expanded="false" aria-autocomplete="list">
+      <ul id="hits" role="listbox" hidden></ul>
     </div>
-    <aside id="panel" aria-live="polite"></aside>
+    <div class="views" id="views" role="group" aria-label="Velg del av treet"></div>
+    <label class="depth">Generasjoner <select id="depth"></select></label>
+    <button type="button" id="home" class="ghost">Til utgangspunktet</button>
   </div>
+  <p class="hint">Dra i treet for å se eldre generasjoner. Trykk + for å vise flere forfedre, − for å felle sammen.</p>
+  <div class="viewport" id="viewport" tabindex="0" aria-label="Slektstreet">
+    <div class="gens" id="gens"></div>
+    <div class="tree" id="tree"></div>
+  </div>
+  <aside id="panel" aria-live="polite" aria-labelledby="ptitle" hidden>
+    <button type="button" id="pclose" class="pclose" aria-label="Lukk">×</button>
+    <div class="grab" aria-hidden="true"></div>
+    <div id="pbody"></div>
+  </aside>
 
   <section class="extra">
     <div>
       <h3>Neste steg</h3>
+      <details class="nd"><summary>Vis forskningsplanen</summary>
       <h4>Bekreft de nye funnene</h4>
       <ol>
         <li><b>Begravelsen til Agnes</b> i begynnelsen av juni 1899 i Kristiania. Den er ikke indeksert, og fordi vielsen var borgerlig, kan familien ha vært dissentere. Se i kirkebøkene for Uranienborg, Paulus og Sagene, i dødsfallsprotokollen fra Kristiania skifterett (sluttet 24.11.1899) og i dissenterprotokollene for Kristiania.</li>
@@ -175,6 +241,7 @@ details ul{margin-top:10px}
         <li><b>Marthas fødselsdato.</b> Dåpen hennes i januar 1900 på Kongsvinger avgjør om det er 20., 24. eller 26. januar.</li>
         <li><b>Dødsannonsene for oldemor Evina</b> i september 1974 (lenker under Andres trær). De gir dødsdatoen hennes og lister trolig barna.</li>
       </ol>
+      </details>
     </div>
     <div>
       <h3>Andres trær og forskning</h3>
@@ -195,7 +262,9 @@ details ul{margin-top:10px}
     </div>
     <div>
       <h3>Kilder brukt</h3>
+      <details class="srcd"><summary id="srcsum">Vis alle kilder</summary>
       <ul id="srclist"></ul>
+      </details>
       <details>
         <summary>Avkreftede spor (7)</summary>
         <ul>
@@ -260,10 +329,12 @@ const people = {
   oleTT:{n:"Ole Torkildsen",d:"f. ca. 1757",r:"Torp, Vinger",s:"ok",role:"Tipp-tipp-tipp-tippoldefar",sp:"ingeborP",note:"Bonde og gårdbeboer på Torp i Vinger, 44 år i folketellingen 1801, med kona Ingebor Pedersdatter og barna Berthe, Torkild, Peder, Ole og Ingebor. Ikke bekreftet som far til Ingebor Olsdatter, se henne.",src:"ft1801torp"},
   ingeborP:{n:"Ingebor Pedersdatter",d:"f. ca. 1751",r:"Torp, Vinger",s:"ok",role:"Tipp-tipp-tipp-tippoldemor",sp:"oleTT",note:"Kone til Ole Torkildsen på Torp, 50 år i folketellingen 1801. Ikke bekreftet som mor til Ingebor Olsdatter, men navnet og sønnen Peder passer.",src:"ft1801torp"},
   ingeborO:{n:"Ingebor Olsdatter",d:"f. ca. 1792–1797",r:"Torp, Vinger",s:"ok",role:"Tipp-tipp-tippoldemor",f:"oleTT",m:"ingeborP",pl:"cand",sp:"gustavN",sibx:["Berthe Olsdatter, f. ca. 1783","Torkild Olsen, f. ca. 1784","Peder Olsen, f. ca. 1787","Ole Olsen, f. ca. 1791"],note:"Fra Torp da hun giftet seg med Gustav Nielsen 30.12.1821 i Vinger. Mor til Ole Gustavsen (1828). Farsnavnet viser at faren het Ole. Barnebarnet Ingeborg (1865) ble oppkalt etter henne. Tre andre Ingebor Olsdatter født 1797–98 bodde i 1801 på Rudberg, Liøner og Nevjen, altså ikke på Torp. TOLKNING: Vielsen 1821 sier at hun bodde på Torp. I folketellingen 1801 for Vinger er det bare én Ingebor Olsdatter på Torp: datteren til Ole Torkildsen og Ingebor Pedersdatter, da 7 år. Alderen passer med ministerialboka (ca. 1792), mens klokkerboka har ca. 1797. Barna Niels (1822), Mari (1825), Ole (1828) og Peder (1830, 1835) passer med navneskikken. Dåpene i Vinger før 1800 er ikke søkbare, så koblingen er stiplet.",src:"vielGN",srcs:["ft1801torp","daapO"]},
-  erikAB:{n:"Erik Arnesen",d:"f. ca. 1773",r:"Billa under Finsrud, Eidskog",s:"ok",role:"Tipp-tipp-tipp-tippoldefar",sp:"kariOF",note:"Husmann med jord på Finsrud i Eidskog, 28 år i folketellingen 1801, med kona Kari Olsdatter og sønnene Arne (5) og Petter (2). Far til Ole, døpt 1803 på Billa under Finsrud. En annen Erik Arnesen (f. ca. 1756) var også husmann på Finsrud i 1801, men han var gift med en annen kone. Farsnavnet viser at hans egen far het Arne.",src:"ft1801finsrud"},
-  kariOF:{n:"Kari Olsdatter",d:"f. ca. 1771",r:"Billa under Finsrud, Eidskog",s:"ok",role:"Tipp-tipp-tipp-tippoldemor",sp:"erikAB",note:"Kone til Erik Arnesen, 30 år i folketellingen 1801. Mor til Ole (1803). Sønnesønnen Karen (1838) er trolig oppkalt etter henne.",src:"ft1801finsrud"},
-  torOW:{n:"Tor (Tord) Olsen",d:"f. ca. 1765",r:"Udgaarden → Waaler under Goustad, Eidskog",s:"ok",role:"Tipp-tipp-tipp-tippoldefar",sp:"sigriA",note:"Inderst og nasjonalsoldat, 36 år i folketellingen 1801 på Udgaarden, med kona Sigri Arnesdatter og barna Anne (11), Dorthe (7) og Ole (4). Inderst på plassen Waaler under Goustad da Marthe ble døpt i 1804, og der også da Olia ble døpt i 1809. Farsnavnet viser at hans egen far het Ole.",src:"daapMT"},
-  sigriA:{n:"Sigri Arnesdatter",d:"f. ca. 1764",r:"Waaler under Goustad, Eidskog",s:"ok",role:"Tipp-tipp-tipp-tippoldemor",sp:"torOW",note:"Kone til Tor Olsen, 37 år i folketellingen 1801. Mor til Marthe (1804). Barnebarnet Sigri (1833) er oppkalt etter henne.",src:"daapMT"},
+  arneI:{n:"Arne Ingebretsen",d:"",r:"Finsrud, Eidskog",s:"ok",role:"Tipp-tipp-tipp-tipp-tippoldefar",sp:"maarteF",note:"Står som far da Erich ble døpt 3.9.1775, bosatt på Finsrud. GJETNING: I folketellingen 1801 bodde en Arne Embrethsen, 70 år og enkemann etter tredje ekteskap, hos sønnen Embreth Arnesen på Finsrud. Embret og Engebret er varianter av samme navn, så det kan være ham, men det er ikke kontrollert.",src:"daapEA"},
+  maarteF:{n:"Maarte (Marte)",d:"",r:"Finsrud, Eidskog",s:"ok",role:"Tipp-tipp-tipp-tipp-tippoldemor",sp:"arneI",note:"Mor til Erich, døpt 3.9.1775. Kirkeboka gir bare fornavnet.",src:"daapEA"},
+  erikAB:{n:"Erik Arnesen",d:"døpt 3.9.1775 – 1859",r:"Billa under Finsrud, Eidskog",s:"ok",role:"Tipp-tipp-tipp-tippoldefar",f:"arneI",m:"maarteF",pl:"cand",sp:"kariOF",note:"Husmann med jord på Finsrud i Eidskog, 28 år i folketellingen 1801, med kona Kari Olsdatter og sønnene Arne (5) og Petter (2). Far til Ole, døpt 1803 på Billa under Finsrud. En annen Erik Arnesen (f. ca. 1756) var også husmann på Finsrud i 1801, men han var gift med en annen kone. Farsnavnet viser at hans egen far het Arne. Begravet i Eidskog 10.11.1859 som lægdslem på Billa, oppgitt født ca. 1775. Trolig døpt 3.9.1775 i Eidskog som Erich, sønn av Arne Ingebretsen og Maarte på Finsrud. Fadderne var Anders Finsrud, Amund og Christian Billa, Brita og Kari Haen, altså folk fra de samme plassene der Erik senere bodde. Sønnen hans het Arne, etter denne faren. Alderen passer med begravelsen (ca. 1775), mens folketellingen 1801 gir ca. 1773. Lest i den skannede kirkeboka 14.10.2026. Koblingen er stiplet fordi dåpen ikke nevner Billa direkte og årene 1772 og tidlig 1773 ikke er gjennomlest.",src:"ft1801finsrud",srcs:["daapEA","gravEidskog"]},
+  kariOF:{n:"Kari Olsdatter",d:"ca. 1771 – 1829",r:"Billa under Finsrud, Eidskog",s:"ok",role:"Tipp-tipp-tipp-tippoldemor",sp:"erikAB",note:"Kone til Erik Arnesen, 30 år i folketellingen 1801. Mor til Ole (1803). Sønnesønnen Karen (1838) er trolig oppkalt etter henne. Begravet 1.8.1829 som hustru til Erik Arnesen Billa, oppgitt født ca. 1772.",src:"ft1801finsrud",srcs:["gravEidskog"]},
+  torOW:{n:"Tor (Tord) Olsen",d:"ca. 1765 – 1837",r:"Udgaarden → Waaler under Goustad, Eidskog",s:"ok",role:"Tipp-tipp-tipp-tippoldefar",sp:"sigriA",note:"Inderst og nasjonalsoldat, 36 år i folketellingen 1801 på Udgaarden, med kona Sigri Arnesdatter og barna Anne (11), Dorthe (7) og Ole (4). Inderst på plassen Waaler under Goustad da Marthe ble døpt i 1804, og der også da Olia ble døpt i 1809. Farsnavnet viser at hans egen far het Ole. Begravet 10.8.1837 som fattiglem på Røisdalmoen, der datteren Marthe bodde, oppgitt født ca. 1767.",src:"daapMT",srcs:["gravEidskog"]},
+  sigriA:{n:"Sigri Arnesdatter",d:"ca. 1763 – 1842",r:"Waaler under Goustad, Eidskog",s:"ok",role:"Tipp-tipp-tipp-tippoldemor",sp:"torOW",note:"Kone til Tor Olsen, 37 år i folketellingen 1801. Mor til Marthe (1804). Barnebarnet Sigri (1833) er oppkalt etter henne. Begravet 10.3.1842 som lægdslem og enke på Røisdalmoen, oppgitt født ca. 1762.",src:"daapMT",srcs:["gravEidskog"]},
   oleE:{n:"Ole Eriksen",d:"døpt 22.5.1803",r:"Goustadmoen → Røisdalmoen, Eidskog",s:"ok",role:"Tipp-tipp-tippoldefar",f:"erikAB",m:"kariOF",sp:"martheT2",sibx:["Arne Eriksen, f. ca. 1796","Petter Eriksen, f. ca. 1799"],note:"Står som bruras far da Sigrid Olsdatter fra Røisdalmoen giftet seg i 1854. Trolig samme mann som Ole Eriksen Goustadmoen, gift med Marthe Tordsdatter, som fikk datteren Sigri døpt i Vinger i 1833. Husmann med jord på Røisdalmoen (Reisdalsmoen) i 1865, 64 år og født i Eidskog, med kona Marthe og sønnene Thore og Ole. Farsnavnet viser at hans egen far het Erik. Døpt 22.5.1803 i Eidskog, sønn av Erik Arnesen og Kari Olsdatter på Billa under Finsrud. Vielsen 26.12.1826 sier at brudgommen var født og bodde på Billa, og barna Erik (1829) og Karen (1838) er oppkalt etter foreldrene hans. Andre Ole Eriksen i Vinger og Eidskog på samme tid er derfor holdt utenfor.",src:"vielOG",srcs:["daapOE","vielOM","daapSi","ft1865ei"]},
   martheT2:{n:"Marthe Tordsdatter",d:"døpt 29.1.1804",r:"Røisdalmoen, Eidskog",s:"ok",role:"Tipp-tipp-tippoldemor",f:"torOW",m:"sigriA",sp:"oleE",sibx:["Anne Tordsdatter, f. ca. 1790","Dorthe Tordsdatter, f. ca. 1794","Ole Tordsen, f. ca. 1797","Olia Torsdatter, døpt 26.12.1809"],note:"Mor til Sigri, født 29.3.1833 i Vinger, med Ole Eriksen Goustadmoen. I 1865 bodde hun og Ole Eriksen som husmannsfolk på Røisdalmoen i Eidskog, hun 62 år. Koblingen til Sigrid bygger på tre kilder som sammen peker på samme familie: dåpen 1833, vielsen 1854 (Røisdalmoen, far Ole Eriksen) og tellingen 1865. Sønnen Thore ble oppkalt etter faren hennes, Tord. Døpt 29.1.1804 i Eidskog, datter av inderst Tor Olsen og Sigri Arnesdatter på plassen Waaler under Goustad. Vielsen 26.12.1826 sier at bruden var født på Vaaler. Datteren Sigri (1833) er oppkalt etter moren hennes og sønnen Thore etter faren. Vielsen regner henne som født ca. 1802, et par år for tidlig, men slike aldersangivelser er ofte unøyaktige.",src:"daapSi",srcs:["daapMT","vielOM","ft1865ei"]},
 
@@ -492,6 +563,8 @@ const srcText = {
   konfTO:'Konfirmasjon 3.11.1805, ministerialbok for Elverum 1794–1814 (<a href="https://www.digitalarkivet.no/view/279/pk00000002826987">pk00000002826987</a>): Torkild Olsen, Wolla, ca. 1789. Vielse 5.6.1817 (<a href="https://www.digitalarkivet.no/view/327/pv00000010000693">pv00000010000693</a>): ungkar Torkild Olsen, Wolla, ca. 1789, og pike Gurie Hansdatter, Retten.',
   gravTO:'Begravelse 23.5.1856, ministerialbok for Elverum 1843–1856 (<a href="https://www.digitalarkivet.no/view/267/pg00000006714185">pg00000006714185</a>): føderådsmann Torkild Olsen, Vollum eller Volla, ca. 1789. Den andre Torkild Olsen (ca. 1788, Qvernemoen) ble begravet 1.3.1834 (<a href="https://www.digitalarkivet.no/view/267/pg00000006740337">pg00000006740337</a>).',
   ft1801kilde:'Folketelling 1801 for Elverum, Kilde (<a href="https://www.digitalarkivet.no/census/person/pf01058243001390">pf01058243001390</a>): Ole Johnsen 49, Johanne Torkildsdatter 37, Inger 14 og Torkild 12. Den andre Torkild Olsen i 1801 bodde på Qvernemoen (<a href="https://www.digitalarkivet.no/census/person/pf01058243001532">pf01058243001532</a>).',
+  gravEidskog:'Begravelser i Vinger/Eidskog: Erik Arnesen, lægdslem, Billa, 10.11.1859 (<a href="https://www.digitalarkivet.no/view/267/pg00000003798146">pg00000003798146</a>); Kari Olsdatter, hustru til Erik Arnesen Billa, 1.8.1829 (<a href="https://www.digitalarkivet.no/view/267/pg00000006595710">pg00000006595710</a>); Thor Olsen, fattiglem, Røidalmoen, 10.8.1837 (<a href="https://www.digitalarkivet.no/view/267/pg00000006597079">pg00000006597079</a>); Sigri Arnesdatter, lægdslem og enke, Røisdalmoen, 10.3.1842 (<a href="https://www.digitalarkivet.no/view/267/pg00000006112074">pg00000006112074</a>). Merk: kirkebøkene for Eidskog er skannet fra 1766, men dåp, vielser og begravelser er bare søkbare fra ca. 1798. Foreldrene til disse fire må derfor finnes ved å lese skannede sider.',
+  daapEA:'Dåp 3.9.1775, ministerialbok for Vinger, Eidskog sokn 1766–1813, side 61, nr. 3 (skannet side, lest 14.10.2026, ikke indeksert): «Husm. Arne Ingebretsen og h. Maarte Finsruds str. B. Erich Intr. F. Anders Finsrud, Amund og Christian Billa, Brita og Kari Haen». Dåpene i Eidskog før ca. 1798 er ikke søkbare.',
   konfIS:'Konfirmasjon 11.10.1846, ministerialbok for Fredrikstad 1835–1856 (<a href="https://www.digitalarkivet.no/view/279/pk00000002327600">pk00000002327600</a>): Inger Serine Andersdatter, født 2.1.1831 på Vaterland, foreldre Anders Nielsen og hustru Hedevig Magdalene Henrichsdatter.',
   vielAH:'Vielse 31.10.1820, ministerialbok for Fredrikstad 1816–1834 (<a href="https://www.digitalarkivet.no/view/327/pv00000002620656">pv00000002620656</a>): ungkar Anders Nilsen (ca. 1797), tjenestekarl hos kjøpmann Gullichsen i byen, og pike Hedevig Magdalena Henrichsdatter (ca. 1795), tjenestepike hos doktor Arctander. Sønnen Lars Martin ble døpt 28.1.1821 (pd00000013199838) og datteren Nicoline Marie 21.10.1827 (pd00000013202690).',
   gravJC:'Begravelse 8.2.1805, ministerialbok for Fredrikstad 1805–1816, side 430–431 (<a href="https://www.digitalarkivet.no/view/267/pg00000001942946">pg00000001942946</a>): Johane Clementz, enke, madame, født 1739.',
@@ -559,67 +632,197 @@ function card(id){
     +`<span class="n">${p.n}</span>${p.d?`<span class="d">${p.d}</span>`:""}<span class="r">${p.role}</span>`
     +(n?`<span class="sb">+${n} søsken</span>`:"")
     +(xk(p).length?`<span class="xb">↗ ${xk(p).join(" · ")}</span>`:"");
-  b.addEventListener("click",()=>select(id));
+  b.addEventListener("click",()=>{select(id);if(!isWide())setTimeout(()=>{const r=b.getBoundingClientRect(),t=panel.getBoundingClientRect().top;if(r.bottom>t-8||r.top<0)centerOn(id,true);},240);});
   return b;
 }
+const order=["daapEA","gravEidskog","daapOE","ft1801finsrud","vielOM","daapMT","konfJE","ft1801torp","daapJJ","gravJJ","daapES","konfTO","gravTO","ft1801kilde","daapKMH","ft1801halvor","gravHS","ft1801kultorp","gravIE","vielGS","ft1801brunsby","ft1801lunde","ft1801hoff","daapMAH","gravAJH","ft1880bromma","ftWeberg","simUt","hfTryde","flyTryde","hfB12","hfB8","flyBorrby","vielHK","ft1865sterud","barnHK","gravHK","ft1801bye","gravTP","barnTP","gravAMF","ft1701tyge","ft1701bloch","vielCCF","daapKF1781","trolKinn1742","castberg1938","tonsberg1956","munthe1883","lampe1895","bhf1934","gravOH","konfOH","ft1801moum","gravHG","vielHG","vielGL","fjeldVisur","lampe1896","aaland1932","vielCLC1","gudmorFr","skifteFM","kinnDieche","konfIS","vielAH","gravJC","bergen1755","ft1769f","veel1953","lhwClementz","brandt1884","schou1912","gb1996","daapOl","vielNK","daapJM","vielLC","daapCL","gravLC","ft1801f","daapLC","vielCLC","daapNN","vielNJ","daapIS","ft1865sb","daapJo","vielJE","daapEM","vielAE","daapAE","vielJA","daapMO","bbElv","ft1865ei","vielJM","daapJ","daapM","daapO2","vielTO","vielON","ft1865h","vielNI","daapA2","ft1865sk","daapKR","ft1865va","daapP","hfPB","hfSp","ystUt","daapN","daapK2","daapT","daapE","daapS","vielAg","vielPT","konfA","ft1875a","vielK","daapI","ft1865v","vielOG","daapO","vielGN","ft1885kv","ft1900kv","daapSi","daapB","gravB","daapA","gravA","ft1910s","vielCB","vielP","vielA","ft1900b","ft1875r","ft1900k","ft1910k","ft1920t","daap","ft1920","dodS","dodM","daapK","forumM","dodE","ft1920m","vigsel","ft1885f","ft1900r","ft1865r","ft1865e","ft1920o","ft1900kr","ft1875s","vielM","ft1891e","v1814","hbrT","hbrO","hbrE","hbrI","hbrEv"];
+// ---------- Visning: røtter, sider, dybde, felling ----------
+const ROOTS=[["Anetavle","me"]];
+const isWide=()=>matchMedia("(min-width:900px)").matches;
+const state={view:"alle",depth:6,open:new Set(),closed:new Set()};
+try{const d=localStorage.getItem("slekt.depth");if(d)state.depth=+d;}catch(e){}
+function hasPar(id){const p=people[id];return !!(p&&(p.f||p.m));}
+function countAnc(id){const p=people[id];let n=0;[p.f,p.m].filter(Boolean).forEach(x=>{if(people[x].s!=="unk")n++;n+=countAnc(x)});return n;}
+function showPar(id,gen){if(gen+1>=MAXGEN+1)return false;if(state.closed.has(id))return false;return gen+1<state.depth||state.open.has(id);}
+function openAll(id){const p=people[id];[p.f,p.m].filter(Boolean).forEach(x=>{state.closed.delete(x);openAll(x)});state.open.add(id);state.closed.delete(id);}
 function node(id,gen){
   const p=people[id], nd=el("div","node");
-  const cd=card(id); cd.dataset.gen=gen; nd.append(cd);
+  const cw=el("div","cw"); const cd=card(id); cd.dataset.gen=gen; cw.append(cd); nd.append(cw);
   const ps=[p.f,p.m].filter(Boolean);
   if(ps.length && gen<MAXGEN){
-    const par=el("div","par"+(p.pl?" "+p.pl:""));
-    ps.forEach(x=>par.append(node(x,gen+1)));
-    nd.append(par);
+    const shown=showPar(id,gen);
+    const t=el("button","fold"); t.type="button";
+    if(shown){t.textContent="−";t.setAttribute("aria-label","Fell sammen forfedrene til "+p.n);t.title="Fell sammen";}
+    else{const n=countAnc(id);t.textContent="+"+(n||"");t.setAttribute("aria-label","Vis "+n+" forfedre til "+p.n);t.title="Vis forfedre";t.classList.add("closed");}
+    t.addEventListener("click",e=>{e.stopPropagation();const keep=anchor(id);if(shown){state.closed.add(id);state.open.delete(id);}else{openAll(id);}render();restore(keep);});
+    cw.append(t);
+    if(shown){
+      const par=el("div","par"+(p.pl?" "+p.pl:""));
+      ps.forEach(x=>par.append(node(x,gen+1)));
+      nd.append(par);
+    }
   }
   return nd;
 }
+const vp=document.getElementById("viewport");
 const gens=document.getElementById("gens");
-genNames.forEach(g=>gens.append(el("span",null,g)));
 const treeEl=document.getElementById("tree");
-treeEl.append(el("div","sect","Anetavle"),node("me",0));
+function views(){
+  const v=[["alle","Alle"]];
+  const me=people[ROOTS[0][1]];
+  if(me.f)v.push(["far","Farssiden"]); if(me.m)v.push(["mor","Morssiden"]);
+  ROOTS.slice(1).forEach(([lab,id])=>{if(people[id])v.push([id,lab])});
+  return v;
+}
+function render(){
+  treeEl.innerHTML="";
+  const me=ROOTS[0][1];
+  let start=0;
+  if(state.view==="alle"){ROOTS.forEach(([lab,id])=>{if(!people[id])return;if(ROOTS.length>1)treeEl.append(el("div","sect",lab));treeEl.append(node(id,0))});}
+  else if(state.view==="far"){start=1;treeEl.append(el("div","sect","Farssiden"),node(people[me].f,1));}
+  else if(state.view==="mor"){start=1;treeEl.append(el("div","sect","Morssiden"),node(people[me].m,1));}
+  else{const r=ROOTS.find(x=>x[1]===state.view);treeEl.append(el("div","sect",r[0]),node(r[1],0));}
+  const cards=[...treeEl.querySelectorAll(".p")];
+  const maxg=Math.max(...cards.map(b=>+b.dataset.gen));
+  gens.innerHTML="";
+  if(start)gens.append(el("span","gap"));
+  for(let g=start;g<=maxg;g++)gens.append(el("span",null,genNames[g]));
+  gens.style.setProperty("--start",start);
+  treeEl.classList.toggle("shift",!!start);
+  if(cur)markPressed(cur);
+}
+// Hold samme kort på samme sted på skjermen når treet tegnes på nytt
+function anchor(id){const b=treeEl.querySelector(`.p[data-id="${id}"]`);if(!b)return null;const r=b.getBoundingClientRect();return{id,top:r.top,left:r.left};}
+function restore(a){if(!a)return;const b=treeEl.querySelector(`.p[data-id="${a.id}"]`);if(!b)return;const r=b.getBoundingClientRect();vp.scrollTop+=r.top-a.top;vp.scrollLeft+=r.left-a.left;}
+function centerOn(id,smooth){
+  const b=treeEl.querySelector(`.p[data-id="${id}"]`); if(!b)return false;
+  let vr=vp.getBoundingClientRect();
+  const sheet=!isWide()&&!panel.hidden?panel.getBoundingClientRect().top:innerHeight;
+  // Sørg for at treet faktisk er synlig på skjermen før vi sentrerer i det
+  if(vr.top<-40||Math.min(vr.bottom,sheet)-Math.max(vr.top,0)<Math.min(260,vr.height*0.6)){window.scrollTo({top:window.scrollY+vr.top-8,behavior:"auto"});vr=vp.getBoundingClientRect();}
+  const gh=gens.offsetHeight;
+  const visTop=Math.max(vr.top,0)+gh, visBot=Math.min(vr.bottom,sheet,innerHeight);
+  const r=b.getBoundingClientRect();
+  const dy=(r.top+r.height/2)-(visTop+visBot)/2;
+  const dx=r.left-(vr.left+vr.width*(isWide()?0.3:0.12));
+  vp.scrollTo({top:Math.max(0,vp.scrollTop+dy),left:Math.max(0,vp.scrollLeft+dx),behavior:smooth?"smooth":"auto"});
+  return true;
+}
+function pathTo(target){
+  const seen=new Set();
+  function dfs(id){if(!id||!people[id]||seen.has(id))return null;seen.add(id);if(id===target)return[id];const p=people[id];for(const x of [p.f,p.m]){const r=dfs(x);if(r)return[id,...r];}return null;}
+  for(const [,r] of ROOTS){seen.clear();const pth=dfs(r);if(pth)return pth;}
+  return null;
+}
+function reveal(id){
+  const pth=pathTo(id); if(!pth)return false;
+  const me=ROOTS[0][1];
+  if(state.view==="far"&&pth[1]!==people[me].f||state.view==="mor"&&pth[1]!==people[me].m||!["alle","far","mor"].includes(state.view)&&pth[0]!==state.view)setView("alle",true);
+  if(pth[0]!==me&&state.view!==pth[0]&&state.view!=="alle")setView("alle",true);
+  pth.slice(0,-1).forEach(x=>{state.closed.delete(x);state.open.add(x)});
+  render();
+  return true;
+}
+function flash(id){const b=treeEl.querySelector(`.p[data-id="${id}"]`);if(!b)return;b.classList.remove("flash");void b.offsetWidth;b.classList.add("flash");}
+function goTo(id){
+  const inTree=reveal(id);
+  select(id);
+  if(inTree){setTimeout(()=>{centerOn(id,true);flash(id);},isWide()?30:240);}
+}
+function setView(v,silent){
+  state.view=v;
+  document.querySelectorAll("#views button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===v?"true":"false"));
+  if(!silent){render();centerOn(v==="alle"?ROOTS[0][1]:(v==="far"?people[ROOTS[0][1]].f:v==="mor"?people[ROOTS[0][1]].m:v),false);}
+}
+const vw=document.getElementById("views");
+views().forEach(([v,lab])=>{const b=el("button",null,lab);b.type="button";b.dataset.v=v;b.setAttribute("aria-pressed",v===state.view?"true":"false");b.addEventListener("click",()=>setView(v));vw.append(b)});
+const depthSel=document.getElementById("depth");
+[[3,"3"],[4,"4"],[5,"5"],[6,"6"],[8,"8"],[99,"Alle"]].forEach(([v,l])=>{const o=el("option",null,l);o.value=v;if(v===state.depth)o.selected=true;depthSel.append(o)});
+depthSel.addEventListener("change",()=>{state.depth=+depthSel.value;state.open.clear();state.closed.clear();try{localStorage.setItem("slekt.depth",state.depth)}catch(e){};const keep=cur&&anchor(cur);render();if(keep)restore(keep);});
+document.getElementById("home").addEventListener("click",()=>{setView("alle",true);render();centerOn(ROOTS[0][1],true);flash(ROOTS[0][1]);});
 
-// Stats
-const inTree=[...document.querySelectorAll("#tree .p")].map(b=>people[b.dataset.id]);
-const named=inTree.filter(p=>p.s!=="unk"), doc=inTree.filter(p=>p.s==="ok");
-const ngen=Math.max(...[...document.querySelectorAll("#tree .p")].filter(b=>people[b.dataset.id].s!=="unk").map(b=>+b.dataset.gen))+1;
+// ---------- Søk ----------
+const q=document.getElementById("q"), hits=document.getElementById("hits");
+const norm=s=>s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/ø/g,"o").replace(/æ/g,"ae").replace(/å/g,"a").replace(/[^a-z0-9 ]/g," ");
+const index=Object.entries(people).filter(([,p])=>p.s!=="unk"||p.n).map(([id,p])=>({id,p,t:norm(p.n+" "+(p.r||"")+" "+(p.d||""))}));
+let hi=-1, hitIds=[];
+function runSearch(){
+  const t=norm(q.value).trim(); hits.innerHTML=""; hi=-1; hitIds=[];
+  if(!t){hits.hidden=true;q.setAttribute("aria-expanded","false");return;}
+  const words=t.split(/\s+/);
+  const res=index.filter(x=>words.every(w=>x.t.includes(w))).sort((a,b)=>norm(a.p.n).indexOf(words[0])-norm(b.p.n).indexOf(words[0])||a.p.n.localeCompare(b.p.n)).slice(0,12);
+  if(!res.length){hits.append(el("li","none","Ingen treff"));}
+  res.forEach((x,i)=>{const li=el("li",null,`<span class="hn">${x.p.n}</span><span class="hm">${[x.p.d,x.p.role].filter(Boolean).join(" · ")}</span>`);li.id="hit"+i;li.setAttribute("role","option");li.addEventListener("mousedown",e=>{e.preventDefault();pick(x.id)});hits.append(li);hitIds.push(x.id)});
+  hits.hidden=false;q.setAttribute("aria-expanded","true");
+}
+function pick(id){hits.hidden=true;q.setAttribute("aria-expanded","false");q.blur();goTo(id);}
+function mark(){[...hits.children].forEach((li,i)=>li.classList.toggle("on",i===hi));if(hi>=0)q.setAttribute("aria-activedescendant","hit"+hi);}
+q.addEventListener("input",runSearch);
+q.addEventListener("focus",()=>{if(q.value)runSearch()});
+q.addEventListener("blur",()=>setTimeout(()=>{hits.hidden=true},150));
+q.addEventListener("keydown",e=>{
+  if(e.key==="ArrowDown"){hi=Math.min(hi+1,hitIds.length-1);mark();e.preventDefault();}
+  else if(e.key==="ArrowUp"){hi=Math.max(hi-1,0);mark();e.preventDefault();}
+  else if(e.key==="Enter"){if(hitIds.length)pick(hitIds[Math.max(hi,0)]);e.preventDefault();}
+  else if(e.key==="Escape"){q.value="";runSearch();}
+});
+
+// Stats (regnet på hele treet, uavhengig av hva som er felt sammen)
+function walk(id,gen,acc){if(!id||!people[id])return;acc.push([id,gen]);const p=people[id];if(gen<MAXGEN){walk(p.f,gen+1,acc);walk(p.m,gen+1,acc);}}
+const all=[];ROOTS.forEach(([,r])=>walk(r,0,all));
+const named=all.filter(([id])=>people[id].s!=="unk"), doc=all.filter(([id])=>people[id].s==="ok");
+const ngen=Math.max(...named.map(([,g])=>g))+1;
 document.getElementById("stats").textContent=`${named.length} navngitte personer i ${ngen} generasjoner · ${doc.length} dokumentert i kilder`;
 
 // Sources list built from the records actually used
 const used=new Set();
 Object.values(people).forEach(p=>{if(p.src&&p.src!=="none"&&p.src!=="user")used.add(p.src);(p.srcs||[]).forEach(k=>used.add(k))});
-const order=["daapOE","ft1801finsrud","vielOM","daapMT","konfJE","ft1801torp","daapJJ","gravJJ","daapES","konfTO","gravTO","ft1801kilde","daapKMH","ft1801halvor","gravHS","ft1801kultorp","gravIE","vielGS","ft1801brunsby","ft1801lunde","ft1801hoff","daapMAH","gravAJH","ft1880bromma","ftWeberg","simUt","hfTryde","flyTryde","hfB12","hfB8","flyBorrby","vielHK","ft1865sterud","barnHK","gravHK","ft1801bye","gravTP","barnTP","gravAMF","ft1701tyge","ft1701bloch","vielCCF","daapKF1781","trolKinn1742","castberg1938","tonsberg1956","munthe1883","lampe1895","bhf1934","gravOH","konfOH","ft1801moum","gravHG","vielHG","vielGL","fjeldVisur","lampe1896","aaland1932","vielCLC1","gudmorFr","skifteFM","kinnDieche","konfIS","vielAH","gravJC","bergen1755","ft1769f","veel1953","lhwClementz","brandt1884","schou1912","gb1996","daapOl","vielNK","daapJM","vielLC","daapCL","gravLC","ft1801f","daapLC","vielCLC","daapNN","vielNJ","daapIS","ft1865sb","daapJo","vielJE","daapEM","vielAE","daapAE","vielJA","daapMO","bbElv","ft1865ei","vielJM","daapJ","daapM","daapO2","vielTO","vielON","ft1865h","vielNI","daapA2","ft1865sk","daapKR","ft1865va","daapP","hfPB","hfSp","ystUt","daapN","daapK2","daapT","daapE","daapS","vielAg","vielPT","konfA","ft1875a","vielK","daapI","ft1865v","vielOG","daapO","vielGN","ft1885kv","ft1900kv","daapSi","daapB","gravB","daapA","gravA","ft1910s","vielCB","vielP","vielA","ft1900b","ft1875r","ft1900k","ft1910k","ft1920t","daap","ft1920","dodS","dodM","daapK","forumM","dodE","ft1920m","vigsel","ft1885f","ft1900r","ft1865r","ft1865e","ft1920o","ft1900kr","ft1875s","vielM","ft1891e","v1814","hbrT","hbrO","hbrE","hbrI","hbrEv"];
 const sl=document.getElementById("srclist");
 sl.append(el("li",null,srcText.user+" Gjelder deg, Marie og foreldrene hennes, dine foreldre, farfars, farmors og mormors navn, Liv, fødestedet Kongsvinger, og at Erling og Ingrid var søsken."));
 order.filter(k=>used.has(k)).forEach(k=>sl.append(el("li",null,srcText[k])));
+document.getElementById("srcsum").textContent=`Vis alle kilder (${sl.children.length})`;
 
-const panel=document.getElementById("panel");
+// ---------- Detaljpanel (sideskuff på stor skjerm, bunnark på mobil) ----------
+const panel=document.getElementById("panel"), pbody=document.getElementById("pbody");
+let cur=null;
 function lnk(id){return `<button type="button" class="lnk" data-go="${id}">${people[id].n}</button>`;}
+function markPressed(id){document.querySelectorAll("#tree .p").forEach(b=>b.setAttribute("aria-pressed",b.dataset.id===id?"true":"false"));}
+function openPanel(){panel.hidden=false;document.body.classList.add("panel-open");requestAnimationFrame(()=>panel.classList.add("in"));}
+function closePanel(){panel.classList.remove("in");document.body.classList.remove("panel-open");panel.hidden=true;markPressed(null);cur=null;}
+document.getElementById("pclose").addEventListener("click",closePanel);
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!panel.hidden&&document.activeElement!==q)closePanel();});
 function select(id){
-  const p=people[id];
-  document.querySelectorAll(".p").forEach(b=>b.setAttribute("aria-pressed",b.dataset.id===id?"true":"false"));
+  const p=people[id]; cur=id;
+  markPressed(id);
   const par=[p.f,p.m].filter(Boolean).map(lnk).join(" og ");
   const sibs=[...(p.sibs||[]).map(lnk),...(p.sibx||[])];
-  panel.innerHTML=`<span class="chip ${p.s}">${chipText[p.s]}</span><h2>${p.n}</h2>
+  pbody.innerHTML=`<span class="chip ${p.s}">${chipText[p.s]}</span><h2 id="ptitle">${p.n}</h2>
   ${p.pl==="cand"?`<p class="linkwarn">Koblingen til foreldrene er sannsynlig, men ikke bekreftet i kirkebok.</p>`:""}
   <dl><dt>Rolle</dt><dd>${p.role}</dd>${p.d?`<dt>Datoer</dt><dd>${p.d}</dd>`:""}${p.r?`<dt>Sted</dt><dd>${p.r}</dd>`:""}
   ${p.sp?`<dt>Ektefelle</dt><dd>${lnk(p.sp)}</dd>`:""}${par?`<dt>Foreldre</dt><dd>${par}</dd>`:""}${sibs.length?`<dt>Søsken</dt><dd>${sibs.join("<br>")}</dd>`:""}</dl>
   ${p.note?`<p class="note">${p.note}</p>`:""}
   ${p.ext?`<div class="ext"><h3>Andres trær og funn</h3><ul>${p.ext.map(xli).join("")}</ul></div>`:""}
   <div class="src"><b>Kilde:</b> ${srcText[p.src]}${(p.srcs||[]).map(k=>`<br><br><b>Også:</b> ${srcText[k]}`).join("")}</div>`;
-  panel.querySelectorAll("[data-go]").forEach(b=>b.addEventListener("click",()=>select(b.dataset.go)));
-  extLinks(panel);
+  pbody.querySelectorAll("[data-go]").forEach(b=>b.addEventListener("click",()=>goTo(b.dataset.go)));
+  extLinks(pbody);
+  pbody.scrollTop=0; panel.scrollTop=0;
+  openPanel();
 }
-select("me");
+
+render();
+requestAnimationFrame(()=>{const y=window.scrollY;centerOn(ROOTS[0][1],false);window.scrollTo(0,y);});
 
 // Andres trær: samlet fra ext-feltene, gruppert per person
 const xl=document.getElementById("extlist");
 Object.entries(people).forEach(([id,p])=>{
   const xs=(p.ext||[]).filter(x=>x.st!=="obs"); if(!xs.length) return;
   const li=el("li",null,`<button type="button" class="lnk" data-go="${id}">${p.n}</button>, ${p.role.toLowerCase()}<ul>${xs.map(xli).join("")}</ul>`);
-  li.querySelector("[data-go]").addEventListener("click",()=>{select(id);panel.scrollIntoView({behavior:"smooth",block:"nearest"});});
+  li.querySelector("[data-go]").addEventListener("click",()=>{goTo(id);vp.scrollIntoView({behavior:"smooth",block:"start"});});
   xl.append(li);
 });
 extLinks(document.querySelector("section.extra"));
+document.querySelector(".sub").addEventListener("click",e=>e.currentTarget.classList.toggle("open"));
 </script>
+
 
 </body></html>
