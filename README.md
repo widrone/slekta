@@ -12,7 +12,7 @@ Et interaktivt slektstre (anetavle) med kilder. Treet er én HTML-fil, `index.ht
 
 ## Hva treet viser
 
-- 144 navngitte personer i 13 generasjoner. 123 av dem er dokumentert i primærkilder.
+- 171 navngitte personer i 13 generasjoner. 152 av dem er dokumentert i primærkilder.
 - Statusen til hver person: dokumentert, oppgitt eller ikke bekreftet.
 - Kilder med lenker til Digitalarkivet, Nasjonalbiblioteket og Riksarkivet.
 - Søsken, og spor fra andres trær.
@@ -29,11 +29,11 @@ Et interaktivt slektstre (anetavle) med kilder. Treet er én HTML-fil, `index.ht
 
 Levende personer er ikke med. Utgangspersonen og foreldrene står bare som «Utgangsperson», «Far» og «Mor», uten navn eller datoer. Konas side av treet er tatt ut.
 
-Versjon: 16.10.2026 (tilsvarer versjon 91 av arbeidstreet).
+Versjon: 16.10.2026 (tilsvarer versjon 96 av arbeidstreet).
 
 ## Nytt siden forrige versjon
 
-- Kerstin (Kersti) Jönsdotters linje i Hedeskoga ved Ystad: foreldrene Jöns Persson (f. 9.10.1812) og Ingar Carlsdotter, med søsknene Nils, Carl og Nils.
-- Ny generasjon i Hedeskoga: Per Jönsson (f. 9.1.1781) og Mätta Trulsdotter (f. 1786, fra Östraby), og videre Jöns Månsson og Hanna Mårtensdotter (gift 1779).
-- Vielsene er funnet: Per og Mätta i Hedeskoga 1810, Jöns og Ingar i Sövestad 1838 (Ingar var da tjenestepike i Örsjö).
-- Enklere navigering: treet har ikke lenger eget rullevindu inne i siden, så opp og ned ruller hele siden.
+- Wedberg-linja i Skåne: Nils Håkanssons dåp i Onslunda (f. 30.12.1800), Una Nilsdotters dåp i Spjutstorp (f. 6.4.1807) med foreldrene Nils Matsson og Elna Åkesdotter, Olas søsken Åke, Mätta og Klemmed, og Olas død 21.3.1888 i Tryde.
+- Margit Solveig Wiborg (f. Jensen, 1922–2011) er koblet til foreldrene Magnar Jensen og Marie Birkelund, med besteforeldre og oldeforeldre i Kristiansund og Halsa.
+- Maries mor het Marie Johanne Gjeldnes (1871–1940), datter av matros Martinius C. Gjeldnes og Johanne L. fra Stangvik. Navnet er lest i den skannede vielsen 17.11.1890.
+- Jakob Olsen og Elen Hansdatter på Rabben i Halsa, med folketellinger 1865–1910. En mulig dåp for Elen i Edøy 1849 er notert, men ikke bekreftet.
