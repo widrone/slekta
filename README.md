@@ -29,10 +29,11 @@ Et interaktivt slektstre (anetavle) med kilder. Treet er én HTML-fil, `index.ht
 
 Levende personer er ikke med. Utgangspersonen og foreldrene står bare som «Utgangsperson», «Far» og «Mor», uten navn eller datoer. Konas side av treet er tatt ut.
 
-Versjon: 16.10.2026 (tilsvarer versjon 96 av arbeidstreet).
+Versjon: 16.10.2026 (tilsvarer versjon 97 av arbeidstreet).
 
 ## Nytt siden forrige versjon
 
+- «Andres trær og forskning» kan nå felles sammen, slik som forskningsplanen og kildelista.
 - Wedberg-linja i Skåne: Nils Håkanssons dåp i Onslunda (f. 30.12.1800), Una Nilsdotters dåp i Spjutstorp (f. 6.4.1807) med foreldrene Nils Matsson og Elna Åkesdotter, Olas søsken Åke, Mätta og Klemmed, og Olas død 21.3.1888 i Tryde.
 - Margit Solveig Wiborg (f. Jensen, 1922–2011) er koblet til foreldrene Magnar Jensen og Marie Birkelund, med besteforeldre og oldeforeldre i Kristiansund og Halsa.
 - Maries mor het Marie Johanne Gjeldnes (1871–1940), datter av matros Martinius C. Gjeldnes og Johanne L. fra Stangvik. Navnet er lest i den skannede vielsen 17.11.1890.
