@@ -14,7 +14,7 @@ Treet går ut fra barna i slekta Aure-Wiborg. Farssiden er Wiborg og Aanonsen, m
 
 ## Hva treet viser
 
-- 250 personer i 14 generasjoner. Over 220 av dem er dokumentert i primærkilder.
+- 250 personer i 14 generasjoner. 223 av dem er dokumentert i primærkilder.
 - Statusen til hver person: dokumentert, oppgitt eller ikke bekreftet.
 - Kilder med lenker til Digitalarkivet, Nasjonalbiblioteket og Riksarkivet.
 - Søsken, og spor fra andres trær.
@@ -35,7 +35,15 @@ Treet går ut fra barna i slekta Aure-Wiborg. Farssiden er Wiborg og Aanonsen, m
 - Levende og nylig avdøde personer i de tre nærmeste leddene er med uten navn eller datoer, bare som rolle: «Utgangspersonene», «Far», «Mor», «Farfar», «Farmor», «Morfar» og «Mormor».
 - Fra oldeforeldrene og bakover vises bare døde personer med navn.
 
-Versjon: 19.10.2026 (tilsvarer versjon 108 av arbeidstreet).
+Versjon: 19.10.2026 (tilsvarer versjon 109 av arbeidstreet).
+
+## Aure-navnet
+
+Aure er et gammelt gårdsnavn fra Skiaker i Østsinni sokn i Nordre Land: Aure søndre, også kalt Aure-Ødegården (gnr. 115).
+- Ifølge Rygh, *Norske Gaardnavne* (1902), lå gården tidligere under nabogården Berg. Den er nevnt som «Oure Ødegaard» i 1723.
+- Navnet kommer trolig av elva Aura i Skiaker. Elvenavnet er trolig dannet av norrønt *aurr*, «grus». Rygh nevner også at navnet kan være opprinnelig *Aurin*, «grusenga».
+- Johannes Knudsen (f. ca. 1827) var husmann og senere forpakter på Aure. I 1891 skrives han «Johannes Knutsen Aure».
+- Sønnen Ole tok navnet med til Kristiania, og der ble det fast slektsnavn.
 
 ## Nytt siden forrige versjon
 
@@ -58,3 +66,4 @@ Versjon: 19.10.2026 (tilsvarer versjon 108 av arbeidstreet).
     - Mathilde Staff og faren Gustav Stav fra Uddevalla.
     - Tollbodarbeider Hagbart Knudsen fra Ullensaker.
 - Rollene på kortene regnes nå ut automatisk.
+- Aure-navnets opprinnelse er utredet. Johannes Knudsen Aure er knyttet til foreldrene Knud Knudsen og Berte Johansdatter på Bergs eie (gift 1820). Koblingen er sannsynlig, men ikke bekreftet.
