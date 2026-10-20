@@ -22,20 +22,30 @@ Treet går ut fra barna i slekta Aure-Wiborg. Farssiden er Wiborg og Aanonsen, m
 
 ## Bruk
 
-- **Søk:** skriv et navn eller sted. Treffet åpnes i treet, markeres og vises i detaljpanelet.
-- **Detaljpanel:** klikk på en person. På stor skjerm åpnes panelet til høyre, på mobil som et ark nederst. Lukk med × eller Esc.
+### På mobil: fokusvisning
+- Siden åpner med **én person om gangen**, sammen med foreldre og besteforeldre. Utsnittet er tilpasset skjermbredden, så du slipper å rulle sidelengs.
+- **Trykk på en forelder eller besteforelder** for å gå bakover. Kortene i ytterste kolonne viser hvor mange forfedre som finnes videre («31 forfedre ›»).
+- **Stien øverst** (Barna › Mor › Morfar › …) viser hvor du er. Trykk på et ledd for å gå tilbake. Tilbakeknappen eller tilbakesveipet på telefonen fungerer også.
+- **Detaljene** om personen står rett under: datoer, steder, ektefelle, foreldre, barn, søsken og notater. Kildene ligger bak «Vis kilder».
+- **Søk, Farssiden og Morssiden** ligger fast øverst mens du blar.
+- **«Hele treet»** viser den store tavlen med alle generasjoner. «Fokusvisning» tar deg tilbake. Valget huskes.
+
+### På stor skjerm
+- **Søk:** skriv et navn eller sted. Treffet åpnes i treet, markeres og vises i detaljpanelet til høyre.
 - **Treet** ruller sammen med resten av siden, og generasjonsnavnene ligger låst øverst.
-  - Er treet bredere enn skjermen, sveiper du sidelengs, drar med musen eller bruker pilene nede til høyre.
+  - Er treet bredere enn skjermen, drar du med musen eller bruker pilene nede til høyre.
   - Velg Alle, Farssiden (Wiborg) eller Morssiden (Aure), og hvor mange generasjoner som vises. Valget huskes.
 - **+ og −** på hvert kort viser eller feller sammen forfedrene i den grenen.
-- **Rollene** («Farfar», «Oldemor (morssiden)» osv.) regnes ut fra barna.
+
+### Lenke til en person
+Legg til `#` og personens nøkkel i adressen for å åpne treet rett på en bestemt person, for eksempel `index.html#georgA` for Georg Johannes Aure.
 
 ## Personvern
 
-- Levende og nylig avdøde personer i de tre nærmeste leddene er med uten navn eller datoer, bare som rolle: «Utgangspersonene», «Far», «Mor», «Farfar», «Farmor», «Morfar» og «Mormor».
+- Levende og nylig avdøde personer i de tre nærmeste leddene er med uten navn eller datoer, bare som rolle: «Barna», «Far», «Mor», «Farfar», «Farmor», «Morfar» og «Mormor».
 - Fra oldeforeldrene og bakover vises bare døde personer med navn.
 
-Versjon: 19.10.2026 (tilsvarer versjon 109 av arbeidstreet).
+Versjon: 20.10.2026 (tilsvarer versjon 110 av arbeidstreet).
 
 ## Aure-navnet
 
@@ -46,6 +56,13 @@ Aure er et gammelt gårdsnavn fra Skiaker i Østsinni sokn i Nordre Land: Aure s
 - Sønnen Ole tok navnet med til Kristiania, og der ble det fast slektsnavn.
 
 ## Nytt siden forrige versjon
+
+- **Ny mobilvisning (fokusvisning).** Se «På mobil» over. Den store tavlen er fortsatt tilgjengelig med «Hele treet».
+- Toppen av siden er kortere på mobil. Innledningen er forkortet med «Les mer», og fargeforklaringen er felt sammen.
+- Kildene i detaljvisningen er felt sammen på mobil, så notatet kommer først.
+- Personkortet øverst heter nå «Barna». Merkelappen for opplysninger fra familien heter nå «Oppgitt av familien».
+
+## Tidligere endringer
 
 - Slekta heter nå **Aure-Wiborg**, og treet går ut fra barna.
 - **Aure-siden er med for første gang.** Den har 41 nye navngitte personer:

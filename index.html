@@ -1,4 +1,4 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html><html lang="nb"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Slekta Aure-Wiborg</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -175,6 +175,58 @@ details{margin-top:18px;border-top:1px solid var(--line);padding-top:12px}
 summary{cursor:pointer;font-family:var(--display);font-size:17px}
 details ul{margin-top:10px}
 @media (prefers-reduced-motion:reduce){.p{transition:none}}
+
+/* ---------- Mobil: kompakt topp, fokusvisning ---------- */
+.more{all:unset;display:none;cursor:pointer;color:var(--you);font-size:14px;text-decoration:underline;text-underline-offset:2px;margin-top:2px}
+.legbox{margin:0;border:0;padding:0}
+.legbox>summary{display:none}
+@media (max-width:699.98px){
+  .wrap{padding-block:12px 32px}
+  h1{font-size:26px}
+  .sub{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;-webkit-line-clamp:2!important;font-size:14px}
+  .sub.open{display:block}
+  .more{display:inline-block}
+  .stats{font-size:11px;margin-top:4px}
+  header{gap:6px;padding-bottom:8px;margin-bottom:10px;display:block}
+  .legbox>summary{display:list-item;font-family:var(--body);font-size:14px;color:var(--you);margin-top:6px}
+  .legbox[open] .legend{margin-top:8px}
+  .views button,.ghost{padding:6px 10px;font-size:13.5px}
+  .modebtn{margin-left:auto;border-color:var(--you);color:var(--you)}
+  body.fmode .toolbar{position:sticky;top:0;z-index:20;background:var(--bg);margin:0 -16px 8px;padding:8px 16px;border-bottom:1px solid var(--line);gap:8px}
+  body.fmode .search{flex-basis:100%;max-width:none}
+  body.fmode .search input{padding:8px 12px}
+  body.fmode .hint,body.fmode .genbar,body.fmode .viewport,body.fmode .panbtns,body.fmode .depth,body.fmode #home{display:none!important}
+}
+.focus{margin:0 0 8px}
+.crumbs{display:flex;align-items:center;gap:2px;overflow-x:auto;white-space:nowrap;scrollbar-width:none;padding:2px 0 8px;margin:0 -16px;padding-inline:16px;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 14px,#000 calc(100% - 14px),transparent 100%)}
+.crumbs::-webkit-scrollbar{display:none}
+.crumb{all:unset;cursor:pointer;font-size:13px;padding:4px 9px;border-radius:99px;color:var(--you);background:var(--paper);border:1px solid var(--line);flex:none}
+.crumb.on{background:var(--you);color:var(--paper);border-color:var(--you);cursor:default}
+.crumb:focus-visible{outline:2px solid var(--you);outline-offset:1px}
+.crumbs .sep{color:var(--muted);font-size:13px;padding:0 2px;flex:none}
+.fgrid{--g:12px;padding:4px 0 2px;min-height:120px}
+.fgrid .p{padding:6px 8px;border-radius:7px;min-height:52px;justify-content:center}
+.fgrid .p:hover{transform:none}
+.fgrid .p .n{font-size:13.5px;line-height:1.22;overflow-wrap:break-word;hyphens:auto;-webkit-hyphens:auto}
+.fgrid .p .d{font-size:10.5px;line-height:1.3}
+.fgrid .p .r{display:block!important;font-size:11px;line-height:1.25;color:var(--muted)}
+.fgrid .p .mo{font-family:var(--mono);font-size:10px;color:var(--you);margin-top:2px}
+.fgrid .p.focus{box-shadow:0 0 0 2.5px var(--you);cursor:default}
+.fgrid .p.ph{min-height:44px;cursor:default;font-size:12px}
+.fgrid .p.ph .n{font-family:var(--body);font-size:12px}
+.fgrid .p:active:not(.focus):not(.ph){transform:scale(.97)}
+.fgrid .par > .node{padding-block:3px}
+.fhint{font-size:12.5px;color:var(--muted);margin:8px 0 12px}
+.fdetail{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 14px 16px;display:flex;flex-direction:column;gap:12px;scroll-margin-top:110px}
+.fdetail h2{font-family:var(--display);font-weight:400;font-size:22px;margin:0;line-height:1.2}
+.fdetail dl{font-size:14.5px}
+.fdetail .note{font-size:14.5px;line-height:1.55}
+.fdetail .kids{font-size:14px}
+.srcbox{border-top:1px solid var(--line);padding-top:10px;margin:0}
+.srcbox summary{font-family:var(--body);font-size:14px;color:var(--you)}
+.srcbox .src{border-top:0;padding-top:8px}
+.fdetail .lnk{padding:2px 0}
+@media (prefers-reduced-motion:reduce){.fgrid .p:active{transform:none}}
 </style>
 
 <div class="wrap">
@@ -182,15 +234,18 @@ details ul{margin-top:10px}
     <div>
       <h1>Slekta Aure-Wiborg</h1>
       <p class="sub">Anetavle for slekta Aure-Wiborg. Levende og nylig avdøde personer i de nærmeste leddene er med uten navn. Farssiden (Wiborg og Aanonsen): flere av forfedrene kom fra Sverige, blant dem Petter Viborg fra Bromma ved Ystad i Skåne, Anders Olsen fra Eda og Kaisa Danielsen fra Karlanda i Värmland. Resten går til Kongsvinger og Eidskog, og gjennom farmor til Fredrikstad, Skjeberg, Romedal, Kråkstad, Elverum og Sarpsborg. Morssiden (Aure, Olsen og Knutsen): Aure fra Land, Frantzen fra Trøgstad, Berg fra Drammen, Olsen fra Eidsberg og Ringsaker, Lilleøfsen fra Berg ved Halden, og Knudsen og Stav i Oslo.</p>
+      <button type="button" class="more" id="submore" aria-expanded="false">Les mer om treet</button>
       <p class="stats" id="stats"></p>
     </div>
+    <details class="legbox" id="legbox"><summary>Forklaring på farger og linjer</summary>
     <div class="legend" aria-label="Forklaring">
       <span><i class="sw ok"></i>Dokumentert i kilde</span>
       <span><i class="ln"></i>Bekreftet foreldrekobling</span>
-      <span><i class="sw you"></i>Oppgitt av deg</span>
+      <span><i class="sw you"></i>Oppgitt av familien</span>
       <span><i class="ln d"></i>Sannsynlig, ikke bekreftet</span>
       <span><i class="sw unk"></i>Ukjent, neste å finne</span>
     </div>
+    </details>
   </header>
 
   <div class="toolbar" role="search">
@@ -199,9 +254,16 @@ details ul{margin-top:10px}
       <ul id="hits" role="listbox" hidden></ul>
     </div>
     <div class="views" id="views" role="group" aria-label="Velg del av treet"></div>
+    <button type="button" id="mode" class="ghost modebtn" hidden>Hele treet</button>
     <label class="depth">Generasjoner <select id="depth"></select></label>
     <button type="button" id="home" class="ghost">Til utgangspunktet</button>
   </div>
+  <section class="focus" id="focus" hidden aria-label="Fokusvisning">
+    <nav class="crumbs" id="crumbs" aria-label="Veien fra barna til personen du ser på"></nav>
+    <div class="fgrid" id="fgrid"></div>
+    <p class="fhint">Trykk på en forelder eller besteforelder for å gå et ledd bakover. Trykk på stien over for å gå tilbake.</p>
+    <article class="fdetail" id="fdetail" aria-live="polite"></article>
+  </section>
   <p class="hint">Sveip sidelengs i treet, eller bruk pilene nede til høyre, for å se eldre generasjoner. Trykk + for å vise flere forfedre, − for å felle sammen.</p>
   <div class="genbar" aria-hidden="true"><div class="gens" id="gens"></div></div>
   <div class="viewport" id="viewport" tabindex="0" aria-label="Slektstreet">
@@ -297,7 +359,7 @@ const people = {
   marie:{n:"Mor",eb:"mor",d:"",r:"",s:"you",role:"Mor",f:"lars",m:"mette",sp:"me",note:"Levende eller nylig avdød person. Navn og datoer er ikke med i den offentlige versjonen.",src:"user"},
   lars:{n:"Morfar",d:"",r:"",s:"you",role:"Morfar",f:"ivarA",m:"ellenO",note:"Levende eller nylig avdød person. Navn og datoer er ikke med i den offentlige versjonen.",src:"user"},
   mette:{n:"Mormor",d:"",r:"",s:"you",role:"Mormor",f:"leifRK",m:"hildurL",note:"Levende eller nylig avdød person. Navn og datoer er ikke med i den offentlige versjonen.",src:"user"},
-  barn:{n:"Utgangspersonene",d:"",r:"",s:"you",role:"Barna",f:"me",m:"marie",note:"Levende eller nylig avdød person. Navn og datoer er ikke med i den offentlige versjonen. Klikk på en person i treet for å se kilder, søsken og hvor sikker koblingen er.",src:"user"},
+  barn:{n:"Barna",d:"",r:"",s:"you",role:"Barna",f:"me",m:"marie",note:"Levende eller nylig avdød person. Navn og datoer er ikke med i den offentlige versjonen. Klikk på en person i treet for å se kilder, søsken og hvor sikker koblingen er.",src:"user"},
   ivarA:{n:"Ivar Aure",d:"23.4.1915 – 7.3.2003",r:"Kristiania (Vestre Aker) → Oslo",s:"ok",role:"Oldefar",f:"georgA",m:"signeF",sp:"ellenO",sibx:["Aase Aure, f. 20.10.1913"],note:"Født 23.4.1915 og døpt 26.9.1915 i Vestre Aker, sønn av bokholder Georg Johannes Aure og Signe Marie Frantzen. Moren døde tidlig: i 1920 bor Ivar og søsteren Aase hos faren alene. Under krigen satt han i fangenskap og flyktet senere til Sverige (registrert på Kjesäter). Gift med Ellen Olsen.",src:"daapIA",srcs:["ft1920IA","dodIA","krigIA","famMA"]},
   ellenO:{n:"Ellen Aure (f. Olsen)",d:"10.8.1921 – 17.7.1993",r:"Asak i Berg (Østfold) → Oslo",s:"ok",role:"Oldemor",f:"oskarRO",m:"annaME",sp:"ivarA",sibx:["Hans Edvard Olsen, f. 1924"],note:"Født 10.8.1921 og døpt 16.10.1921 i Asak kirke i Berg ved Halden. Foreldrene var elektriker Oskar Ragnvald Olsen og Anna Mathilde Lilleøfsen, som giftet seg samme vår. Fødselsdatoen i kirkeboka stemmer med dødsregisteret og familiens opplysninger.",src:"daapEO",srcs:["dodEO","vielOA21","famMA"]},
   leifRK:{n:"Leif Raymond Knutsen",d:"2.11.1923 – 18.8.1989",r:"Oslo",s:"ok",role:"Oldefar",f:"rolfOK",m:"mathildeS",pl:"cand",sp:"hildurL",note:"Død 18.8.1989 i Oslo. Svært trolig den Leif som ble født 2.11.1923 og døpt i Tøyen kirke 16.12.1923, uekte sønn av kjørekar Rolf Oskar Knudsen og pakkerske Mathilde Staff. Fødselsdatoen er den samme, og begge foreldrene bodde i Herslebs gate 34. Navnet Raymond står ikke i dåpen. Det kan være lagt til senere, men det bør bekreftes, for eksempel med konfirmasjon (ca. 1938) eller vielse med Hildur. Dødsannonser i Aftenposten 21.8. og 13.9.1989 kan avgjøre det (krever tilgang på nb.no).",src:"dodLRK",srcs:["daapLK","fregLK","famMA"]},
@@ -307,7 +369,7 @@ const people = {
   oleJA:{n:"Ole Johansen Aure",d:"f. 29.1.1857",r:"Land → Kristiania",s:"ok",role:"Tipp-tippoldefar",f:"johannesK",m:"ingeborgO",sp:"aagotB",note:"Født 29.1.1857 og døpt 3.4.1857 i Søndre Land (vielsen sier født i Nordre Land). Sønn av Johannes Knudsen og Ingeborg Olsdatter. Vokste opp på husmannsplassen Aure søndre i Østsinni i Nordre Land, der faren var husmann. Han tok med seg gårdsnavnet Aure til Kristiania, der det ble fast slektsnavn. Handelsreisende. Gift 20.9.1884 i Jakob kirke med Aagot Berg. Trolig død før 1910.",src:"daapOJA",srcs:["vielOAB","ft1865JK","ryghAure"]},
   aagotB:{n:"Aagot Margrete Elisabeth Berg",d:"f. 11.7.1863",r:"Bragernes (Drammen) → Kristiania",s:"ok",role:"Tipp-tippoldemor",f:"gBerg",m:"marenA",sp:"oleJA",note:"Født 11.7.1863 i Bragernes, uekte datter av underrettssakfører G. Berg og Maren Abrahamsdatter på Schwenckemøllen.",src:"daapAB",srcs:["vielOAB"]},
   johannesK:{n:"Johannes Knudsen Aure",d:"f. ca. 1827",r:"Aure søndre, Østsinni i Nordre Land",s:"ok",role:"Tipp-tipp-tippoldefar",f:"knudK",m:"berteJ",pl:"cand",sp:"ingeborgO",note:"Født ca. 1827 i Østsinni i Land. Husmann med jord på Aure søndre (1865), skogbestyrer (1875), og forpakter på «Aure under Aure-Ødegaarden» (1900). I 1891 skrives han Johannes Knutsen Aure. Han er den første i slekta som har Aure som navn, men det var et bostedsnavn etter gården, ikke et fast slektsnavn. Svært trolig døpt 12.8.1827 som sønn av husmann Knud Knudsen og Berte Johansdatter på Bergs eie. Aure-Ødegården lå tidligere under nettopp gården Berg (Rygh), og han er den eneste Johannes med far Knud i Land 1826–27. Det mangler likevel en direkte kilde, for eksempel konfirmasjon eller vielse.",src:"ft1865JK",srcs:["ft1875JK","ft1891JK","daapOJA","daapJK","ryghAure"]},
-  ingeborgO:{n:"Ingeborg Olsdatter",d:"ca. 1829 – 1907",r:"Aure søndre, Land",s:"ok",role:"Tipp-tipp-tippoldemor",sp:"johannesK",note:"Mor til Ole Johansen Aure (f. 1857). Kone til Johannes Knudsen på Aure søndre, 37 år i 1865. Født ca. 1829 på Voldstad (Bolgst i dåpen til Ole), begravet 14.9.1907 i Østsinni. Dåpen har stedsnavnet «Bolgst».",src:"daapOJA",srcs:["ft1865JK","ft1891JK","gravIO"]},
+  ingeborgO:{n:"Ingeborg Olsdatter",d:"ca. 1829 – 1907",r:"Aure søndre, Østsinni i Nordre Land",s:"ok",role:"Tipp-tipp-tippoldemor",sp:"johannesK",note:"Mor til Ole Johansen Aure (f. 1857). Kone til Johannes Knudsen på Aure søndre, 37 år i 1865. Født ca. 1829 på Voldstad (trolig «Bolgst» i dåpen til Ole), begravet 14.9.1907 i Østsinni.",src:"daapOJA",srcs:["ft1865JK","ft1891JK","gravIO"]},
   gBerg:{n:"G. Berg",d:"",r:"Drammen",s:"ok",role:"Tipp-tipp-tippoldefar",note:"Underrettssakfører og ungkar, oppgitt som far til Aagot i 1863. Fornavnet er bare forbokstaven G.",src:"daapAB"},
   marenA:{n:"Maren Abrahamsdatter",d:"",r:"Bragernes",s:"ok",role:"Tipp-tipp-tippoldemor",note:"Pike på Schwenckemøllen i Bragernes da datteren Aagot ble født i 1863.",src:"daapAB"},
   hansF:{n:"Hans Fransen (Frandsen)",d:"f. 1.2.1847",r:"Skrigerud, Trøgstad → Kristiania",s:"ok",role:"Tipp-tippoldefar",f:"fransT",m:"anneDC",sp:"lauraO",note:"Født 1.2.1847 og døpt 14.2.1847 i Trøgstad, sønn av gårdfolk Frantz Tostensen og Anne Dortea Christensdatter på Skrigerud. Snekker. Gift 26.5.1877 i Østre Aker med Laura Olsen.",src:"daapHF",srcs:["vielHL","daapSF","ft1900SF"]},
@@ -557,7 +619,7 @@ const people = {
 };
 
 const srcText = {
-  user:'Oppgitt av deg i samtale, oktober 2026.',
+  user:'Oppgitt av familien, oktober 2026.',
   none:'Ingen kilde ennå.',
   dodM:'Dødsregisteret på Digitalarkivet (Døde 1951–2017), Margit Wiborg, ID pc00000003163615. Bekreftet av deg.',
   dodS:'Datoer fra dødsregisteret på Digitalarkivet (pc00000002923926). Foreldrekoblingen bygger på dåpen til søsteren Ingrid 15.2.1920 og folketellingen 1920 for Kongsvinger, sammen med din bekreftelse av at Ingrid og Erling var søsken.',
@@ -886,7 +948,7 @@ const srcText = {
   vielOG:'Vielse 5.11.1854, ministerialbok for Vinger 1847–1855, side 356, nr. 74 (<a href="https://www.digitalarkivet.no/view/327/pv00000004435247">pv00000004435247</a>): ungkar Ole Gustavsen (ca. 1829, Kneppa) og pike Sigri Olsdatter (ca. 1831, Røisdalmoen). Fedre: Gustav Nielsen og Ole Eriksen.',
   ft1865e:'Folketelling 1865 for Romedal prestegjeld, krets 004 Brunstad, Sæthersbakken (pf01038034002957). Koblingen til Else Kristensdatter bygger på navn, alder, sted og oppkalling, ikke på kirkebok.'
 };
-const chipText = {ok:"Dokumentert",you:"Oppgitt av deg",cand:"Ikke bekreftet",unk:"Ukjent"};
+const chipText = {ok:"Dokumentert",you:"Oppgitt av familien",cand:"Ikke bekreftet",unk:"Ukjent"};
 const MAXGEN = 13;
 const genNames = ["Barna","Foreldre","Besteforeldre","Oldeforeldre","Tippoldeforeldre","Tipp-tippoldeforeldre","Tipp-tipp-tippoldeforeldre","Tipp-tipp-tipp-tippoldeforeldre","Tipp-tipp-tipp-tipp-tippoldeforeldre","Tipp-tipp-tipp-tipp-tipp-tippoldeforeldre","Tipp-tipp-tipp-tipp-tipp-tipp-tippoldeforeldre","Tipp-tipp-tipp-tipp-tipp-tipp-tipp-tippoldeforeldre","Tipp-tipp-tipp-tipp-tipp-tipp-tipp-tipp-tippoldeforeldre","Tipp-tipp-tipp-tipp-tipp-tipp-tipp-tipp-tipp-tippoldeforeldre"];
 
@@ -1012,11 +1074,13 @@ function reveal(id){
 }
 function flash(id){const b=treeEl.querySelector(`.p[data-id="${id}"]`);if(!b)return;b.classList.remove("flash");void b.offsetWidth;b.classList.add("flash");}
 function goTo(id){
+  if(focusOn()){setFocus(id,{scroll:true});return;}
   const inTree=reveal(id);
   select(id);
   if(inTree){setTimeout(()=>{centerOn(id,true);flash(id);},isWide()?30:240);}
 }
 function setView(v,silent){
+  if(focusOn()&&!silent){const r=people[ROOTS[0][1]];setFocus(v==="far"?r.f:v==="mor"?r.m:ROOTS[0][1]);return;}
   state.view=v;
   document.querySelectorAll("#views button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===v?"true":"false"));
   if(!silent){render();centerOn(v==="alle"?ROOTS[0][1]:(v==="far"?people[ROOTS[0][1]].f:v==="mor"?people[ROOTS[0][1]].m:v),false);}
@@ -1065,7 +1129,7 @@ document.getElementById("stats").textContent=`${named.length} navngitte personer
 const used=new Set();
 Object.values(people).forEach(p=>{if(p.src&&p.src!=="none"&&p.src!=="user")used.add(p.src);(p.srcs||[]).forEach(k=>used.add(k))});
 const sl=document.getElementById("srclist");
-sl.append(el("li",null,srcText.user+" Gjelder deg, Marie og foreldrene hennes, dine foreldre, farfars, farmors og mormors navn, Liv, fødestedet Kongsvinger, og at Erling og Ingrid var søsken."));
+sl.append(el("li",null,srcText.user+" Gjelder de nærmeste leddene, som er med uten navn, og at Erling og Ingrid var søsken."));
 order.filter(k=>used.has(k)).forEach(k=>sl.append(el("li",null,srcText[k])));
 document.getElementById("srcsum").textContent=`Vis alle kilder (${sl.children.length})`;
 
@@ -1078,26 +1142,125 @@ function openPanel(){panel.hidden=false;document.body.classList.add("panel-open"
 function closePanel(){panel.classList.remove("in");document.body.classList.remove("panel-open");panel.hidden=true;markPressed(null);cur=null;}
 document.getElementById("pclose").addEventListener("click",closePanel);
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!panel.hidden&&document.activeElement!==q)closePanel();});
-function select(id){
-  const p=people[id]; cur=id;
-  markPressed(id);
+function detailHTML(id,compact){
+  const p=people[id];
   const par=[p.f,p.m].filter(Boolean).map(lnk).join(" og ");
   const sibs=[...(p.sibs||[]).map(lnk),...(p.sibx||[])];
-  pbody.innerHTML=`<span class="chip ${p.s}">${chipText[p.s]}</span><h2 id="ptitle">${p.n}</h2>
+  const ns=1+(p.srcs||[]).length;
+  const srcs=`<div class="src"><b>Kilde:</b> ${srcText[p.src]}${(p.srcs||[]).map(k=>`<br><br><b>Også:</b> ${srcText[k]}`).join("")}</div>`;
+  const ch=(kids[id]||[]).filter(k=>people[k]);
+  return `<span class="chip ${p.s}">${chipText[p.s]}</span><h2 id="${compact?"ftitle":"ptitle"}">${p.n}</h2>
   ${p.pl==="cand"?`<p class="linkwarn">Koblingen til foreldrene er sannsynlig, men ikke bekreftet i kirkebok.</p>`:""}
   <dl><dt>Rolle</dt><dd>${p.role}</dd>${p.d?`<dt>Datoer</dt><dd>${p.d}</dd>`:""}${p.r?`<dt>Sted</dt><dd>${p.r}</dd>`:""}
-  ${p.sp?`<dt>Ektefelle</dt><dd>${lnk(p.sp)}</dd>`:""}${par?`<dt>Foreldre</dt><dd>${par}</dd>`:""}${sibs.length?`<dt>Søsken</dt><dd>${sibs.join("<br>")}</dd>`:""}</dl>
+  ${p.sp?`<dt>Ektefelle</dt><dd>${lnk(p.sp)}</dd>`:""}${par?`<dt>Foreldre</dt><dd>${par}</dd>`:""}${compact&&ch.length?`<dt>Barn</dt><dd>${ch.map(lnk).join("<br>")}</dd>`:""}${sibs.length?`<dt>Søsken</dt><dd>${sibs.join("<br>")}</dd>`:""}</dl>
   ${p.note?`<p class="note">${p.note}</p>`:""}
   ${p.ext?`<div class="ext"><h3>Andres trær og funn</h3><ul>${p.ext.map(xli).join("")}</ul></div>`:""}
-  <div class="src"><b>Kilde:</b> ${srcText[p.src]}${(p.srcs||[]).map(k=>`<br><br><b>Også:</b> ${srcText[k]}`).join("")}</div>`;
+  ${compact?`<details class="srcbox"><summary>Vis kilder (${ns})</summary>${srcs}</details>`:srcs}`;
+}
+function select(id){
+  if(focusOn()){setFocus(id);return;}
+  const p=people[id]; cur=id;
+  markPressed(id);
+  pbody.innerHTML=detailHTML(id,false);
   pbody.querySelectorAll("[data-go]").forEach(b=>b.addEventListener("click",()=>goTo(b.dataset.go)));
   extLinks(pbody);
   pbody.scrollTop=0; panel.scrollTop=0;
   openPanel();
 }
 
+// ---------- Fokusvisning for mobil: én person, foreldre og besteforeldre tilpasset skjermen ----------
+const focusEl=document.getElementById("focus"), fgrid=document.getElementById("fgrid"), crumbs=document.getElementById("crumbs"), fdetail=document.getElementById("fdetail"), modeBtn=document.getElementById("mode");
+const kids={}; Object.entries(people).forEach(([id,p])=>{[p.f,p.m].forEach(x=>{if(x)(kids[x]=kids[x]||[]).push(id)})});
+const narrowMQ=matchMedia("(max-width:699.98px)");
+let mode=null; try{mode=localStorage.getItem("slekt.mode")}catch(e){}
+let focusId=ROOTS[0][1];
+function focusOn(){return narrowMQ.matches&&mode!=="tre";}
+function shortName(id){const p=people[id];if(id===ROOTS[0][1])return "Barna";return p.n.replace(/\s*\(.*\)\s*/g," ").trim().split(/\s+/)[0];}
+function fcard(id,lvl){
+  const p=people[id];
+  const b=el("button","p fc "+p.s+(lvl===0?" focus":"")); b.type="button"; b.dataset.id=id;
+  const more=lvl===2&&hasPar(id)?countAnc(id):0;
+  b.innerHTML=`<span class="n">${p.n}</span>${p.d?`<span class="d">${p.d}</span>`:""}`+(lvl<2?`<span class="r">${p.role}</span>`:"")+(more?`<span class="mo">${more} forfedre ›</span>`:(lvl===2&&!hasPar(id)?`<span class="mo" style="color:var(--muted)">ingen kjente foreldre</span>`:""));
+  if(lvl===0){b.setAttribute("aria-current","true");b.addEventListener("click",()=>fdetail.scrollIntoView({behavior:"smooth",block:"start"}));}
+  else{b.setAttribute("aria-label","Gå til "+p.n+", "+p.role);b.addEventListener("click",()=>setFocus(id));}
+  return b;
+}
+function fslot(label){return el("div","p fc unk ph",`<span class="n">${label}</span>`);}
+function fnode(id,lvl){
+  const p=people[id], nd=el("div","node"), cw=el("div","cw");
+  cw.append(fcard(id,lvl)); nd.append(cw);
+  if(lvl<2&&(p.f||p.m)){
+    const par=el("div","par"+(p.pl?" "+p.pl:""));
+    [[p.f,"Far ikke funnet"],[p.m,"Mor ikke funnet"]].forEach(([x,lab])=>{
+      if(x&&people[x])par.append(fnode(x,lvl+1));
+      else{const n=el("div","node"),c=el("div","cw");c.append(fslot(lab));n.append(c);par.append(n);}
+    });
+    nd.append(par);
+  }
+  return nd;
+}
+function sizeGrid(){const w=fgrid.clientWidth;if(!w)return;const g=12;fgrid.style.setProperty("--cw",Math.floor((w-2*g)/3)+"px");}
+function renderFocus(){
+  const id=focusId, p=people[id];
+  sizeGrid();
+  fgrid.innerHTML=""; fgrid.append(fnode(id,0));
+  if(!p.f&&!p.m)fgrid.append(el("p","fhint","Foreldrene er ikke funnet ennå."));
+  focusEl.querySelector(":scope > .fhint").hidden=!(p.f||p.m);
+  // sti fra barna
+  const pth=pathTo(id)||[id];
+  crumbs.innerHTML="";
+  pth.forEach((x,i)=>{
+    const last=i===pth.length-1;
+    const b=el("button","crumb"+(last?" on":""),shortName(x)); b.type="button";
+    if(last)b.setAttribute("aria-current","page"); else b.addEventListener("click",()=>setFocus(x));
+    b.title=people[x].n+" · "+people[x].role;
+    crumbs.append(b); if(!last)crumbs.append(el("span","sep","›"));
+  });
+  requestAnimationFrame(()=>{crumbs.scrollLeft=crumbs.scrollWidth;});
+  // sidevalg markeres etter hvor i treet personen er
+  const r=people[ROOTS[0][1]], side=pth.length>1?(pth[1]===r.f?"far":pth[1]===r.m?"mor":"alle"):"alle";
+  document.querySelectorAll("#views button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===side?"true":"false"));
+  // detaljer rett under
+  fdetail.innerHTML=detailHTML(id,true);
+  fdetail.querySelectorAll("[data-go]").forEach(b=>b.addEventListener("click",()=>setFocus(b.dataset.go,{scroll:true})));
+  extLinks(fdetail);
+}
+function toolbarH(){const t=document.querySelector(".toolbar");return t?t.offsetHeight:0;}
+function setFocus(id,o={}){
+  if(!people[id])return;
+  const push=o.push!==false;
+  focusId=id; cur=id;
+  renderFocus();
+  if(push){try{history.pushState({f:id},"","#"+id);}catch(e){}}
+  const top=focusEl.getBoundingClientRect().top;
+  if(o.scroll||top<0||top>innerHeight*0.6){window.scrollTo({top:Math.max(0,top+window.scrollY-toolbarH()-6),behavior:"smooth"});}
+}
+addEventListener("popstate",e=>{const id=(e.state&&e.state.f)||decodeURIComponent(location.hash.slice(1));if(focusOn()&&people[id])setFocus(id,{push:false});});
+function applyMode(){
+  const f=focusOn();
+  document.body.classList.toggle("fmode",f);
+  focusEl.hidden=!f;
+  modeBtn.hidden=!narrowMQ.matches;
+  modeBtn.textContent=f?"Hele treet":"Fokusvisning";
+  modeBtn.setAttribute("aria-label",f?"Vis hele treet som tavle":"Vis én person om gangen");
+  if(f){if(!panel.hidden)closePanel();renderFocus();}
+  else{render();requestAnimationFrame(()=>centerOn(cur||ROOTS[0][1],false));}
+}
+modeBtn.addEventListener("click",()=>{const was=focusOn();mode=was?"tre":"fokus";try{localStorage.setItem("slekt.mode",mode)}catch(e){};if(was){applyMode();setView("alle",true);const id=focusId;requestAnimationFrame(()=>{reveal(id);cur=id;markPressed(id);centerOn(id,false);flash(id);});}else{if(cur)focusId=cur;applyMode();window.scrollTo({top:0});}});
+narrowMQ.addEventListener("change",applyMode);
+new ResizeObserver(()=>{if(focusOn()){const before=fgrid.style.getPropertyValue("--cw");sizeGrid();if(fgrid.style.getPropertyValue("--cw")!==before){fgrid.innerHTML="";fgrid.append(fnode(focusId,0));}}}).observe(fgrid);
+// Les mer / forklaring
+const subEl=document.querySelector(".sub"), moreBtn=document.getElementById("submore");
+moreBtn.addEventListener("click",()=>{const o=subEl.classList.toggle("open");moreBtn.textContent=o?"Vis mindre":"Les mer om treet";moreBtn.setAttribute("aria-expanded",o);});
+const legbox=document.getElementById("legbox"); if(!narrowMQ.matches)legbox.open=true;
+narrowMQ.addEventListener("change",()=>{if(!narrowMQ.matches)legbox.open=true;});
+
 render();
-requestAnimationFrame(()=>{const y=window.scrollY;centerOn(ROOTS[0][1],false);window.scrollTo(0,y);});
+(function(){
+  let h="";try{h=decodeURIComponent(location.hash.slice(1));}catch(e){}
+  if(focusOn()){if(h&&people[h])focusId=h;applyMode();try{history.replaceState({f:focusId},"");}catch(e){}window.scrollTo(0,0);}
+  else{applyMode();requestAnimationFrame(()=>{const y=window.scrollY;centerOn(ROOTS[0][1],false);window.scrollTo(0,y);if(h&&people[h])goTo(h);});}
+})();
 
 // Andres trær: samlet fra ext-feltene, gruppert per person
 const xl=document.getElementById("extlist");
@@ -1108,7 +1271,7 @@ Object.entries(people).forEach(([id,p])=>{
   xl.append(li);
 });
 extLinks(document.querySelector("section.extra"));
-document.querySelector(".sub").addEventListener("click",e=>e.currentTarget.classList.toggle("open"));
+
 </script>
 
 
