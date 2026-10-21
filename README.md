@@ -14,7 +14,7 @@ Treet går ut fra barna i slekta Aure-Wiborg. Farssiden er Wiborg og Aanonsen, m
 
 ## Hva treet viser
 
-- 250 personer i 14 generasjoner. 223 av dem er dokumentert i primærkilder.
+- 251 personer i 14 generasjoner. 224 av dem er dokumentert i primærkilder.
 - Statusen til hver person: dokumentert, oppgitt eller ikke bekreftet.
 - Kilder med lenker til Digitalarkivet, Nasjonalbiblioteket og Riksarkivet.
 - Søsken, og spor fra andres trær.
@@ -45,7 +45,7 @@ Legg til `#` og personens nøkkel i adressen for å åpne treet rett på en best
 - Levende og nylig avdøde personer i de tre nærmeste leddene er med uten navn eller datoer, bare som rolle: «Barna», «Far», «Mor», «Farfar», «Farmor», «Morfar» og «Mormor».
 - Fra oldeforeldrene og bakover vises bare døde personer med navn.
 
-Versjon: 20.10.2026 (tilsvarer versjon 110 av arbeidstreet).
+Versjon: 21.10.2026 (tilsvarer versjon 114 av arbeidstreet).
 
 ## Aure-navnet
 
@@ -57,13 +57,24 @@ Aure er et gammelt gårdsnavn fra Skiaker i Østsinni sokn i Nordre Land: Aure s
 
 ## Nytt siden forrige versjon
 
-- **Ny mobilvisning (fokusvisning).** Se «På mobil» over. Den store tavlen er fortsatt tilgjengelig med «Hele treet».
-- Toppen av siden er kortere på mobil. Innledningen er forkortet med «Les mer», og fargeforklaringen er felt sammen.
-- Kildene i detaljvisningen er felt sammen på mobil, så notatet kommer først.
-- Personkortet øverst heter nå «Barna». Merkelappen for opplysninger fra familien heter nå «Oppgitt av familien».
+- **Andre verdenskrig:**
+  - **Ivar Aure** flyktet til Sverige i mars 1943 og ble opplært ved polititroppene på Johannesberg i Gottröra. Senere kom han tilbake til Norge. Han ble arrestert 13.10.1944 for flyktningtrafikk («eksportorganisasjon»), og satt på Akershus og på Grini (fange nr. 16163) til freden.
+  - **Erling Karelius Wiborg** flyktet over grensen ved Koppom 10.8.1944 (flyktning nr. 29 800 på Kjesäter) og kom til polititroppenes leirer på Holmarudden og Mälsåker. Han var bryter i Kolbotn IL og slo blant andre EM-deltakeren Dagfinn Huseby under NM i 1948.
+- **Martha Wiborg (1900–1978):**
+  - Hun var kommunistisk lokalpolitiker i rundt 40 år. Hun og Torbjørn var forslagsstillere for den kommunistiske listen i Kongsvinger i 1925, der også faren Karelius Andersen stod.
+  - I Oppegård var hun varamann til kommunestyret for NKP i 1945 og 1948–1955, og satt i en rekke sosiale nemnder.
+  - Hun var med i det første styret for kvinnenes turngruppe i Kolbotn AIL i 1933.
+  - Fødselsdatoen 24.1.1900 og dødsdatoen 2.2.1978 er nå på plass.
+- **Avissøk på tippoldeforeldrene:**
+  - **Hartvig Jakobsen** var avholdspioner og en av stifterne av Den norske Godtemplarorden. Han mistet høyre arm i en skifteulykke ved Hovedbanen i 1897, og var deretter vaktmester i over 30 år.
+  - **Karelius Andersen** var kommunens rørlegger på Kongsvinger. Han døde 12.10.1930, og minneordet beskriver ham som brå, men «en tilforlatelig og ærlig sjel».
+  - Nye dødsdatoer for **Signe Marie Aure** (1.12.1916), **Ingeborg Andersen** (11.8.1944), **Oline Skjefstad** (24.1.1911) og **Stina Birkelund** (29.12.1952).
+  - **Oskar Ragnvald Olsen og Anna Mathilde** var begge enkefolk da de giftet seg i 1921.
+  - **Petter Viborg** døde trolig i Kristiania i mars 1902. Dette er ikke bekreftet.
 
 ## Tidligere endringer
 
+- Ny mobilvisning (fokusvisning), kortere topp på mobil, kilder felt sammen i detaljvisningen og nye merkelapper («Barna», «Oppgitt av familien») (versjon 110).
 - Slekta heter nå **Aure-Wiborg**, og treet går ut fra barna.
 - **Aure-siden er med for første gang.** Den har 41 nye navngitte personer:
   - **Aure fra Land:**
