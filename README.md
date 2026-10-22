@@ -18,6 +18,7 @@ Treet går ut fra barna i slekta Aure-Wiborg. Farssiden er Wiborg og Aanonsen, m
 - Statusen til hver person: dokumentert, oppgitt eller ikke bekreftet.
 - Kilder med lenker til Digitalarkivet, Nasjonalbiblioteket og Riksarkivet.
 - Søsken, og spor fra andres trær.
+- **Etterkommere i to ledd** fra tipp-tipp-oldeforeldrene: 22 par, rundt 135 barn og 270 barnebarn. Listen ligger i detaljvisningen og lenker til kildene.
 - Stiplede linjer betyr at foreldrekoblingen bygger på trykte slektsbøker, navneskikk eller folketellinger, ikke på direkte primærkilder som dåp.
 
 ## Bruk
@@ -44,8 +45,9 @@ Legg til `#` og personens nøkkel i adressen for å åpne treet rett på en best
 
 - Levende og nylig avdøde personer i de tre nærmeste leddene er med uten navn eller datoer, bare som rolle: «Barna», «Far», «Mor», «Farfar», «Farmor», «Morfar» og «Mormor».
 - Fra oldeforeldrene og bakover vises bare døde personer med navn.
+- I etterkommerlistene vises ikke barnebarn født i 1920 eller senere uten kjent dødsdato. Nær familie med levende personer er ikke med.
 
-Versjon: 21.10.2026 (tilsvarer versjon 114 av arbeidstreet).
+Versjon: 23.10.2026 (tilsvarer versjon 117 av arbeidstreet).
 
 ## Aure-navnet
 
@@ -57,22 +59,40 @@ Aure er et gammelt gårdsnavn fra Skiaker i Østsinni sokn i Nordre Land: Aure s
 
 ## Nytt siden forrige versjon
 
-- **Andre verdenskrig:**
-  - **Ivar Aure** flyktet til Sverige i mars 1943 og ble opplært ved polititroppene på Johannesberg i Gottröra. Senere kom han tilbake til Norge. Han ble arrestert 13.10.1944 for flyktningtrafikk («eksportorganisasjon»), og satt på Akershus og på Grini (fange nr. 16163) til freden.
-  - **Erling Karelius Wiborg** flyktet over grensen ved Koppom 10.8.1944 (flyktning nr. 29 800 på Kjesäter) og kom til polititroppenes leirer på Holmarudden og Mälsåker. Han var bryter i Kolbotn IL og slo blant andre EM-deltakeren Dagfinn Huseby under NM i 1948.
-- **Martha Wiborg (1900–1978):**
-  - Hun var kommunistisk lokalpolitiker i rundt 40 år. Hun og Torbjørn var forslagsstillere for den kommunistiske listen i Kongsvinger i 1925, der også faren Karelius Andersen stod.
-  - I Oppegård var hun varamann til kommunestyret for NKP i 1945 og 1948–1955, og satt i en rekke sosiale nemnder.
-  - Hun var med i det første styret for kvinnenes turngruppe i Kolbotn AIL i 1933.
-  - Fødselsdatoen 24.1.1900 og dødsdatoen 2.2.1978 er nå på plass.
-- **Avissøk på tippoldeforeldrene:**
-  - **Hartvig Jakobsen** var avholdspioner og en av stifterne av Den norske Godtemplarorden. Han mistet høyre arm i en skifteulykke ved Hovedbanen i 1897, og var deretter vaktmester i over 30 år.
-  - **Karelius Andersen** var kommunens rørlegger på Kongsvinger. Han døde 12.10.1930, og minneordet beskriver ham som brå, men «en tilforlatelig og ærlig sjel».
-  - Nye dødsdatoer for **Signe Marie Aure** (1.12.1916), **Ingeborg Andersen** (11.8.1944), **Oline Skjefstad** (24.1.1911) og **Stina Birkelund** (29.12.1952).
-  - **Oskar Ragnvald Olsen og Anna Mathilde** var begge enkefolk da de giftet seg i 1921.
-  - **Petter Viborg** døde trolig i Kristiania i mars 1902. Dette er ikke bekreftet.
+- **Etterkommere i to ledd:** Hvert par av tipp-tipp-oldeforeldre har nå en egen liste over barn og barnebarn, basert på kirkebøker og folketellinger. Noen eksempler:
+  - **Hans Paulsen og Kari Thorsdatter (Sterud, Nes på Hedmarken):**
+    - Ti barn. Vielsene til fire av døtrene oppgir alle Hans Paulsen som brudens far.
+    - Sønnen Tolle overtok Sterud østre.
+    - Døtrene giftet seg på Brovold og Engelstad i Nes og på Stubberud i Ringsaker.
+  - **Anders Eriksen og Maria Andersdatter (Vik søndre, Skjeberg):**
+    - Ni barn er bekreftet.
+    - Anders var enkemann i 1875 og bodde da hos datteren Elen Bolette Stabel i Sarpsborg.
+  - **Ole Andersen og Marie Olsdatter (Halsa):** Stina Birkelund hadde sju yngre søstre. Ole drev motorbåtbyggeri hjemme, 73 år gammel.
+  - **Ola Nilsson Wedberg (Skåne):**
+    - Sønnen Nils ble smedmester ved Lund og fikk seks barn.
+    - Mathilda reiste til København i 1887.
+    - Anna var fosterdatter i Öja etter at foreldrene døde.
+    - Lenkene for den svenske greina går til Riksarkivet.
+- **Torbjørn Pedersen Wiborg** døde 9.6.1975 på Kolbotn.
+- **Ingrid Alvilde Merli f. Wiborg** døde 8.8.2017. Mannen hennes, Reidar Johannes Merli, døde 29.12.2007.
 
 ## Tidligere endringer
+
+- **Versjon 114:** andre verdenskrig, Martha Wiborgs politiske liv og avissøk på tippoldeforeldrene:
+  - **Andre verdenskrig:**
+    - **Ivar Aure** flyktet til Sverige i mars 1943 og ble opplært ved polititroppene på Johannesberg i Gottröra. Senere kom han tilbake til Norge. Han ble arrestert 13.10.1944 for flyktningtrafikk («eksportorganisasjon»), og satt på Akershus og på Grini (fange nr. 16163) til freden.
+    - **Erling Karelius Wiborg** flyktet over grensen ved Koppom 10.8.1944 (flyktning nr. 29 800 på Kjesäter) og kom til polititroppenes leirer på Holmarudden og Mälsåker. Han var bryter i Kolbotn IL og slo blant andre EM-deltakeren Dagfinn Huseby under NM i 1948.
+  - **Martha Wiborg (1900–1978):**
+    - Hun var kommunistisk lokalpolitiker i rundt 40 år. Hun og Torbjørn var forslagsstillere for den kommunistiske listen i Kongsvinger i 1925, der også faren Karelius Andersen stod.
+    - I Oppegård var hun varamann til kommunestyret for NKP i 1945 og 1948–1955, og satt i en rekke sosiale nemnder.
+    - Hun var med i det første styret for kvinnenes turngruppe i Kolbotn AIL i 1933.
+    - Fødselsdatoen 24.1.1900 og dødsdatoen 2.2.1978 er nå på plass.
+  - **Avissøk på tippoldeforeldrene:**
+    - **Hartvig Jakobsen** var avholdspioner og en av stifterne av Den norske Godtemplarorden. Han mistet høyre arm i en skifteulykke ved Hovedbanen i 1897, og var deretter vaktmester i over 30 år.
+    - **Karelius Andersen** var kommunens rørlegger på Kongsvinger. Han døde 12.10.1930, og minneordet beskriver ham som brå, men «en tilforlatelig og ærlig sjel».
+    - Nye dødsdatoer for **Signe Marie Aure** (1.12.1916), **Ingeborg Andersen** (11.8.1944), **Oline Skjefstad** (24.1.1911) og **Stina Birkelund** (29.12.1952).
+    - **Oskar Ragnvald Olsen og Anna Mathilde** var begge enkefolk da de giftet seg i 1921.
+    - **Petter Viborg** døde trolig i Kristiania i mars 1902. Dette er ikke bekreftet.
 
 - Ny mobilvisning (fokusvisning), kortere topp på mobil, kilder felt sammen i detaljvisningen og nye merkelapper («Barna», «Oppgitt av familien») (versjon 110).
 - Slekta heter nå **Aure-Wiborg**, og treet går ut fra barna.
