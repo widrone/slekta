@@ -14,7 +14,7 @@ Treet går ut fra barna i slekta Aure-Wiborg. Farssiden er Wiborg og Aanonsen, m
 
 ## Hva treet viser
 
-- 322 personer i opptil 14 generasjoner. 281 av dem er dokumentert i kirkebøker, folketellinger eller bygdebøker.
+- 327 personer i opptil 14 generasjoner. 289 av dem er dokumentert i kirkebøker, folketellinger eller bygdebøker.
 - Statusen til hver person: dokumentert, oppgitt eller ikke bekreftet.
 - Kilder med lenker til Digitalarkivet, Nasjonalbiblioteket og Riksarkivet.
 - Søsken, og spor fra andres trær.
@@ -47,40 +47,51 @@ Legg til `#` og personens nøkkel i adressen for å åpne treet rett på en best
 - Fra oldeforeldrene og bakover vises bare døde personer med navn.
 - I etterkommerlistene vises ikke barnebarn født i 1920 eller senere uten kjent dødsdato. Nær familie med levende personer er ikke med.
 
-Versjon: 23.10.2026 (tilsvarer versjon 124 av arbeidstreet).
+Versjon: 23.10.2026 (tilsvarer versjon 127 av arbeidstreet).
 
 ## Aure-navnet
 
 Aure er et gammelt gårdsnavn fra Skiaker i Østsinni sokn i Nordre Land: Aure søndre, også kalt Aure-Ødegården (gnr. 115).
 - Ifølge Rygh, *Norske Gaardnavne* (1902), lå gården tidligere under nabogården Berg. Den er nevnt som «Oure Ødegaard» i 1723.
 - Navnet kommer trolig av elva Aura i Skiaker. Elvenavnet er trolig dannet av norrønt *aurr*, «grus». Rygh nevner også at navnet kan være opprinnelig *Aurin*, «grusenga».
-- Johannes Knudsen (f. ca. 1827) var husmann og senere forpakter på Aure. I 1891 skrives han «Johannes Knutsen Aure».
+- Johannes Knudsen (f. 14.7.1827) var husmann og senere forpakter på Aure. I 1891 skrives han «Johannes Knutsen Aure».
 - Sønnen Ole tok navnet med til Kristiania, og der ble det fast slektsnavn.
 
 ## Nytt siden forrige versjon
 
-Denne runden er bygdebøker lest systematisk for å forlenge de korte linjene. Treet har fått 71 nye personer.
+Denne runden er brukt til kvalitetssikring i kirkebøker, folketellinger og skannede bøker.
 
-- **Nes på Hedmarken** (Nes bygdebok 1995):
-  - Rett mannslinje på Bye vestre fra Tord Pedersen, bondelensmann i 1650, ned til Thor Pedersen Bye (1756–1824).
-  - Nerlien-slekta tilbake til Erik Olsen Syljebæk (døpt 1696).
-  - Gjøa Olsdatters dødsår er rettet fra 1854 til 1831/32.
-- **Stangvik og Todalen** (Heimar og ætter i Stangvik 1953; Leif Halse: Bruset i Todalen 1970):
-  - Faren til Martinus Gjeldnes er bekreftet: Christen Andersen Røen (1813–1892).
-  - Hans farslinje går via Einar Andersen Bruset til Ola Andersen Sjøflott (f. 1689).
-  - Morslinja går til to lensmenn i Brøske: Fredrik Steinarsen (1751–1821) og Steinar Fredriksen (d. 1773).
-  - Christen giftet seg i 1847 med mora til Johanne Larsdatter, så Martinus og Johanne var stesøsken.
-- **Romedal** (Romedalboka 2, 1970):
-  - Peder Christoffersen Malerløkken (1788–1848) hører til odelsgrenen på Sørbryn. Den rette linja på Sørbryn går tilbake til Peder Sørbryn, død ca. 1616.
-  - Morslinja går til soldat Jens Larsen og Berthe Olsdatter Hagen.
-- **Nordsinni i Land:** Berte Johannesdatter, kona til Knud Knudsen på Aure-linja, er datter av Johannes Hansen og Marte Hansdatter på Stensrud nordre.
-- **Hurdal og Gran** (Hurdal bygdebok 1958; aviser og kirkebøker):
-  - Hildur Margaret Knutsens foreldre er funnet: Ivar Oskar Lundberg (1906–1969) fra Lundberg i Hurdal og Klara Bekkelund (1908–1986) fra Brandbu og Gran.
-  - Lundberg-, Sibilrud- og Simarud-linjene går tilbake til 1715.
-  - Klaras morslinje går til Vestlia i Hurdal og Bertel Halvorsen (f. 1730).
+- **Kvalitetssikring:** 18 stiplede koblinger er bekreftet i primærkilder (Stangvik, Romedal, Hurdal, Gran, Nes og Kristiania).
+  - Henrik Jensen i Hurdal bygdebok er rettet til Henrik Johnsen etter kirkebøkene.
+  - Fire koblinger er markert som uavklarte i notatene.
+- **Johannes Knudsen Aure (f. 14.7.1827) er bekreftet som sønn av Knud Knudsen og Berte Johannesdatter.**
+  - Han ble konfirmert i Hov i 1842 med foreldrene på Gjevle eie.
+  - Han giftet seg i Fluberg kirke 31.3.1853 som soldat fra Gjevle eie, og faren er oppgitt som Knud Knudsen.
+- **Ingeborg Olsdatter (f. 12.2.1829), kona til Johannes, har fått foreldre:** husmann Ole Hansen og Gudbjør Olsdatter på Wien eie i Østsinni.
+  - Dåpen 1829 og konfirmasjonen 1843 (Waalstad, det vil si Voldstad) peker begge hit.
+  - Vielsen i 1853 kaller faren «Ole Hovelsen», som trolig er feilskrevet. Linjen er derfor stiplet.
+- **Leif Raymond Knutsen:** Fødselsregisteret, dåpen og konfirmasjonslistene for Tøyen er lest uten funn av navnet Raymond. Koblingen er svært sannsynlig, men den er fortsatt stiplet.
 
 ## Tidligere endringer
 
+- **Versjon 124:** bygdebøker lest systematisk. Treet fikk 71 nye personer.
+  - **Nes på Hedmarken** (Nes bygdebok 1995):
+    - Rett mannslinje på Bye vestre fra Tord Pedersen, bondelensmann i 1650, ned til Thor Pedersen Bye (1756–1824).
+    - Nerlien-slekta tilbake til Erik Olsen Syljebæk (døpt 1696).
+    - Gjøa Olsdatters dødsår er rettet fra 1854 til 1831/32.
+  - **Stangvik og Todalen** (Heimar og ætter i Stangvik 1953; Leif Halse: Bruset i Todalen 1970):
+    - Faren til Martinus Gjeldnes er bekreftet: Christen Andersen Røen (1813–1892).
+    - Hans farslinje går via Einar Andersen Bruset til Ola Andersen Sjøflott (f. 1689).
+    - Morslinja går til to lensmenn i Brøske: Fredrik Steinarsen (1751–1821) og Steinar Fredriksen (d. 1773).
+    - Christen giftet seg i 1847 med mora til Johanne Larsdatter, så Martinus og Johanne var stesøsken.
+  - **Romedal** (Romedalboka 2, 1970):
+    - Peder Christoffersen Malerløkken (1788–1848) hører til odelsgrenen på Sørbryn. Den rette linja på Sørbryn går tilbake til Peder Sørbryn, død ca. 1616.
+    - Morslinja går til soldat Jens Larsen og Berthe Olsdatter Hagen.
+  - **Nordsinni i Land:** Berte Johannesdatter, kona til Knud Knudsen på Aure-linja, er datter av Johannes Hansen og Marte Hansdatter på Stensrud nordre.
+  - **Hurdal og Gran** (Hurdal bygdebok 1958; aviser og kirkebøker):
+    - Hildur Margaret Knutsens foreldre er funnet: Ivar Oskar Lundberg (1906–1969) fra Lundberg i Hurdal og Klara Bekkelund (1908–1986) fra Brandbu og Gran.
+    - Lundberg-, Sibilrud- og Simarud-linjene går tilbake til 1715.
+    - Klaras morslinje går til Vestlia i Hurdal og Bertel Halvorsen (f. 1730).
 - **Versjon 117:** etterkommere i to ledd.
   - **Hans Paulsen og Kari Thorsdatter (Sterud, Nes på Hedmarken):**
     - Ti barn. Vielsene til fire av døtrene oppgir alle Hans Paulsen som brudens far.
