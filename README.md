@@ -14,7 +14,7 @@ Treet går ut fra barna i slekta Aure-Wiborg. Farssiden er Wiborg og Aanonsen, m
 
 ## Hva treet viser
 
-- 251 personer i 14 generasjoner. 224 av dem er dokumentert i primærkilder.
+- 322 personer i opptil 14 generasjoner. 281 av dem er dokumentert i kirkebøker, folketellinger eller bygdebøker.
 - Statusen til hver person: dokumentert, oppgitt eller ikke bekreftet.
 - Kilder med lenker til Digitalarkivet, Nasjonalbiblioteket og Riksarkivet.
 - Søsken, og spor fra andres trær.
@@ -47,7 +47,7 @@ Legg til `#` og personens nøkkel i adressen for å åpne treet rett på en best
 - Fra oldeforeldrene og bakover vises bare døde personer med navn.
 - I etterkommerlistene vises ikke barnebarn født i 1920 eller senere uten kjent dødsdato. Nær familie med levende personer er ikke med.
 
-Versjon: 23.10.2026 (tilsvarer versjon 117 av arbeidstreet).
+Versjon: 23.10.2026 (tilsvarer versjon 124 av arbeidstreet).
 
 ## Aure-navnet
 
@@ -59,7 +59,29 @@ Aure er et gammelt gårdsnavn fra Skiaker i Østsinni sokn i Nordre Land: Aure s
 
 ## Nytt siden forrige versjon
 
-- **Etterkommere i to ledd:** Hvert par av tipp-tipp-oldeforeldre har nå en egen liste over barn og barnebarn, basert på kirkebøker og folketellinger. Noen eksempler:
+Denne runden er bygdebøker lest systematisk for å forlenge de korte linjene. Treet har fått 71 nye personer.
+
+- **Nes på Hedmarken** (Nes bygdebok 1995):
+  - Rett mannslinje på Bye vestre fra Tord Pedersen, bondelensmann i 1650, ned til Thor Pedersen Bye (1756–1824).
+  - Nerlien-slekta tilbake til Erik Olsen Syljebæk (døpt 1696).
+  - Gjøa Olsdatters dødsår er rettet fra 1854 til 1831/32.
+- **Stangvik og Todalen** (Heimar og ætter i Stangvik 1953; Leif Halse: Bruset i Todalen 1970):
+  - Faren til Martinus Gjeldnes er bekreftet: Christen Andersen Røen (1813–1892).
+  - Hans farslinje går via Einar Andersen Bruset til Ola Andersen Sjøflott (f. 1689).
+  - Morslinja går til to lensmenn i Brøske: Fredrik Steinarsen (1751–1821) og Steinar Fredriksen (d. 1773).
+  - Christen giftet seg i 1847 med mora til Johanne Larsdatter, så Martinus og Johanne var stesøsken.
+- **Romedal** (Romedalboka 2, 1970):
+  - Peder Christoffersen Malerløkken (1788–1848) hører til odelsgrenen på Sørbryn. Den rette linja på Sørbryn går tilbake til Peder Sørbryn, død ca. 1616.
+  - Morslinja går til soldat Jens Larsen og Berthe Olsdatter Hagen.
+- **Nordsinni i Land:** Berte Johannesdatter, kona til Knud Knudsen på Aure-linja, er datter av Johannes Hansen og Marte Hansdatter på Stensrud nordre.
+- **Hurdal og Gran** (Hurdal bygdebok 1958; aviser og kirkebøker):
+  - Hildur Margaret Knutsens foreldre er funnet: Ivar Oskar Lundberg (1906–1969) fra Lundberg i Hurdal og Klara Bekkelund (1908–1986) fra Brandbu og Gran.
+  - Lundberg-, Sibilrud- og Simarud-linjene går tilbake til 1715.
+  - Klaras morslinje går til Vestlia i Hurdal og Bertel Halvorsen (f. 1730).
+
+## Tidligere endringer
+
+- **Versjon 117:** etterkommere i to ledd.
   - **Hans Paulsen og Kari Thorsdatter (Sterud, Nes på Hedmarken):**
     - Ti barn. Vielsene til fire av døtrene oppgir alle Hans Paulsen som brudens far.
     - Sønnen Tolle overtok Sterud østre.
@@ -73,10 +95,8 @@ Aure er et gammelt gårdsnavn fra Skiaker i Østsinni sokn i Nordre Land: Aure s
     - Mathilda reiste til København i 1887.
     - Anna var fosterdatter i Öja etter at foreldrene døde.
     - Lenkene for den svenske greina går til Riksarkivet.
-- **Torbjørn Pedersen Wiborg** døde 9.6.1975 på Kolbotn.
-- **Ingrid Alvilde Merli f. Wiborg** døde 8.8.2017. Mannen hennes, Reidar Johannes Merli, døde 29.12.2007.
-
-## Tidligere endringer
+  - **Torbjørn Pedersen Wiborg** døde 9.6.1975 på Kolbotn.
+  - **Ingrid Alvilde Merli f. Wiborg** døde 8.8.2017. Mannen hennes, Reidar Johannes Merli, døde 29.12.2007.
 
 - **Versjon 114:** andre verdenskrig, Martha Wiborgs politiske liv og avissøk på tippoldeforeldrene:
   - **Andre verdenskrig:**
