@@ -267,6 +267,102 @@ details ul{margin-top:10px}
 .srcbox .src{border-top:0;padding-top:8px}
 .fdetail .lnk{padding:2px 0}
 @media (prefers-reduced-motion:reduce){.fgrid .p:active{transform:none}}
+/* Visningsvelger og viftediagram */
+.vsel{display:inline-flex;border:1px solid var(--line);border-radius:99px;overflow:hidden;background:var(--paper);flex:none}
+.vsel button{all:unset;cursor:pointer;font-size:13.5px;padding:6px 13px;color:var(--ink)}
+.vsel button+button{border-left:1px solid var(--line)}
+.vsel button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.vsel button:focus-visible{outline:2px solid var(--you);outline-offset:-3px}
+body:not(.v-tavle) :is(.hint,.genbar,#viewport,.panbtns,#focus,.depth,#mode){display:none!important}
+.fan{margin:0 0 20px}
+.fanbar{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin:0 0 8px}
+.fanbar .crumbs{flex:1 1 100%;margin:0;padding:2px 0 4px}
+.fanbar label{font-size:13.5px;color:var(--muted);display:inline-flex;align-items:center;gap:6px}
+.fanbar select{font:inherit;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:4px 6px}
+.fzoom{display:inline-flex;gap:6px;margin-left:auto}
+.fzoom button{all:unset;cursor:pointer;min-width:34px;height:32px;text-align:center;line-height:30px;border:1px solid var(--line);border-radius:99px;background:var(--paper);color:var(--ink);font-size:17px}
+.fzoom button:disabled{opacity:.4;cursor:default}
+.fzoom button:focus-visible{outline:2px solid var(--you);outline-offset:2px}
+.fanvp{overflow:auto;max-height:min(82vh,940px);border:1px solid var(--line);border-radius:10px;background:var(--bg);-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
+.fanvp:focus-visible{outline:2px solid var(--you)}
+#fansvg{display:block;margin:0 auto;-webkit-user-select:none;user-select:none}
+#fansvg .seg{cursor:pointer;outline:none}
+#fansvg .seg path,#fansvg .seg circle{stroke:var(--bg);stroke-width:1.5;fill:var(--paper);transition:filter .12s}
+#fansvg .seg.ok path{fill:var(--ok-bg)}
+#fansvg .seg.you path{fill:var(--you-bg)}
+#fansvg .seg.cand path{fill:var(--cand-bg)}
+#fansvg .seg.unk path{fill:transparent;stroke:var(--gap);stroke-dasharray:2 3;stroke-width:1}
+#fansvg .seg.gap path{fill:transparent;stroke:var(--gap);stroke-dasharray:2 3;stroke-width:1}
+#fansvg .seg.gap{cursor:default}
+#fansvg .seg.unsure path{stroke:var(--cand);stroke-dasharray:6 3;stroke-width:1.8}
+#fansvg .seg:hover path,#fansvg .seg:hover circle{filter:brightness(.94)}
+#fansvg .seg.sel path,#fansvg .seg.sel circle{stroke:var(--ink);stroke-width:3;stroke-dasharray:none}
+#fansvg .seg:focus-visible path,#fansvg .seg:focus-visible circle{stroke:var(--you);stroke-width:3;stroke-dasharray:none}
+#fansvg .seg.flash path{animation:fanflash 1.2s ease 2}
+@keyframes fanflash{50%{filter:brightness(.8)}}
+#fansvg text{fill:var(--ink);font-family:var(--body);pointer-events:none}
+#fansvg text.y{font-family:var(--mono);fill:var(--muted)}
+#fansvg text.q{fill:var(--gap);font-family:var(--mono)}
+#fansvg .seg.dk text.n{fill:var(--paper)}
+#fansvg .seg.dk text.y{fill:var(--paper);opacity:.85}
+#fansvg .ctr circle{fill:var(--paper);stroke:var(--line)}
+#fansvg .ctr text.n{font-family:var(--display)}
+.fanleg{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted);margin:8px 0 0}
+.fanleg span{display:inline-flex;align-items:center}
+.fanleg i{display:inline-block;width:14px;height:14px;border-radius:3px;margin-right:6px;border:1px solid var(--line);flex:none}
+.fhint2{font-size:13px;color:var(--muted);margin:6px 0 0}
+#pbody .fcen{display:inline-block;margin:0 0 12px;color:var(--you);border-color:var(--you)}
+@media (prefers-reduced-motion:reduce){#fansvg .seg.flash path{animation:none}#fansvg .seg path{transition:none}}
+@media (max-width:699.98px){.fzoom{margin-left:0}.fanvp{max-height:72vh}}
+/* Etterkommertavle */
+.dsec{margin:0 0 20px}
+.dhead h3{font-family:var(--display);font-weight:400;font-size:20px;margin:0 0 2px}
+.dhead .dm,.dhead p{color:var(--muted);font-size:13.5px;margin:0 0 6px}
+.dup{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}
+.dvp{overflow-x:auto;overflow-y:hidden;border:1px solid var(--line);border-radius:10px;background:var(--bg);-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+.dvp:focus-visible{outline:2px solid var(--you)}
+.dtree{padding:12px 16px 16px}
+.dtree .p .sp{font-size:11px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.dtree .p.line{box-shadow:inset 4px 0 0 var(--you)}
+.dtree .p.line[aria-pressed="true"]{box-shadow:inset 4px 0 0 var(--you),0 0 0 3px var(--you)}
+.dtree .p .ln2{font-family:var(--mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--you)}
+.dtree .p.droot{border-width:2.5px}
+.dtree .p.dx{cursor:default;background:var(--paper);border:1px solid var(--line)}
+.dtree .dfold{cursor:default}
+/* Nummerert anetavle */
+.asec{margin:0 0 20px}
+.ahead h3{font-family:var(--display);font-weight:400;font-size:20px;margin:0 0 2px}
+.ahead p,.ahead .dm{color:var(--muted);font-size:13.5px;margin:0 0 6px;max-width:80ch}
+.fanbar label.chk{color:var(--ink)}
+.fanbar label.chk input{accent-color:var(--you);width:16px;height:16px;margin:0}
+.ag{margin:0 0 6px}
+.agen{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;border-bottom:1px solid var(--line);padding:12px 0 4px;margin:0 0 4px}
+.agen h4{font-family:var(--display);font-weight:400;font-size:17px;margin:0}
+.ast{font-family:var(--mono);font-size:11.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.ameter{flex:0 1 160px;height:6px;border-radius:99px;background:color-mix(in srgb,var(--line) 45%,transparent);overflow:hidden;align-self:center}
+.ameter span{display:block;height:100%;background:var(--ok);border-radius:99px}
+ol.al{list-style:none;margin:0;padding:0}
+@media (min-width:900px){ol.al.many{columns:2 380px;column-gap:28px}}
+.ar{display:grid;grid-template-columns:4.6em 14px minmax(0,1fr);gap:0 8px;align-items:baseline;padding:4px 6px;border-radius:6px;break-inside:avoid}
+.ar .an{font-family:var(--mono);font-size:12.5px;text-align:right;color:var(--muted);font-variant-numeric:tabular-nums}
+.ar .sw{width:11px;height:11px;align-self:center}
+.ar .ab{display:flex;flex-direction:column;min-width:0}
+.ar .an2{font-family:var(--display);font-size:15px;text-align:left}
+.ar .am{font-size:12.5px;color:var(--muted)}
+.ar .ap{font-size:12px;color:var(--muted)}
+.ar .ap .lnk{font-family:var(--mono);font-size:12px}
+.ar .ap .tag{margin-left:4px}
+.ar .tag.cand{color:var(--cand);border-color:var(--cand)}
+.ar.gap .ab{color:var(--muted);font-style:italic}
+.ar.hl{background:var(--you-bg)}
+@media (max-width:699.98px){.ar{grid-template-columns:3.2em 12px minmax(0,1fr);gap:0 6px;padding:4px 2px}}
+@media print{
+  body.v-ane .wrap>:not(#anet),body.v-ane #panel,body.v-ane .fanbar,body.v-ane .dup{display:none!important}
+  body.v-ane{background:#fff;color:#000}
+  body.v-ane .ar{padding:1px 0}
+  body.v-ane ol.al.many{columns:2;column-gap:24px}
+  body.v-ane .ar.hl{background:none}
+}
 </style>
 
 <div class="wrap">
@@ -289,6 +385,7 @@ details ul{margin-top:10px}
   </header>
 
   <div class="toolbar" role="search">
+    <div class="vsel" id="vsel" role="group" aria-label="Velg visning"></div>
     <div class="search">
       <input id="q" type="search" placeholder="Søk etter navn eller sted …" autocomplete="off" spellcheck="false" aria-label="Søk etter person" role="combobox" aria-controls="hits" aria-expanded="false" aria-autocomplete="list">
       <ul id="hits" role="listbox" hidden></ul>
@@ -303,6 +400,28 @@ details ul{margin-top:10px}
     <div class="fgrid" id="fgrid"></div>
     <p class="fhint">Trykk på en forelder eller besteforelder for å gå et ledd bakover. Trykk på stien over for å gå tilbake.</p>
     <article class="fdetail" id="fdetail" aria-live="polite"></article>
+  </section>
+  <section class="fan" id="fan" hidden aria-label="Viftediagram">
+    <div class="fanbar">
+      <nav class="crumbs" id="fcrumbs" aria-label="Veien fra barna til personen i sentrum"></nav>
+      <label>Generasjoner <select id="fgen"></select></label>
+      <label>Farge <select id="fcol"><option value="status">Kildestatus</option><option value="side">Fars- og morsside</option><option value="tid">Fødselsår</option></select></label>
+      <span class="fzoom"><button type="button" id="fzo" aria-label="Zoom ut">−</button><button type="button" id="fzi" aria-label="Zoom inn">+</button></span>
+    </div>
+    <div class="fanvp" id="fanvp" tabindex="-1"><svg id="fansvg" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="Viftediagram"></svg></div>
+    <div class="fanleg" id="fanleg"></div>
+    <p class="fhint2">Trykk på en person for å se detaljene. Trykk en gang til for å sette personen i sentrum. Stien over vifta fører tilbake. Bruk + for å zoome inn og lese navnene ytterst.</p>
+  </section>
+  <section class="dsec" id="desct" hidden aria-label="Etterkommertavle">
+    <div class="dhead" id="dhead"></div>
+    <div class="fanbar"><label>Generasjoner <select id="dgen"></select></label></div>
+    <div class="dvp" id="dvp" tabindex="0" aria-label="Etterkommertavle"><div class="tree dtree" id="dtree"></div></div>
+    <p class="fhint2">Stamfaren eller stammora står til venstre, barna og barnebarna mot høyre. Kort med blå strek er barnas aner. Hvite kort er barn og barnebarn fra etterkommerlistene, uten egen side i treet. Trykk på en person for detaljer, og en gang til for å vise etterkommerne hennes. Barn født etter 1920 kan mangle.</p>
+  </section>
+  <section class="asec" id="anet" hidden aria-label="Nummerert anetavle">
+    <div class="ahead" id="ahead"></div>
+    <div class="fanbar"><label>Generasjoner <select id="agen"></select></label><label class="chk"><input type="checkbox" id="agap"> Vis tomme plasser</label><button type="button" class="ghost" id="aprint">Skriv ut</button></div>
+    <div class="alist" id="alist"></div>
   </section>
   <p class="hint">Sveip sidelengs i treet, eller bruk pilene nede til høyre, for å se eldre generasjoner. Trykk + for å vise flere forfedre, − for å felle sammen.</p>
   <div class="genbar" aria-hidden="true"><div class="gens" id="gens"></div></div>
@@ -885,7 +1004,7 @@ const srcText = {
   ft1920:'Folketelling 1920 for Kongsvinger kjøpstad, krets 002 Stasjonssiden og midtbyen, Oskars gate, leilighet 01 (pf01073703002347): husholdningen til Karelius Andersen.',
   ft1920t:'Folketelling 1900 for Botne herred (pf01037139002150). Folketelling 1920 for Kristiania, krets 073, Darres gate 1, leilighet 16, husholdning 02 (pf01073701039977): Torbjørn Wiborg, f. 8.8.1897 i Kristiania, losjerende, gift, lagerarbeider. Folketelling 1920 for Kongsvinger, Oskars gate (pf01073703002347): samme fødselsdato, svigersønn, merknad «er hjemme en tur hver uke». Dåpen 15.2.1920 i Kongsvinger sokn.',
   ft1900b:'Folketelling 1900 for Botne herred, krets 001, Nedre Gausens grund i Dunkebæk, husholdning 02 (pf01037139002150): Petter Viborg (1866, Skåne), Bolette f. Aronsen (1866, Røyken), Einar (1892), Sverre (1893) og Torbjørn (1897), stedatter Ragnhild Danielsen (1894) og Karl Aronsen (1883).',
-  forumM:'Innlegg i trådene «Maren Olsdtr. Langvassenga» og «Thea Olsdtr. Rognlien» på Slektsforum (slektogdata.no), limt inn av deg. Viser til dombok nr. 2 for Vinger og Odal, fol. 334 (dom 11.3.1865), og kirkebøkene for Eidskog. Sekundærkilde: opplysningene bør kontrolleres mot kirkebøkene. Dåp 4.8.1867, ministerialbok for Eidskog 1867–1878 (pd00000033708196). Folketelling 1875 for Eidskog (pf01052066001417).',
+  forumM:'Innlegg i trådene «Maren Olsdtr. Langvassenga» og «Thea Olsdtr. Rognlien» på Slektsforum (slektogdata.no), limt inn av familien. Viser til dombok nr. 2 for Vinger og Odal, fol. 334 (dom 11.3.1865), og kirkebøkene for Eidskog. Sekundærkilde: opplysningene bør kontrolleres mot kirkebøkene. Dåp 4.8.1867, ministerialbok for Eidskog 1867–1878 (pd00000033708196). Folketelling 1875 for Eidskog (pf01052066001417).',
   daapK:'Dåp 4.8.1867, ministerialbok for Eidskog prestegjeld 1867–1878, side 3, nr. 129 (Digitalarkivet pd00000033708196), lest fra skannet side: Karelius, født 3.8., uekte. Foreldre «Pige Maren Olsdatter Langvasengen og Ungkarl Anders Olsen Morast ved Eda Glasbrug». Faddere: Clemet Thoresen Brustad, Syver Brustads hustru Ragnild, Thom Larsen R(a)stad(?), Christ. Larsen Jerpset(?) og pike Olea Hansdatter Klanderud(?). Hjemmedøpt av Ole Mathisens kone(?). Merknad: «5te Leiermaal», anmeldt av jordmoren(?). Folketelling 1875 for Eidskog (pf01052066001417). Folketelling 1920 for Kongsvinger.',
   ft1875r:'Folketelling 1875 for Røyken prestegjeld, krets 006 Frydenlund, Follestadeie (pf01052125003525),: Aron Olsen (1836, Sverige, husmann med jord), Lisa Olsdatter (1842, Røyken), Bolette (1866), Christian (1869), Anette (1871), Otto (1873), Anthon (1874) og Lovise (1875). Koblingen til Bolette Viborg i 1900 bygger på navn, fødselsår, fødested og broren Karl Aronsen. Folketelling 1900 for Botne (pf01037139002150).',
   ft1875:'Folketelling 1875 for Eidskog prestegjeld, krets 003 Tollefsbøl, Rognelien Stangnæs (pf01052066001417).',
@@ -1405,6 +1524,7 @@ let HBY=null;
 const ROOTS=[["Anetavle","barn"]];
 const isWide=()=>matchMedia("(min-width:900px)").matches;
 const state={view:"alle",depth:6,open:new Set(),closed:new Set()};
+let curView="tavle";
 try{const d=localStorage.getItem("slekt.depth");if(d)state.depth=+d;}catch(e){}
 function relRole(path){const g=path.length;if(g===1)return path==="F"?"Far":"Mor";if(g===2)return {FF:"Farfar",FM:"Farmor",MF:"Morfar",MM:"Mormor"}[path];const k=path.slice(-1)==="F"?"far":"mor";if(g===3)return "Olde"+k;const t=Array(g-3).fill("tipp").join("-");return t[0].toUpperCase()+t.slice(1)+"olde"+k;}
 (function(){const seen=new Set();(function w(id,path){const p=people[id];if(!p||seen.has(id))return;seen.add(id);if(path){p.role=relRole(path)+(path.length>2?" ("+(path[0]==="F"?"farssiden":"morssiden")+")":"");}w(p.f,path+"F");w(p.m,path+"M");})(ROOTS[0][1],"");})();
@@ -1506,12 +1626,14 @@ function reveal(id){
 }
 function flash(id){const b=treeEl.querySelector(`.p[data-id="${id}"]`);if(!b)return;b.classList.remove("flash");void b.offsetWidth;b.classList.add("flash");}
 function goTo(id){
+  if(curView!=="tavle"){VIEWS[curView].go(id);return;}
   if(focusOn()){setFocus(id,{scroll:true});return;}
   const inTree=reveal(id);
   select(id);
   if(inTree){setTimeout(()=>{centerOn(id,true);flash(id);},isWide()?30:240);}
 }
 function setView(v,silent){
+  if(curView!=="tavle"&&!silent){VIEWS[curView].side(v);return;}
   if(focusOn()&&!silent){const r=people[ROOTS[0][1]];setFocus(v==="far"?r.f:v==="mor"?r.m:ROOTS[0][1]);return;}
   state.view=v;
   document.querySelectorAll("#views button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===v?"true":"false"));
@@ -1522,7 +1644,7 @@ views().forEach(([v,lab])=>{const b=el("button",null,lab);b.type="button";b.data
 const depthSel=document.getElementById("depth");
 [[3,"3"],[4,"4"],[5,"5"],[6,"6"],[8,"8"],[99,"Alle"]].forEach(([v,l])=>{const o=el("option",null,l);o.value=v;if(v===state.depth)o.selected=true;depthSel.append(o)});
 depthSel.addEventListener("change",()=>{state.depth=+depthSel.value;state.open.clear();state.closed.clear();try{localStorage.setItem("slekt.depth",state.depth)}catch(e){};const keep=cur&&anchor(cur);render();if(keep)restore(keep);});
-document.getElementById("home").addEventListener("click",()=>{setView("alle",true);render();centerOn(ROOTS[0][1],true);flash(ROOTS[0][1]);});
+document.getElementById("home").addEventListener("click",()=>{if(curView!=="tavle"){VIEWS[curView].home();return;}setView("alle",true);render();centerOn(ROOTS[0][1],true);flash(ROOTS[0][1]);});
 
 // ---------- Søk ----------
 const q=document.getElementById("q"), hits=document.getElementById("hits");
@@ -1613,7 +1735,7 @@ const kids={}; Object.entries(people).forEach(([id,p])=>{[p.f,p.m].forEach(x=>{i
 const narrowMQ=matchMedia("(max-width:699.98px)");
 let mode=null; try{mode=localStorage.getItem("slekt.mode")}catch(e){}
 let focusId=ROOTS[0][1];
-function focusOn(){return narrowMQ.matches&&mode!=="tre";}
+function focusOn(){return curView==="tavle"&&narrowMQ.matches&&mode!=="tre";}
 function shortName(id){const p=people[id];if(id===ROOTS[0][1])return "Barna";return p.n.replace(/\s*\(.*\)\s*/g," ").trim().split(/\s+/)[0];}
 function fcard(id,lvl){
   const p=people[id];
@@ -1676,6 +1798,7 @@ function setFocus(id,o={}){
 }
 addEventListener("popstate",e=>{const id=(e.state&&e.state.f)||decodeURIComponent(location.hash.slice(1));if(focusOn()&&people[id])setFocus(id,{push:false});});
 function applyMode(){
+  if(curView!=="tavle"){document.body.classList.remove("fmode");focusEl.hidden=true;modeBtn.hidden=true;return;}
   const f=focusOn();
   document.body.classList.toggle("fmode",f);
   focusEl.hidden=!f;
@@ -1694,9 +1817,315 @@ moreBtn.addEventListener("click",()=>{const o=subEl.classList.toggle("open");mor
 const legbox=document.getElementById("legbox"); if(!narrowMQ.matches)legbox.open=true;
 narrowMQ.addEventListener("change",()=>{if(!narrowMQ.matches)legbox.open=true;});
 
+// ---------- Visninger: Tavle og Vifte. Nye visninger (f.eks. anetavle, etterkommertavle) legges til i VIEWS ----------
+const fanEl=document.getElementById("fan"),fsvg=document.getElementById("fansvg"),fvp=document.getElementById("fanvp"),fcr=document.getElementById("fcrumbs"),fgenSel=document.getElementById("fgen"),fcolSel=document.getElementById("fcol"),fleg=document.getElementById("fanleg");
+const FAN={center:ROOTS[0][1],gens:narrowMQ.matches?4:6,col:"status",z:narrowMQ.matches?2:1,fit:1,sel:null,drawn:new Set(),vb:null};
+try{const g=+localStorage.getItem("slekt.fgen");if(g>=3&&g<=10)FAN.gens=g;const c=localStorage.getItem("slekt.fcol");if(c)FAN.col=c;}catch(e){}
+for(let g=3;g<=10;g++){const o=el("option",null,String(g));o.value=g;if(g===FAN.gens)o.selected=true;fgenSel.append(o);}
+fcolSel.value=FAN.col;
+const SVGNS="http://www.w3.org/2000/svg";
+function sv(tag,at,txt){const e=document.createElementNS(SVGNS,tag);for(const k in at)e.setAttribute(k,at[k]);if(txt!=null)e.textContent=txt;return e;}
+const FA0=150,FSPAN=240; // vinkler i grader; 0 = høyre, 90 = ned. Vifta åpner seg oppover over 240°
+const frad=d=>d*Math.PI/180, fpt=(r,d)=>[r*Math.cos(frad(d)),r*Math.sin(frad(d))];
+const f2=n=>Math.round(n*10)/10;
+function fanRadii(n){const R=[0,62];for(let g=1;g<=n;g++){const w=g<=2?72:g<=4?84:g<=6?80:68;R.push(R[g]+w);}return R;}
+function segPath(r1,r2,a1,a2){const big=(a2-a1)>180?1:0;const[p1x,p1y]=fpt(r2,a1),[p2x,p2y]=fpt(r2,a2),[p3x,p3y]=fpt(r1,a2),[p4x,p4y]=fpt(r1,a1);
+  return `M${f2(p1x)} ${f2(p1y)}A${r2} ${r2} 0 ${big} 1 ${f2(p2x)} ${f2(p2y)}L${f2(p3x)} ${f2(p3y)}A${r1} ${r1} 0 ${big} 0 ${f2(p4x)} ${f2(p4y)}Z`;}
+function arcPath(r,a1,a2){const[ax,ay]=fpt(r,a1),[bx,by]=fpt(r,a2);return `M${f2(ax)} ${f2(ay)}A${r} ${r} 0 ${(a2-a1)>180?1:0} 1 ${f2(bx)} ${f2(by)}`;}
+function fYears(p){const y=(p.d||"").match(/1[3-9]\d\d|20\d\d/g)||[];if(!y.length)return "";const dod=/–|-/.test(p.d||"")&&y.length>1;return dod?y[0]+"–"+y[y.length-1]:(/^d(ød|\.)/.test(p.d)?"d. "+y[0]:"f. "+y[0]);}
+function fBirth(p){const m=(p.d||"").match(/1[3-9]\d\d|20\d\d/);return m?+m[0]:null;}
+function fName(p,max){let n=(p.n||"").replace(/\s*\([^)]*\)/g,"").trim();if(n.length<=max)return n;const w=n.split(/\s+/);if(w.length>2){const s=w[0]+" "+w[w.length-1];if(s.length<=max)return s;}return n.slice(0,Math.max(1,max-1))+"…";}
+function fFill(p,g){
+  if(FAN.col==="side"){const side=FAN.side;const c=side==="mor"?"var(--mor)":"var(--far)";const x=Math.max(16,66-g*7);return [`color-mix(in srgb,${c} ${x}%,var(--paper))`,x>48];}
+  if(FAN.col==="tid"){const y=fBirth(p);if(!y)return ["var(--paper)",false];const t=Math.min(1,Math.max(0,(1950-y)/430));const x=Math.round(14+68*t);return [`color-mix(in srgb,var(--you) ${x}%,var(--paper))`,x>50];}
+  return [null,false];
+}
+function fanDraw(){
+  const N=Math.min(FAN.gens,MAXGEN),R=fanRadii(N),Rm=R[N+1];
+  fsvg.innerHTML="";FAN.drawn=new Set();
+  const pad=10,vx=-Rm-pad,vy=-Rm-pad,vw=2*(Rm+pad),vh=Rm+Math.max(R[1],Rm*Math.sin(frad(FA0)))+2*pad;
+  FAN.vb=[vx,vy,vw,vh];fsvg.setAttribute("viewBox",`${vx} ${vy} ${vw} ${vh}`);
+  const defs=sv("defs");fsvg.append(defs);
+  const segs=sv("g");fsvg.append(segs);
+  const seen=new Map();let pid=0;
+  const root=people[ROOTS[0][1]];
+  function seg(id,g,k,unsure,side){
+    const a1=FA0+FSPAN*k/2**g,a2=FA0+FSPAN*(k+1)/2**g,r1=R[g],r2=R[g+1],am=(a1+a2)/2;
+    const G=sv("g",{class:"seg"});
+    const path=sv("path",{d:segPath(r1,r2,a1,a2)});G.append(path);
+    if(!id){G.classList.add("gap");G.setAttribute("aria-hidden","true");
+      const[tx,ty]=fpt((r1+r2)/2,am);if((r2+r1)/2*frad(a2-a1)>14)G.append(sv("text",{x:f2(tx),y:f2(ty),"text-anchor":"middle","dominant-baseline":"middle",class:"q","font-size":12},"?"));
+      segs.append(G);return;}
+    const p=people[id];
+    const dup=seen.has(id);seen.set(id,(seen.get(id)||0)+1);FAN.drawn.add(id);
+    G.dataset.id=id;G.classList.add(p.s||"unk");if(unsure)G.classList.add("unsure");if(dup)G.classList.add("dup");if(id===FAN.sel)G.classList.add("sel");
+    FAN.side=side;const[fill,dark]=fFill(p,g);if(fill)path.style.fill=fill;if(dark)G.classList.add("dk");
+    G.setAttribute("tabindex","0");G.setAttribute("role","button");
+    const nr=2**g+k, yrs=fYears(p);
+    G.setAttribute("aria-label",`${p.n}${yrs?", "+yrs:""}, ane nr. ${nr}`);
+    G.append(sv("title",{},`${dup?"↺ Forekommer flere ganger i vifta (anetap)\n":""}${p.n}${p.d?"\n"+p.d:""}${p.r?"\n"+p.r:""}\nAne nr. ${nr} regnet fra ${FAN.center===ROOTS[0][1]?"barna":people[FAN.center].n}`));
+    const mark=dup?"↺ ":"";
+    if(g<=2){ // tekst langs buen
+      const rm=(r1+r2)/2,len=rm*frad(a2-a1),fs=g===1?14:12.5,id1="fa"+(pid++),id2="fa"+(pid++);
+      defs.append(sv("path",{id:id1,d:arcPath(rm+7,a1,a2)}),sv("path",{id:id2,d:arcPath(rm-11,a1,a2)}));
+      const t1=sv("text",{"font-size":fs,class:"n"}),tp1=sv("textPath",{href:"#"+id1,startOffset:"50%","text-anchor":"middle"},mark+fName(p,Math.floor(len/(fs*0.56))));t1.append(tp1);G.append(t1);
+      if(yrs){const t2=sv("text",{"font-size":11,class:"y"}),tp2=sv("textPath",{href:"#"+id2,startOffset:"50%","text-anchor":"middle"},yrs);t2.append(tp2);G.append(t2);}
+    }else{ // tekst langs radien
+      const tang=((r1+r2)/2)*frad(a2-a1),w=r2-r1-10;
+      const L=yrs?(tang>=34?3:tang>=19?2:1):(tang>=28?2:1);
+      const fs=Math.min(12,tang/(L*1.12));
+      if(fs>=5.5){
+        const m=((am%360)+360)%360,flip=m>90&&m<270,rot=flip?m+180:m,x=flip?-(r1+5):(r1+5),anc=flip?"end":"start";
+        const maxc=Math.max(3,Math.floor(w/(fs*0.53))),nm=(p.n||"").replace(/\s*\([^)]*\)/g,"").trim();
+        let nl=[fName(p,maxc)];
+        if(L-(yrs?1:0)>=2&&nm.length>maxc){const wd=nm.split(/\s+/);let best=null;for(let i=1;i<wd.length;i++){const a=wd.slice(0,i).join(" "),b=wd.slice(i).join(" ");const sc=Math.max(a.length,b.length);if(!best||sc<best[2])best=[a,b,sc];}
+          if(best)nl=best.slice(0,2).map(x=>x.length>maxc?x.slice(0,maxc-1)+"…":x);}
+        nl[0]=mark+nl[0];
+        const lines=nl.map(x=>[x,"n",fs]);if(yrs&&L>=2)lines.push([yrs,"y",Math.min(fs*0.86,10)]);
+        const tg=sv("g",{transform:`rotate(${f2(rot)})`}),k0=(lines.length-1)/2;
+        lines.forEach(([tx,cl,sz],i)=>tg.append(sv("text",{x:f2(x),y:f2((i-k0)*fs*1.1),"text-anchor":anc,"dominant-baseline":"middle","font-size":f2(sz),class:cl},tx)));
+        G.append(tg);
+      }
+    }
+    segs.append(G);
+    if(g<N){const un=p.pl==="cand";
+      if(p.f&&people[p.f])seg(p.f,g+1,2*k,un,side);else if(p.f||p.m)seg(null,g+1,2*k);
+      if(p.m&&people[p.m])seg(p.m,g+1,2*k+1,un,side);else if(p.f||p.m)seg(null,g+1,2*k+1);}
+  }
+  const c=people[FAN.center];
+  const rootSide=x=>{const pth=pathTo(x)||[];return pth.length>1?(pth[1]===root.m?"mor":"far"):null;};
+  const cs=rootSide(FAN.center);
+  if(c.f&&people[c.f])seg(c.f,1,0,c.pl==="cand",cs||"far");else seg(null,1,0);
+  if(c.m&&people[c.m])seg(c.m,1,1,c.pl==="cand",cs||"mor");else seg(null,1,1);
+  // sentrum
+  const C=sv("g",{class:"seg ctr"+(FAN.sel===FAN.center?" sel":""),tabindex:"0",role:"button","aria-label":(FAN.center===ROOTS[0][1]?"Barna":c.n)+", sentrum"});C.dataset.id=FAN.center;
+  C.append(sv("circle",{r:R[1]-2}));
+  const lab=FAN.center===ROOTS[0][1]?"Barna":c.n.replace(/\s*\([^)]*\)/g,"");
+  const words=lab.split(/\s+/),lines=[];words.forEach(wd=>{const l=lines[lines.length-1];if(l&&(l+" "+wd).length<=12)lines[lines.length-1]=l+" "+wd;else lines.push(wd);});
+  const L=lines.slice(0,3),yr=FAN.center===ROOTS[0][1]?"":fYears(c),tot=L.length+(yr?1:0);
+  L.forEach((l,i)=>C.append(sv("text",{x:0,y:f2((i-(tot-1)/2)*15),"text-anchor":"middle","dominant-baseline":"middle","font-size":13,class:"n"},l)));
+  if(yr)C.append(sv("text",{x:0,y:f2((L.length-(tot-1)/2)*15),"text-anchor":"middle","dominant-baseline":"middle","font-size":10.5,class:"y"},yr));
+  C.append(sv("title",{},(FAN.center===ROOTS[0][1]?"Barna":c.n)+"\nSentrum i vifta. Trykk for detaljer."));
+  fsvg.append(C);
+  fsvg.setAttribute("aria-label",`Viftediagram med ${N} generasjoner forfedre til ${FAN.center===ROOTS[0][1]?"barna":c.n}`);
+  fanSize();fanCrumbs();fanLegend();
+}
+function fanSize(keep){
+  if(!FAN.vb)return;const[vx,vy,vw,vh]=FAN.vb;const cw=fvp.clientWidth-2;if(cw<=0)return;
+  const ch=Math.min(innerHeight*(narrowMQ.matches?0.72:0.82),940)-2;FAN.fit=Math.min(1.3,cw/vw,ch/vh);const s=FAN.fit*FAN.z;
+  fsvg.style.width=Math.round(vw*s)+"px";fsvg.style.height=Math.round(vh*s)+"px";
+  if(!keep){requestAnimationFrame(()=>{fvp.scrollLeft=Math.max(0,(-vx*s)-fvp.clientWidth/2);fvp.scrollTop=Math.max(0,(-vy*s)-fvp.clientHeight*0.75);});}
+}
+function fanCrumbs(){
+  const pth=pathTo(FAN.center)||[FAN.center];fcr.innerHTML="";
+  pth.forEach((x,i)=>{const last=i===pth.length-1;const b=el("button","crumb"+(last?" on":""),shortName(x));b.type="button";b.title=people[x].n;
+    if(last)b.setAttribute("aria-current","page");else b.addEventListener("click",()=>fanCenter(x));fcr.append(b);if(!last)fcr.append(el("span","sep","›"));});
+  requestAnimationFrame(()=>{fcr.scrollLeft=fcr.scrollWidth;});
+  const r=people[ROOTS[0][1]],side=pth.length>1?(pth[1]===r.f?"far":pth[1]===r.m?"mor":"alle"):"alle";
+  document.querySelectorAll("#views button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===side?"true":"false"));
+}
+function fanLegend(){
+  const it=(style,txt)=>`<span><i style="${style}"></i>${txt}</span>`;
+  let h="";
+  if(FAN.col==="status")h=it("background:var(--ok-bg)",chipText.ok)+it("background:var(--you-bg)",chipText.you)+it("background:var(--cand-bg)",chipText.cand)+it("background:transparent;border:1.5px dotted var(--gap)","Ikke funnet ennå (?)");
+  else if(FAN.col==="side")h=it("background:color-mix(in srgb,var(--far) 55%,var(--paper))","Farssiden")+it("background:color-mix(in srgb,var(--mor) 55%,var(--paper))","Morssiden")+`<span>Lysere farge = lenger tilbake</span>`;
+  else h=[1500,1600,1700,1800,1900].map(y=>it(`background:color-mix(in srgb,var(--you) ${Math.round(14+68*Math.min(1,Math.max(0,(1950-y-50)/430)))}%,var(--paper))`,`${y}-tallet`)).join("")+it("background:var(--paper)","Fødselsår ukjent");
+  h+=it("background:transparent;border:1.5px dashed var(--cand)","Sannsynlig, ikke bekreftet kobling")+`<span>↺ Samme person flere steder (anetap)</span>`;
+  fleg.innerHTML=h;
+}
+function fanMark(){fsvg.querySelectorAll(".seg").forEach(g=>g.classList.toggle("sel",!!FAN.sel&&g.dataset.id===FAN.sel));}
+function fanSelect(id){FAN.sel=id;fanMark();select(id);
+  if(id!==FAN.center&&!panel.hidden){const b=el("button","ghost fcen","Sett i sentrum i vifta");b.type="button";b.addEventListener("click",()=>{if(!isWide())closePanel();fanCenter(id);FAN.sel=id;fanMark();});pbody.prepend(b);}}
+function fanCenter(id,o={}){if(!people[id])return;FAN.center=id;if(o.push!==false){try{history.pushState({v:"vifte",c:id},"","#vifte:"+id);}catch(e){}}fanDraw();}
+function fanFlash(id){fsvg.querySelectorAll(`.seg[data-id="${id}"]`).forEach(g=>{g.classList.remove("flash");void g.getBoundingClientRect();g.classList.add("flash");});}
+fsvg.addEventListener("click",e=>{const g=e.target.closest(".seg[data-id]");if(!g)return;const id=g.dataset.id;
+  if(FAN.sel===id&&id!==FAN.center){fanCenter(id);fanSelect(id);}else fanSelect(id);});
+fsvg.addEventListener("keydown",e=>{if(e.key!=="Enter"&&e.key!==" ")return;const g=e.target.closest(".seg[data-id]");if(!g)return;e.preventDefault();g.dispatchEvent(new MouseEvent("click",{bubbles:true}));});
+fgenSel.addEventListener("change",()=>{FAN.gens=+fgenSel.value;try{localStorage.setItem("slekt.fgen",FAN.gens)}catch(e){};fanDraw();});
+fcolSel.addEventListener("change",()=>{FAN.col=fcolSel.value;try{localStorage.setItem("slekt.fcol",FAN.col)}catch(e){};fanDraw();});
+const FZ=[1,1.5,2,3,4];
+function fanZoom(d){const i=Math.max(0,Math.min(FZ.length-1,FZ.indexOf(FAN.z)+d));if(FZ[i]===FAN.z)return;
+  const cx=(fvp.scrollLeft+fvp.clientWidth/2)/fsvg.clientWidth,cy=(fvp.scrollTop+fvp.clientHeight/2)/fsvg.clientHeight;
+  FAN.z=FZ[i];fanSize(true);fvp.scrollLeft=cx*fsvg.clientWidth-fvp.clientWidth/2;fvp.scrollTop=cy*fsvg.clientHeight-fvp.clientHeight/2;
+  document.getElementById("fzo").disabled=i===0;document.getElementById("fzi").disabled=i===FZ.length-1;}
+document.getElementById("fzi").addEventListener("click",()=>fanZoom(1));
+document.getElementById("fzo").addEventListener("click",()=>fanZoom(-1));
+document.getElementById("fzo").disabled=FAN.z===FZ[0];
+new ResizeObserver(()=>{if(curView==="vifte")fanSize(true);}).observe(fvp);
+addEventListener("popstate",e=>{if(curView!=="vifte")return;const s=e.state;let c=s&&s.v==="vifte"?s.c:null;if(!c){const m=decodeURIComponent(location.hash.slice(1)).match(/^vifte(?::(.+))?$/);c=m&&m[1]?m[1]:ROOTS[0][1];}if(people[c]){FAN.center=c;fanDraw();}});
+
+addEventListener("hashchange",()=>{const m=decodeURIComponent(location.hash.slice(1)).match(/^vifte(?::(.+))?$/);if(m){const c=m[1]&&people[m[1]]?m[1]:ROOTS[0][1];if(curView!=="vifte")switchView("vifte",{center:c});else if(FAN.center!==c){FAN.center=c;fanDraw();}}});
+const VIEWS={
+  tavle:{label:"Tavle",title:"Anetavle fra venstre mot høyre, med fokusvisning på mobil",
+    show(){applyMode();},hide(){}},
+  vifte:{label:"Vifte",title:"Viftediagram med barna i sentrum og forfedrene i ringer utover",
+    show(){fanEl.hidden=false;fanDraw();},
+    hash(){return "#vifte"+(FAN.center!==ROOTS[0][1]?":"+FAN.center:"");},hstate(){return {v:"vifte",c:FAN.center};},
+    hide(){fanEl.hidden=true;},
+    go(id){if(!people[id])return;if(!FAN.drawn.has(id))fanCenter(id);fanSelect(id);const g=fsvg.querySelector(`.seg[data-id="${id}"]`);if(g){const r=g.getBoundingClientRect(),v=fvp.getBoundingClientRect();if(r.right<v.left||r.left>v.right||r.bottom<v.top||r.top>v.bottom)g.scrollIntoView({block:"center",inline:"center"});fanFlash(id);}},
+    side(v){const r=people[ROOTS[0][1]];fanCenter(v==="far"&&r.f?r.f:v==="mor"&&r.m?r.m:ROOTS[0][1]);},
+    home(){fanCenter(ROOTS[0][1]);}}
+  // Plass til flere: anetavle:{...}, etterkommer:{...}
+};
+// ---------- Etterkommertavle: én stamfar/stammor til venstre, barn og barnebarn mot høyre ----------
+const desctEl=document.getElementById("desct"),dtree=document.getElementById("dtree"),dvp=document.getElementById("dvp"),dhead=document.getElementById("dhead"),dgenSel=document.getElementById("dgen");
+const DLINE=new Set();(function w(id){if(!id||!people[id]||DLINE.has(id))return;DLINE.add(id);w(people[id].f);w(people[id].m);})(ROOTS[0][1]);
+function dYear(d){const m=(d||"").match(/1[3-9]\d\d|20\d\d/);return m?+m[0]:9999;}
+function dKids(id){
+  const out=[],seen=new Set(),k=descKey(id);
+  if(k)DESC[k].kids.forEach(x=>{if(x.k&&people[x.k]){if(seen.has(x.k))return;seen.add(x.k);out.push({k:x.k,x});}else out.push({x});});
+  (kids[id]||[]).forEach(c=>{if(people[c]&&!seen.has(c)){seen.add(c);out.push({k:c});}});
+  out.sort((a,b)=>dYear(a.k?people[a.k].d:a.x.d)-dYear(b.k?people[b.k].d:b.x.d));
+  return out;
+}
+function dCountAll(o,seen=new Set()){let n=0;const ch=o.k?dKids(o.k):(o.x&&o.x.ch||[]).map(c=>c.k&&people[c.k]?{k:c.k,x:c}:{x:c});ch.forEach(c=>{if(c.k){if(seen.has(c.k))return;seen.add(c.k);}n+=1+dCountAll(c,seen);});return n;}
+const dDefault=(()=>{let best=null,bs=-1;const g=new Map();(function w(id,d){if(!id||!people[id]||g.has(id))return;g.set(id,d);w(people[id].f,d+1);w(people[id].m,d+1);})(ROOTS[0][1],0);
+  g.forEach((d,id)=>{if(d<4||d>6)return;const k=descKey(id);if(!k||k!==id)return;const sc=DESC[k].kids.reduce((a,x)=>a+1+(x.ch||[]).length,0);if(sc>bs){bs=sc;best=id;}});return best||ROOTS[0][1];})();
+const DT={root:dDefault,gens:4,sel:null};
+try{const g=+localStorage.getItem("slekt.dgen");if(g)DT.gens=g;}catch(e){}
+[[2,"2"],[3,"3"],[4,"4"],[5,"5"],[6,"6"],[99,"Alle"]].forEach(([v,l])=>{const o=el("option",null,l);o.value=v;if(v===DT.gens)o.selected=true;dgenSel.append(o)});
+function dCard(o){
+  if(o.k){const p=people[o.k],line=DLINE.has(o.k)&&o.k!==ROOTS[0][1];
+    const b=el("button","p "+(p.s||"unk")+(line?" line":"")+(o.k===DT.root?" droot":""));b.type="button";b.dataset.id=o.k;b.setAttribute("aria-pressed",String(o.k===DT.sel));
+    const sp=p.sp&&people[p.sp]?people[p.sp].n:(o.x&&o.x.sp)||"";
+    b.innerHTML=(line?`<span class="ln2">Barnas ane</span>`:"")+`<span class="n">${p.n}</span>${p.d?`<span class="d">${p.d}</span>`:""}${sp?`<span class="sp">⚭ ${sp}</span>`:""}`;
+    b.setAttribute("aria-label",`${p.n}${p.d?", "+p.d:""}${line?", barnas ane":""}`);
+    b.addEventListener("click",()=>dSelect(o.k));return b;}
+  const x=o.x,d=el("div","p dx");
+  d.innerHTML=`<span class="n">${x.n}</span>${x.d?`<span class="d">${x.d}</span>`:""}${x.sp?`<span class="sp">⚭ ${x.sp}</span>`:""}`;
+  d.title=[x.n,x.d,x.r,x.y,x.sp?"⚭ "+x.sp:""].filter(Boolean).join("\n");return d;
+}
+function dNode(o,gen,path){
+  const nd=el("div","node"),cw=el("div","cw");cw.append(dCard(o));nd.append(cw);
+  if(o.k&&path.has(o.k))return nd;
+  const p2=new Set(path);if(o.k)p2.add(o.k);
+  const ch=o.k?dKids(o.k):(o.x&&o.x.ch||[]).map(c=>c.k&&people[c.k]?{k:c.k,x:c}:{x:c});
+  if(ch.length){
+    if(gen+1<DT.gens){const par=el("div","par");ch.forEach(c=>par.append(dNode(c,gen+1,p2)));nd.append(par);}
+    else if(o.k){const t=el("button","fold closed","+"+ch.length);t.type="button";t.title="Vis etterkommerne til "+people[o.k].n;t.setAttribute("aria-label",`Vis ${ch.length} barn av ${people[o.k].n}`);t.addEventListener("click",e=>{e.stopPropagation();dRoot(o.k);});cw.append(t);}
+    else cw.append(el("span","fold dfold","+"+ch.length));
+  }
+  return nd;
+}
+function dRender(){
+  const r=people[DT.root];if(!r){DT.root=dDefault;return dRender();}
+  dtree.innerHTML="";dtree.append(dNode({k:DT.root},0,new Set()));
+  const n=dtree.querySelectorAll(".p").length-1,tot=dCountAll({k:DT.root});
+  const up=[[r.f,"Far"],[r.m,"Mor"]].filter(([x])=>x&&people[x]).map(([x,l])=>`<button type="button" class="crumb" data-up="${x}">↑ ${l}: ${people[x].n.replace(/\s*\([^)]*\)/g,"")}</button>`).join("");
+  dhead.innerHTML=`<h3>Etterkommere etter ${r.n}${r.d?` <span class="dm">(${r.d})</span>`:""}</h3><p class="dm">${n} vist${tot>n?` av ${tot} kjente`:""}. ${DT.root===ROOTS[0][1]?"":"Kortene med blå strek er barnas aner."}</p>${up?`<nav class="dup" aria-label="Gå et ledd opp">${up}</nav>`:""}`;
+  dhead.querySelectorAll("[data-up]").forEach(b=>b.addEventListener("click",()=>dRoot(b.dataset.up)));
+  const pth=pathTo(DT.root)||[],rt=people[ROOTS[0][1]],side=pth.length>1?(pth[1]===rt.f?"far":pth[1]===rt.m?"mor":"alle"):"alle";
+  document.querySelectorAll("#views button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===side?"true":"false"));
+  requestAnimationFrame(()=>{dvp.scrollLeft=0;});
+}
+function dMark(){dtree.querySelectorAll("button.p").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.id===DT.sel)));}
+function dSelect(id){
+  if(DT.sel===id&&id!==DT.root&&dKids(id).length){dRoot(id);DT.sel=id;dMark();return;}
+  DT.sel=id;dMark();select(id);
+  if(id!==DT.root&&!panel.hidden&&dKids(id).length){const b=el("button","ghost fcen","Vis etterkommerne til "+people[id].n.replace(/\s*\([^)]*\)/g,""));b.type="button";b.addEventListener("click",()=>{if(!isWide())closePanel();dRoot(id);DT.sel=id;dMark();});pbody.prepend(b);}
+}
+function dRoot(id,o={}){if(!people[id])return;DT.root=id;if(o.push!==false){try{history.pushState({v:"etterk",c:id},"","#etterk:"+id);}catch(e){}}dRender();const t=desctEl.getBoundingClientRect().top;if(t<0||t>innerHeight*0.5)window.scrollTo({top:Math.max(0,t+window.scrollY-toolbarH()-6),behavior:"smooth"});}
+function dUp(start,key,steps){let id=start;for(let i=0;i<steps;i++){const n=people[id]&&people[id][key];if(!n||!people[n])break;id=n;}return id;}
+dgenSel.addEventListener("change",()=>{DT.gens=+dgenSel.value;try{localStorage.setItem("slekt.dgen",DT.gens)}catch(e){};dRender();});
+addEventListener("popstate",e=>{if(curView!=="etterk")return;const s=e.state;let c=s&&s.v==="etterk"?s.c:null;if(!c){const m=decodeURIComponent(location.hash.slice(1)).match(/^etterk(?::(.+))?$/);c=m&&m[1]?m[1]:dDefault;}if(people[c]){DT.root=c;dRender();}});
+addEventListener("hashchange",()=>{const m=decodeURIComponent(location.hash.slice(1)).match(/^etterk(?::(.+))?$/);if(m){const c=m[1]&&people[m[1]]?m[1]:DT.root;if(curView!=="etterk")switchView("etterk",{center:c});else if(DT.root!==c){DT.root=c;dRender();}}});
+VIEWS.etterk={label:"Etterkommere",title:"Etterkommertavle: velg en stamfar eller stammor og se barn og barnebarn",
+  show(){desctEl.hidden=false;dRender();},hide(){desctEl.hidden=true;},
+  go(id){if(!people[id])return;dRoot(id);DT.sel=id;dMark();select(id);},
+  side(v){const r=people[ROOTS[0][1]];dRoot(v==="far"&&r.f?dUp(r.f,"f",3):v==="mor"&&r.m?dUp(r.m,"m",3):dDefault);},
+  home(){dRoot(dDefault);},
+  hash(){return "#etterk:"+DT.root;},hstate(){return {v:"etterk",c:DT.root};},
+  setRoot(id){if(people[id])DT.root=id;}};
+// ---------- Klassisk nummerert anetavle (Kekulé/Sosa): 1 = utgangspunktet, far = 2n, mor = 2n+1 ----------
+const anetEl=document.getElementById("anet"),alist=document.getElementById("alist"),ahead=document.getElementById("ahead"),agenSel=document.getElementById("agen"),agapChk=document.getElementById("agap");
+const AT={root:ROOTS[0][1],gens:8,gaps:false,sel:null};
+try{const g=+localStorage.getItem("slekt.agen");if(g)AT.gens=g;AT.gaps=localStorage.getItem("slekt.agap")==="1";}catch(e){}
+[[4,"4"],[6,"6"],[8,"8"],[10,"10"],[12,"12"],[99,"Alle"]].forEach(([v,l])=>{const o=el("option",null,l);o.value=v;if(v===AT.gens)o.selected=true;agenSel.append(o)});
+agapChk.checked=AT.gaps;
+function aName(id){return id===ROOTS[0][1]?"Barna":people[id].n;}
+function aRender(){
+  const r=people[AT.root];if(!r){AT.root=ROOTS[0][1];return aRender();}
+  const N=Math.min(AT.gens,MAXGEN+1),byGen=[],first=new Map();
+  (function w(id,n,g){if(g>=N)return;const p=people[id];(byGen[g]=byGen[g]||[]).push({n,id});
+    if(first.has(id))return; first.set(id,n);
+    [[p.f,2*n],[p.m,2*n+1]].forEach(([x,m])=>{if(x&&people[x])w(x,m,g+1);else if(AT.gaps&&g+1<N&&(p.f||p.m||g<3))(byGen[g+1]=byGen[g+1]||[]).push({n:m,gap:m%2?"mor":"far",of:id});});
+  })(AT.root,1,0);
+  const rootIsKids=AT.root===ROOTS[0][1];
+  alist.innerHTML="";
+  let tot=0,totKnown=0;
+  byGen.forEach((L,g)=>{if(!L||!L.length)return;
+    L.sort((a,b)=>a.n-b.n);
+    const known=L.filter(x=>x.id).length,cap=2**g,pct=Math.round(100*known/cap);tot+=cap;totKnown+=known;
+    const gname=rootIsKids?(genNames[g]||`Ledd ${g}`):(g===0?"Utgangspunktet":g===1?"Foreldre":g===2?"Besteforeldre":g===3?"Oldeforeldre":`Ledd ${g}`);
+    const sec=el("section","ag");
+    sec.innerHTML=`<div class="agen"><h4>${g===0?"":`Generasjon ${g}: `}${gname}</h4><span class="ast">nr. ${cap===1?"1":cap+"–"+(2*cap-1)} · ${known} av ${cap} kjent (${pct} %)</span><span class="ameter" aria-hidden="true"><span style="width:${pct}%"></span></span></div>`;
+    const ol=el("ol","al"+(L.length>12?" many":""));
+    L.forEach(x=>{
+      const li=el("li","ar");li.id="a-"+x.n;
+      if(x.gap){li.classList.add("gap");li.innerHTML=`<span class="an">${x.n}</span><i class="sw unk"></i><span class="ab">Ukjent ${x.gap} til nr. ${x.n>>1} (${aName(x.of)})</span>`;ol.append(li);return;}
+      const p=people[x.id],dup=first.get(x.id)!==x.n,pf=p.f&&people[p.f],pm=p.m&&people[p.m];
+      li.dataset.id=x.id;if(x.id===AT.sel)li.classList.add("hl");
+      const meta=[p.d,p.r].filter(Boolean).join(" · ");
+      const par=dup?`<span class="ap">↺ samme person som <button type="button" class="lnk" data-jump="${first.get(x.id)}">nr. ${first.get(x.id)}</button> (anetap)</span>`
+        :(pf||pm)&&g+1<N?`<span class="ap">Foreldre: ${pf?`<button type="button" class="lnk" data-jump="${2*x.n}">${2*x.n}</button>`:"–"} og ${pm?`<button type="button" class="lnk" data-jump="${2*x.n+1}">${2*x.n+1}</button>`:"–"}${p.pl==="cand"?' <span class="tag cand">sannsynlig, ikke bekreftet</span>':""}</span>`
+        :(pf||pm)?`<span class="ap">Foreldrene er kjent (vis flere generasjoner)</span>`:"";
+      li.innerHTML=`<span class="an">${x.n}</span><i class="sw ${p.s||"unk"}" title="${chipText[p.s]||""}"></i><span class="ab"><button type="button" class="lnk an2" data-sel="${x.id}">${aName(x.id)}</button>${meta?`<span class="am">${meta}</span>`:""}${par}</span>`;
+      ol.append(li);
+    });
+    sec.append(ol);alist.append(sec);
+  });
+  const nk=first.size;
+  const up=[[r.f,"Far"],[r.m,"Mor"]].filter(([x])=>x&&people[x]).map(([x,l])=>`<button type="button" class="crumb" data-up="${x}">↑ ${l}: ${people[x].n.replace(/\s*\([^)]*\)/g,"")}</button>`).join("");
+  ahead.innerHTML=`<h3>Anetavle for ${rootIsKids?"barna":r.n}${!rootIsKids&&r.d?` <span class="dm">(${r.d})</span>`:""}</h3><p class="dm">Nummerering etter Kekulé (Sosa–Stradonitz): utgangspunktet er nr. 1, faren til nr. n er 2n og moren 2n + 1. Partall er menn, oddetall kvinner (unntatt nr. 1). ${nk} ulike personer på ${totKnown} av ${tot} plasser i ${byGen.length} generasjoner.</p>${!rootIsKids?`<nav class="dup" aria-label="Velg utgangspunkt">${up}<button type="button" class="crumb" data-up="${ROOTS[0][1]}">Tilbake til barna</button></nav>`:""}`;
+  ahead.querySelectorAll("[data-up]").forEach(b=>b.addEventListener("click",()=>aRoot(b.dataset.up)));
+  const pth=pathTo(AT.root)||[],rt=people[ROOTS[0][1]],side=pth.length>1?(pth[1]===rt.f?"far":pth[1]===rt.m?"mor":"alle"):"alle";
+  document.querySelectorAll("#views button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===side?"true":"false"));
+}
+function aJump(n){const li=document.getElementById("a-"+n);if(!li)return;alist.querySelectorAll(".ar.hl").forEach(x=>x.classList.remove("hl"));li.classList.add("hl");const rm=matchMedia("(prefers-reduced-motion: reduce)").matches;li.scrollIntoView({behavior:rm?"auto":"smooth",block:"center"});}
+function aSelect(id){AT.sel=id;alist.querySelectorAll(".ar").forEach(x=>x.classList.toggle("hl",x.dataset.id===id));select(id);
+  if(id!==AT.root&&!panel.hidden){const b=el("button","ghost fcen","Bruk som nr. 1 i anetavla");b.type="button";b.addEventListener("click",()=>{if(!isWide())closePanel();aRoot(id);});pbody.prepend(b);}}
+function aRoot(id,o={}){if(!people[id])return;AT.root=id;AT.sel=null;if(o.push!==false){try{history.pushState({v:"ane",c:id},"","#ane:"+id);}catch(e){}}aRender();const t=anetEl.getBoundingClientRect().top;if(t<0)window.scrollTo({top:Math.max(0,t+window.scrollY-toolbarH()-6),behavior:"smooth"});}
+alist.addEventListener("click",e=>{const j=e.target.closest("[data-jump]");if(j){aJump(j.dataset.jump);return;}const s=e.target.closest("[data-sel]");if(s)aSelect(s.dataset.sel);});
+agenSel.addEventListener("change",()=>{AT.gens=+agenSel.value;try{localStorage.setItem("slekt.agen",AT.gens)}catch(e){};aRender();});
+agapChk.addEventListener("change",()=>{AT.gaps=agapChk.checked;try{localStorage.setItem("slekt.agap",AT.gaps?"1":"0")}catch(e){};aRender();});
+document.getElementById("aprint").addEventListener("click",()=>window.print());
+addEventListener("popstate",e=>{if(curView!=="ane")return;const s=e.state;let c=s&&s.v==="ane"?s.c:null;if(!c){const m=decodeURIComponent(location.hash.slice(1)).match(/^ane(?::(.+))?$/);c=m&&m[1]?m[1]:ROOTS[0][1];}if(people[c]){AT.root=c;aRender();}});
+addEventListener("hashchange",()=>{const m=decodeURIComponent(location.hash.slice(1)).match(/^ane(?::(.+))?$/);if(m){const c=m[1]&&people[m[1]]?m[1]:ROOTS[0][1];if(curView!=="ane")switchView("ane",{center:c});else if(AT.root!==c){AT.root=c;aRender();}}});
+VIEWS.ane={label:"Nummerert",title:"Klassisk nummerert anetavle (Kekulé-nummer), ordnet etter generasjon",
+  show(){anetEl.hidden=false;aRender();},hide(){anetEl.hidden=true;},
+  go(id){if(!people[id])return;const li=alist.querySelector(`.ar[data-id="${id}"]`);if(li){aJump(li.id.slice(2));aSelect(id);}else{aRoot(id);aSelect(id);}},
+  side(v){const r=people[ROOTS[0][1]];aRoot(v==="far"&&r.f?r.f:v==="mor"&&r.m?r.m:ROOTS[0][1]);},
+  home(){aRoot(ROOTS[0][1]);},
+  hash(){return "#ane"+(AT.root!==ROOTS[0][1]?":"+AT.root:"");},hstate(){return {v:"ane",c:AT.root};},
+  setRoot(id){if(people[id])AT.root=id;}};
+const vsel=document.getElementById("vsel");
+Object.entries(VIEWS).forEach(([k,V])=>{const b=el("button",null,V.label);b.type="button";b.dataset.k=k;b.title=V.title;b.setAttribute("aria-pressed","false");b.addEventListener("click",()=>switchView(k));vsel.append(b);});
+function switchView(k,o={}){
+  if(!VIEWS[k])k="tavle";
+  const prev=curView;
+  if(prev!==k&&VIEWS[prev])VIEWS[prev].hide();
+  curView=k;
+  Object.keys(VIEWS).forEach(x=>document.body.classList.toggle("v-"+x,x===k));
+  vsel.querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.k===k?"true":"false"));
+  try{localStorage.setItem("slekt.visning",k)}catch(e){}
+  const keep=o.init?null:(cur||FAN.sel);
+  if(!o.init){if(!panel.hidden)closePanel();}
+  if(k==="vifte"){if(o.center&&people[o.center])FAN.center=o.center;FAN.sel=keep;}
+  if(VIEWS[k].setRoot&&k!=="vifte"&&o.center)VIEWS[k].setRoot(o.center);
+  if(k==="tavle"&&keep&&people[keep])focusId=keep;
+  VIEWS[k].show();
+  if(k==="tavle"&&keep&&people[keep]&&!focusOn()){reveal(keep);cur=keep;markPressed(keep);requestAnimationFrame(()=>{centerOn(keep,false);flash(keep);});}
+  if(!o.init){const V=VIEWS[k],h=V.hash?V.hash():(cur?"#"+cur:location.pathname+location.search);try{history.replaceState(V.hstate?V.hstate():null,"",h);}catch(e){}}
+}
+
 render();
 (function(){
   let h="";try{h=decodeURIComponent(location.hash.slice(1));}catch(e){}
+  const hm=h.match(/^(vifte|etterk|ane)(?::(.+))?$/);
+  let v0="tavle";try{v0=localStorage.getItem("slekt.visning")||"tavle";}catch(e){}
+  if(hm)v0=hm[1];if(!VIEWS[v0])v0="tavle";
+  if(v0!=="tavle"){switchView(v0,{init:true,center:hm&&hm[2]});try{history.replaceState(VIEWS[v0].hstate?VIEWS[v0].hstate():null,"");}catch(e){}if(!hm&&h&&people[h])VIEWS[v0].go(h);return;}
+  document.body.classList.add("v-tavle");vsel.querySelector('[data-k="tavle"]').setAttribute("aria-pressed","true");
   if(focusOn()){if(h&&people[h])focusId=h;applyMode();try{history.replaceState({f:focusId},"");}catch(e){}window.scrollTo(0,0);}
   else{applyMode();requestAnimationFrame(()=>{const y=window.scrollY;centerOn(ROOTS[0][1],false);window.scrollTo(0,y);if(h&&people[h])goTo(h);});}
 })();

@@ -24,6 +24,35 @@ Treet tar utgangspunkt i barna i slekta Aure-Wiborg.
 - **Slekta i historien:** en tidslinje som kobler personer i treet til historiske hendelser. Eksempler er hyldingen av Christian 4. i 1591, Storofsen i 1789, utvandringen til Amerika og andre verdenskrig.
 - **Etterkommere:** for en del av forfedrene vises også barn og barnebarn, ikke bare den linjen som fører ned til barna.
 
+## Fire visninger
+
+Velg visning med knappene øverst: **Tavle | Vifte | Etterkommere | Nummerert**. Siden husker valget.
+
+- **Tavle:** anetavle som leses fra venstre mot høyre. På mobil åpner den i fokusvisning (se under).
+- **Vifte:** viftediagram med barna i sentrum og forfedrene i ringer utover, med farssiden til venstre og morssiden til høyre.
+  - Velg 3–10 generasjoner.
+  - Velg farge etter kildestatus, fars- og morsside eller fødselsår.
+  - Trykk på en person for detaljer. Trykk en gang til for å sette henne i sentrum.
+  - Zoom med − og +.
+  - ↺ betyr at samme person forekommer flere steder (anetap).
+- **Etterkommere:** én stamfar eller stammor til venstre, med barn og barnebarn mot høyre.
+  - Kort med blå strek er barnas aner.
+  - Hvite kort er barn og barnebarn fra etterkommerlistene.
+  - «↑ Far» og «↑ Mor» går et ledd opp.
+- **Nummerert:** klassisk anetavle med Kekulé-nummer. Barna er nr. 1, faren til nr. n er 2n og moren 2n + 1.
+  - Hver generasjon viser hvor mange plasser som er kjent.
+  - Numrene er lenker, og «Vis tomme plasser» viser hullene.
+  - «Skriv ut» skriver bare ut anetavla.
+
+Alle visningene kan åpnes med lenke:
+
+| Lenke | Åpner |
+|---|---|
+| `index.html#vifte` | vifta |
+| `index.html#vifte:georgA` | vifta med Georg Aure i sentrum |
+| `index.html#etterk:oleJA` | etterkommertavla med Ole Johansen Aure som rot |
+| `index.html#ane:georgA` | den nummererte anetavla med Georg Aure som nr. 1 |
+
 ## Bruk
 
 ### På mobil: fokusvisning
@@ -39,13 +68,14 @@ Treet tar utgangspunkt i barna i slekta Aure-Wiborg.
 - **+ og −** på hvert kort viser eller skjuler forfedrene i den grenen.
 
 ### Lenke til en person
-Legg til `#` og personens nøkkel i adressen, for eksempel `index.html#georgA` for Georg Johannes Aure.
+Legg til `#` og personens nøkkel i adressen, for eksempel `index.html#georgA` for Georg Johannes Aure. Lenken åpnes i den visningen du sist brukte.
 
 ## Personvern
 
 - **De tre nærmeste leddene** er med uten navn og datoer, bare som rolle: «Barna», «Far», «Mor», «Farfar», «Farmor», «Morfar» og «Mormor». Det gjelder både levende og nylig avdøde.
 - **Fra oldeforeldrene og bakover** vises bare døde personer med navn.
-- **Etterkommerlistene** viser ikke barnebarn født 1920 eller senere uten kjent dødsdato. De står bare som et antall.
+- **Etterkommerlistene og etterkommertavla** viser ikke barnebarn født 1920 eller senere uten kjent dødsdato. De står bare som et antall.
+- Vifta, etterkommertavla og den nummererte anetavla bruker de samme anonymiserte dataene som tavla.
 
 ## Kildekritikk
 
@@ -54,7 +84,12 @@ Legg til `#` og personens nøkkel i adressen, for eksempel `index.html#georgA` f
 - Treet har vært gjennom en egen kvalitetssikring fra besteforeldrene og sju ledd bakover. Hver foreldrekobling er kontrollert mot en kilde som navngir forelderen.
 - Feil som ble funnet, er rettet og omtalt i notatene. Ett eksempel er Kirsti Andersdatter i Stange: hun som sto i treet døde som spedbarn, og riktig mor er nå Mari Olsdatter.
 
-## Nytt siden forrige versjon (20.10.2026)
+## Nytt i versjon 29.10.2026
+
+- **Tre nye visninger:** viftediagram, etterkommertavle og nummerert anetavle (Kekulé), med en visningsvelger øverst.
+- Personene og kildene er de samme som i versjonen fra 28.10.2026.
+
+## Nytt i versjon 28.10.2026 (sammenlignet med 20.10.2026)
 
 - **Fra 250 til 454 personer, og fra 14 til 16 generasjoner.**
 - **Nye linjer bakover:**
@@ -66,7 +101,7 @@ Legg til `#` og personens nøkkel i adressen, for eksempel `index.html#georgA` f
 - **Ny tidslinje: «Slekta i historien».**
 - **Etterkommere** av forfedrene.
 
-Versjon: 28.10.2026 (tilsvarer versjon 146 av arbeidstreet).
+Versjon: 29.10.2026 (tilsvarer versjon 149 av arbeidstreet).
 
 ## Aure-navnet
 
