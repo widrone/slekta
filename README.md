@@ -16,7 +16,7 @@ Treet tar utgangspunkt i barna i slekta Aure-Wiborg.
 
 ## Hva treet viser
 
-- **454 personer i 16 generasjoner.** Det eldste leddet er kjøpmann Ludvig Munthe i Lübeck, født ca. 1520.
+- **461 personer i 16 generasjoner.** Generasjon 6 (tipp-tipp-tippoldeforeldrene, nr. 64–127) er komplett: 64 av 64 er kjent. Det eldste leddet er kjøpmann Ludvig Munthe i Lübeck, født ca. 1520.
 - **Status for hver person:** dokumentert, oppgitt av familien eller ikke bekreftet.
 - **Kilder** med lenker til Digitalarkivet, Nasjonalbiblioteket, FamilySearch og Riksarkivet.
 - **Detaljer om hver person:** søsken, barn og notater som forklarer hvordan koblingene er funnet.
@@ -36,6 +36,7 @@ Velg visning med knappene øverst: **Tavle | Vifte | Etterkommere | Nummerert**.
   - Zoom med − og +.
   - ↺ betyr at samme person forekommer flere steder (anetap).
 - **Etterkommere:** én stamfar eller stammor til venstre, med barn og barnebarn mot høyre.
+  - Visningen starter hos Ola Nilsson Wedberg (Ole Nilsen Viborg, 1832–1888) fra Skåne, stamfar for Wiborg-slekta. Herfra følger du alle grenene ned mot i dag: Nils Weberg i Lund, Petter Viborg i Kristiania og hans sønner Einar (Wisconsin), Sverre og Torbjørn.
   - Kort med blå strek er barnas aner.
   - Hvite kort er barn og barnebarn fra etterkommerlistene.
   - «↑ Far» og «↑ Mor» går et ledd opp.
@@ -50,6 +51,7 @@ Alle visningene kan åpnes med lenke:
 |---|---|
 | `index.html#vifte` | vifta |
 | `index.html#vifte:georgA` | vifta med Georg Aure i sentrum |
+| `index.html#etterk` | etterkommertavla med Ola Nilsson Wedberg som rot |
 | `index.html#etterk:oleJA` | etterkommertavla med Ole Johansen Aure som rot |
 | `index.html#ane:georgA` | den nummererte anetavla med Georg Aure som nr. 1 |
 
@@ -74,7 +76,8 @@ Legg til `#` og personens nøkkel i adressen, for eksempel `index.html#georgA` f
 
 - **De tre nærmeste leddene** er med uten navn og datoer, bare som rolle: «Barna», «Far», «Mor», «Farfar», «Farmor», «Morfar» og «Mormor». Det gjelder både levende og nylig avdøde.
 - **Fra oldeforeldrene og bakover** vises bare døde personer med navn.
-- **Etterkommerlistene og etterkommertavla** viser ikke barnebarn født 1920 eller senere uten kjent dødsdato. De står bare som et antall.
+- **Etterkommerlistene og etterkommertavla** viser ikke barn eller barnebarn født 1920 eller senere uten kjent dødsdato. De står bare som et antall.
+- Etterkommere som trolig lever, er ikke navngitt i notatene.
 - Vifta, etterkommertavla og den nummererte anetavla bruker de samme anonymiserte dataene som tavla.
 
 ## Kildekritikk
@@ -83,6 +86,21 @@ Legg til `#` og personens nøkkel i adressen, for eksempel `index.html#georgA` f
 - Koblinger som bygger på bygdebøker eller sammenstillinger uten kilder, er stiplet til de er kontrollert mot kirkebok eller folketelling.
 - Treet har vært gjennom en egen kvalitetssikring fra besteforeldrene og sju ledd bakover. Hver foreldrekobling er kontrollert mot en kilde som navngir forelderen.
 - Feil som ble funnet, er rettet og omtalt i notatene. Ett eksempel er Kirsti Andersdatter i Stange: hun som sto i treet døde som spedbarn, og riktig mor er nå Mari Olsdatter.
+
+## Nytt i versjon 30.10.2026
+
+- **Generasjon 6 er komplett (64 av 64).**
+  - Augusta Hansdatters foreldre er funnet i husförhörslängden for Steneby i Dalsland: Hans Olsson og Anna Lisa Andersdotter.
+  - Hagbart Knudsens foreldre er funnet i Ullensaker (stiplet).
+  - Gustav Fredrik Stav er sannsynligvis sønn av Anders Fredrik Staf og Jakobina Sörensdotter i Herrestad ved Uddevalla. Koblingen er stiplet.
+- **Etterkommere etter Ola Nilsson Wedberg**, bygd ut ledd for ledd:
+  - Barneflokken er sjekket mot husförhörslängdene for Bromma.
+  - Anna Wedberg (f. 1879) er fulgt som fosterbarn i Öja og senere i Lund.
+  - Petter Viborgs dødsdato er bekreftet: 9.3.1902.
+  - Einar Wiborg er fulgt fra Ellis Island i 1908 til Milwaukee, der han døde i 1975.
+  - Sverres barn og Sigurds død er funnet.
+- **Torbjørns barndom:** han var pleiesønn hos landhandler Arne P. Strøm på Sundby i Sør-Odal etter at begge foreldrene var døde.
+- **Etterkommertavla** starter nå hos Ola Nilsson Wedberg.
 
 ## Nytt i versjon 29.10.2026
 
@@ -101,7 +119,7 @@ Legg til `#` og personens nøkkel i adressen, for eksempel `index.html#georgA` f
 - **Ny tidslinje: «Slekta i historien».**
 - **Etterkommere** av forfedrene.
 
-Versjon: 29.10.2026 (tilsvarer versjon 149 av arbeidstreet).
+Versjon: 30.10.2026 (tilsvarer versjon 156 av arbeidstreet).
 
 ## Aure-navnet
 
