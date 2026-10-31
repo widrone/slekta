@@ -16,7 +16,7 @@ Treet tar utgangspunkt i barna i slekta Aure-Wiborg.
 
 ## Hva treet viser
 
-- **461 personer i 16 generasjoner.** Generasjon 6 (tipp-tipp-tippoldeforeldrene, nr. 64–127) er komplett: 64 av 64 er kjent. Det eldste leddet er kjøpmann Ludvig Munthe i Lübeck, født ca. 1520.
+- **462 personer i 16 generasjoner.** Generasjon 6 (tipp-tipp-tippoldeforeldrene, nr. 64–127) er komplett: 64 av 64 er kjent. Det eldste leddet er kjøpmann Ludvig Munthe i Lübeck, født ca. 1520.
 - **Status for hver person:** dokumentert, oppgitt av familien eller ikke bekreftet.
 - **Kilder** med lenker til Digitalarkivet, Nasjonalbiblioteket, FamilySearch og Riksarkivet.
 - **Detaljer om hver person:** søsken, barn og notater som forklarer hvordan koblingene er funnet.
@@ -87,6 +87,14 @@ Legg til `#` og personens nøkkel i adressen, for eksempel `index.html#georgA` f
 - Treet har vært gjennom en egen kvalitetssikring fra besteforeldrene og sju ledd bakover. Hver foreldrekobling er kontrollert mot en kilde som navngir forelderen.
 - Feil som ble funnet, er rettet og omtalt i notatene. Ett eksempel er Kirsti Andersdatter i Stange: hun som sto i treet døde som spedbarn, og riktig mor er nå Mari Olsdatter.
 
+## Nytt i versjon 31.10.2026
+
+- **Feil rettet etter en full gjennomgang av treet:**
+  - To ulike kvinner ved navn Olou var slått sammen til én. Olou Halvorsdatter (Visur i Borge) og Olou Helgesdatter (Tune) har nå hver sin oppføring, og Halvor Gjermundsen Moums mor er ikke lenger yngre enn ham.
+  - To vielseskilder hadde samme nøkkel, slik at Jakob Olsen Bakkebø og Johan Jensen viste feil vielse.
+- Treets kontroll finner nå dobbeltoppføringer og umulige foreldrealdre.
+- Ett punkt står åpent: Giøa Olsdatters mor (f. 1717?) er trolig for gammel, og koblingen er stiplet.
+
 ## Nytt i versjon 30.10.2026
 
 - **Generasjon 6 er komplett (64 av 64).**
@@ -119,7 +127,7 @@ Legg til `#` og personens nøkkel i adressen, for eksempel `index.html#georgA` f
 - **Ny tidslinje: «Slekta i historien».**
 - **Etterkommere** av forfedrene.
 
-Versjon: 30.10.2026 (tilsvarer versjon 156 av arbeidstreet).
+Versjon: 31.10.2026 (tilsvarer versjon 157 av arbeidstreet).
 
 ## Aure-navnet
 
